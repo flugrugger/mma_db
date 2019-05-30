@@ -1,0 +1,44 @@
+,Result,Record,Opponent,Method,Event,Date,Round,Time,Location,Notes
+0,Win,27–15 (1),Stefan Struve,Decision (unanimous),UFC 222,000000002018-03-03-0000,3,5:00,"Las Vegas, Nevada",
+1,Win,26–15 (1),Júnior Albini,Decision (unanimous),UFC Fight Night: Poirier vs. Pettis,000000002017-11-11-0000,3,5:00,"Norfolk, Virginia",
+2,Loss,25–15 (1),Marcin Tybura,Decision (unanimous),UFC Fight Night: Holm vs. Correia,000000002017-06-17-0000,3,5:00,Kallang,
+3,Loss,25–14 (1),Francis Ngannou,TKO (punches),UFC on Fox: Shevchenko vs. Peña,000000002017-01-28-0000,1,1:32,"Denver, Colorado",
+4,Loss,25–13 (1),Josh Barnett,Submission (rear-naked choke),UFC Fight Night: Arlovski vs. Barnett,000000002016-09-03-0000,3,2:53,Hamburg,Fight of the Night.
+5,Loss,25–12 (1),Alistair Overeem,TKO (crane kick and punches),UFC Fight Night: Overeem vs. Arlovski,000000002016-05-08-0000,2,1:12,Rotterdam,
+6,Loss,25–11 (1),Stipe Miocic,TKO (punches),UFC 195,000000002016-01-02-0000,1,0:54,"Las Vegas, Nevada",
+7,Win,25–10 (1),Frank Mir,Decision (unanimous),UFC 191,000000002015-09-05-0000,3,5:00,"Las Vegas, Nevada",
+8,Win,24–10 (1),Travis Browne,TKO (punches),UFC 187,000000002015-05-23-0000,1,4:41,"Las Vegas, Nevada",Fight of the Night.
+9,Win,23–10 (1),Antônio Silva,KO (punches),UFC Fight Night: Silva vs. Arlovski,000000002014-09-13-0000,1,2:59,Brasília,Performance of the Night.
+10,Win,22–10 (1),Brendan Schaub,Decision (split),UFC 174,000000002014-06-14-0000,3,5:00,Vancouver,
+11,Win,21–10 (1),Andreas Kraniotakes,TKO (punches),Fight Nights: Battle in Minsk,000000002013-11-29-0000,2,3:14,Minsk,
+12,Win,20–10 (1),Mike Kyle,Decision (unanimous),World Series of Fighting 5: Arlovski vs. Kyle,000000002013-09-14-0000,3,5:00,Atlantic City,
+13,Loss,19–10 (1),Anthony Johnson,Decision (unanimous),World Series of Fighting 2: Arlovski vs. Johnson,000000002013-03-23-0000,3,5:00,Atlantic City,
+14,Win,19–9 (1),Mike Hayes,Decision (unanimous),Fight Nights: Battle of Moscow 9,000000002012-12-16-0000,3,5:00,Moscow,
+15,Win,18–9 (1),Devin Cole,TKO (punches),World Series of Fighting 1: Arlovski vs. Cole,000000002012-11-03-0000,1,2:37,Las Vegas,
+16,NC,17–9 (1),Tim Sylvia,NC (illegal soccer kicks),One FC 5: Pride of a Nation,000000002012-08-31-0000,2,4:46,Quezon City,
+17,Win,17–9,Travis Fulton,KO (head kick),ProElite 2: Big Guns,000000002011-11-05-0000,3,4:59,"Moline, Illinois",
+18,Win,16–9,Ray Lopez,TKO (punches),ProElite: Arlovski vs. Lopez,000000002011-08-27-0000,3,2:43,Honolulu,
+19,Loss,15–9,Sergei Kharitonov,KO (punches),Strikeforce: Fedor vs. Silva,000000002011-02-12-0000,1,2:49,East Rutherford,
+20,Loss,15–8,Antônio Silva,Decision (unanimous),Strikeforce: Heavy Artillery,000000002010-05-15-0000,3,5:00,"St. Louis, Missouri",
+21,Loss,15–7,Brett Rogers,TKO (punches),Strikeforce: Lawler vs. Shields,000000002009-06-06-0000,1,0:22,"St. Louis, Missouri",
+22,Loss,15–6,Fedor Emelianenko,KO (punch),Affliction: Day of Reckoning,000000002009-01-24-0000,1,3:14,"Anaheim, California",For the WAMMA Heavyweight Championship.
+23,Win,15–5,Roy Nelson,KO (punch),EliteXC: Heat,000000002008-10-04-0000,2,1:46,"Sunrise, Florida",
+24,Win,14–5,Ben Rothwell,KO (punches),Affliction: Banned,000000002008-07-19-0000,3,1:13,"Anaheim, California",
+25,Win,13–5,Jake O'Brien,TKO (punches),UFC 82,000000002008-03-01-0000,2,4:17,"Columbus, Ohio",
+26,Win,12–5,Fabrício Werdum,Decision (unanimous),UFC 70,000000002007-04-21-0000,3,5:00,Manchester,
+27,Win,11–5,Márcio Cruz,TKO (punches),UFC 66,000000002006-12-30-0000,1,3:15,"Las Vegas, Nevada",
+28,Loss,10–5,Tim Sylvia,Decision (unanimous),UFC 61,000000002006-07-08-0000,5,5:00,"Las Vegas, Nevada",For the 
+29,Loss,10–4,Tim Sylvia,TKO (punches),UFC 59,000000002006-04-15-0000,1,2:43,"Anaheim, California",Lost the 
+30,Win,10–3,Paul Buentello,KO (punch),UFC 55,000000002005-10-07-0000,1,0:15,"Uncasville, Connecticut",Defended the 
+31,Win,9–3,Justin Eilers,TKO (punches),UFC 53,000000002005-06-04-0000,1,4:10,"Atlantic City, New Jersey",Defended the interim 
+32,Win,8–3,Tim Sylvia,Submission (achilles lock),UFC 51,000000002005-02-05-0000,1,0:47,"Las Vegas, Nevada",Won the interim 
+33,Win,7–3,Wesley Correira,TKO (punches),UFC 47,000000002004-04-02-0000,2,1:15,"Las Vegas, Nevada",
+34,Win,6–3,Vladimir Matyushenko,KO (punch),UFC 44,000000002003-09-26-0000,1,2:10,"Paradise, Nevada",
+35,Win,5–3,Ian Freeman,TKO (punches),UFC 40,000000002002-11-22-0000,1,1:25,"Paradise, Nevada",
+36,Loss,4–3,Pedro Rizzo,KO (punches),UFC 36,000000002002-03-22-0000,3,1:45,"Paradise, Nevada",
+37,Loss,4–2,Ricco Rodriguez,TKO (punches),UFC 32,000000002001-06-29-0000,3,1:23,"East Rutherford, New Jersey",
+38,Win,4–1,Aaron Brink,Submission (armbar),UFC 28,000000002000-11-17-0000,1,0:55,"Atlantic City, New Jersey",
+39,Win,3–1,John Dixson,KO (punches),Super Fight,000000002000-05-13-0000,1,0:13,Saint Petersburg,
+40,Win,2–1,Roman Zentsov,TKO (punches and knees),M-1 MFC: European Championship 2000,000000002000-04-09-0000,1,1:18,Saint Petersburg,
+41,Win,1–1,Michael Tielrooy,Submission (guillotine choke),M-1 MFC: European Championship 2000,000000002000-04-09-0000,1,1:25,Saint Petersburg,
+42,Loss,0–1,Viacheslav Datsik,KO (punch),M-1 MFC: World Championship 1999,000000001999-04-09-0000,1,6:05,Saint Petersburg,

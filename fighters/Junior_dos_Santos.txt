@@ -1,0 +1,24 @@
+,Result,Record,Opponent,Method,Event,Date,Round,Time,Location,Notes
+0,Loss,18–5,Stipe Miocic,TKO (punches),UFC 211,000000002017-05-13-0000,1,2:22,"Dallas, Texas",For the 
+1,Win,18–4,Ben Rothwell,Decision (unanimous),UFC Fight Night: Rothwell vs. dos Santos,000000002016-04-10-0000,5,5:00,Zagreb,
+2,Loss,17–4,Alistair Overeem,TKO (punches),UFC on Fox: dos Anjos vs. Cerrone 2,000000002015-12-19-0000,2,4:43,"Orlando, Florida",
+3,Win,17–3,Stipe Miocic,Decision (unanimous),UFC on Fox: dos Santos vs. Miocic,000000002014-12-13-0000,5,5:00,Phoenix,Fight of the Night.
+4,Loss,16–3,Cain Velasquez,TKO (slam and punch),UFC 166,000000002013-10-19-0000,5,3:09,"Houston, Texas",For the 
+5,Win,16–2,Mark Hunt,KO (spinning hook kick),UFC 160,000000002013-05-25-0000,3,4:18,"Las Vegas, Nevada",UFC Heavyweight
+6,Loss,15–2,Cain Velasquez,Decision (unanimous),UFC 155,000000002012-12-29-0000,5,5:00,"Las Vegas, Nevada",Lost the 
+7,Win,15–1,Frank Mir,TKO (punches),UFC 146,000000002012-05-26-0000,2,3:04,"Las Vegas, Nevada",Defended the 
+8,Win,14–1,Cain Velasquez,KO (punches),UFC on Fox: Velasquez vs. dos Santos,000000002011-11-12-0000,1,1:04,"Anaheim, California",Won the 
+9,Win,13–1,Shane Carwin,Decision (unanimous),UFC 131,000000002011-06-11-0000,3,5:00,"Vancouver, British Columbia",UFC Heavyweight
+10,Win,12–1,Roy Nelson,Decision (unanimous),UFC 117,000000002010-08-07-0000,3,5:00,"Oakland, California",
+11,Win,11–1,Gabriel Gonzaga,KO (punches),UFC Live: Vera vs. Jones,000000002010-03-21-0000,1,3:53,"Broomfield, Colorado",Knockout of the Night.
+12,Win,10–1,Gilbert Yvel,TKO (punches),UFC 108,000000002010-01-02-0000,1,2:07,"Las Vegas, Nevada",
+13,Win,9–1,Mirko Cro Cop,Verbal Submission (eye injury),UFC 103,000000002009-09-19-0000,3,2:00,"Dallas, Texas",
+14,Win,8–1,Stefan Struve,TKO (punches),UFC 95,000000002009-02-21-0000,1,0:54,London,
+15,Win,7–1,Fabrício Werdum,KO (punches),UFC 90,000000002008-10-25-0000,1,1:20,"Rosemont, Illinois",Knockout of the Night.
+16,Win,6–1,Geronimo dos Santos,TKO (doctor stoppage),Demo Fight 3,000000002008-05-24-0000,1,0:44,Salvador,
+17,Loss,5–1,Joaquim Ferreira,Submission (armbar),MTL: Final,000000002007-11-10-0000,1,1:13,São Paulo,
+18,Win,5–0,Jair Gonçalves,TKO (punches),Mo Team League 2,000000002007-09-29-0000,1,2:52,São Paulo,
+19,Win,4–0,Joaquim Ferreira,TKO (retirement),XFC: Brazil,000000002007-04-29-0000,1,5:00,Rio de Janeiro,
+20,Win,3–0,Edson Ramos,TKO (doctor stoppage),XFC: Brazil,000000002007-04-29-0000,1,8:45,Rio de Janeiro,
+21,Win,2–0,Eduardo Maiorino,Submission (guillotine choke),Minotauro Fights 5,000000002006-12-09-0000,1,0:50,São Bernardo do Campo,
+22,Win,1–0,Jailson Silva Santos,KO (soccer kick),Demo Fight 1,000000002006-07-16-0000,1,2:58,Salvador,

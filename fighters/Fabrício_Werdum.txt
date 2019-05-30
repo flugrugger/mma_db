@@ -1,0 +1,32 @@
+,Result,Record,Opponent,Method,Event,Date,Round,Time,Location,Notes
+0,Win,23–7–1,Marcin Tybura,Decision (unanimous),UFC Fight Night: Werdum vs. Tybura,000000002017-11-19-0000,5,5:00,Sydney,
+1,Win,22–7–1,Walt Harris,Submission (armbar),UFC 216,000000002017-10-07-0000,1,1:05,"Las Vegas, Nevada",
+2,Loss,21–7–1,Alistair Overeem,Decision (majority),UFC 213,000000002017-07-08-0000,3,5:00,"Las Vegas, Nevada",
+3,Win,21–6–1,Travis Browne,Decision (unanimous),UFC 203,000000002016-09-10-0000,3,5:00,"Cleveland, Ohio",
+4,Loss,20–6–1,Stipe Miocic,KO (punch),UFC 198,000000002016-05-14-0000,1,2:47,Curitiba,Lost the 
+5,Win,20–5–1,Cain Velasquez,Submission (guillotine choke),UFC 188,000000002015-06-13-0000,3,2:13,Mexico City,Won and unified the 
+6,Win,19–5–1,Mark Hunt,TKO (flying knee and punches),UFC 180,000000002014-11-15-0000,2,2:27,Mexico City,Won the interim 
+7,Win,18–5–1,Travis Browne,Decision (unanimous),UFC on Fox: Werdum vs. Browne,000000002014-04-19-0000,5,5:00,"Orlando, Florida",UFC Heavyweight
+8,Win,17–5–1,Antônio Rodrigo Nogueira,Submission (armbar),UFC on Fuel TV: Nogueira vs. Werdum,000000002013-06-08-0000,2,2:41,Fortaleza,
+9,Win,16–5–1,Mike Russow,TKO (punches),UFC 147,000000002012-06-23-0000,1,2:28,Belo Horizonte,
+10,Win,15–5–1,Roy Nelson,Decision (unanimous),UFC 143,000000002012-02-04-0000,3,5:00,"Las Vegas, Nevada",Fight of the Night.
+11,Loss,14–5–1,Alistair Overeem,Decision (unanimous),Strikeforce: Overeem vs. Werdum,000000002011-06-18-0000,3,5:00,"Dallas, Texas",Strikeforce Heavyweight Grand Prix Quarterfinal.
+12,Win,14–4–1,Fedor Emelianenko,Submission (triangle armbar),Strikeforce: Fedor vs. Werdum,000000002010-06-26-0000,1,1:09,"San Jose, California",
+13,Win,13–4–1,Antônio Silva,Decision (unanimous),Strikeforce: Fedor vs. Rogers,000000002009-11-07-0000,3,5:00,"Hoffman Estates, Illinois",
+14,Win,12–4–1,Mike Kyle,Submission (guillotine choke),Strikeforce: Carano vs. Cyborg,000000002009-08-15-0000,1,1:24,"San Jose, California",
+15,Loss,11–4–1,Junior dos Santos,KO (punches),UFC 90,000000002008-10-25-0000,1,1:20,"Rosemont, Illinois",
+16,Win,11–3–1,Brandon Vera,TKO (punches),UFC 85,000000002008-06-07-0000,1,4:40,London,
+17,Win,10–3–1,Gabriel Gonzaga,TKO (punches),UFC 80,000000002008-01-19-0000,2,4:34,Newcastle upon Tyne,
+18,Loss,9–3–1,Andrei Arlovski,Decision (unanimous),UFC 70,000000002007-04-21-0000,3,5:00,Manchester,
+19,Win,9–2–1,Alexander Emelianenko,Submission (arm-triangle choke),2H2H: Pride & Honor,000000002006-11-12-0000,1,3:24,Rotterdam,
+20,Loss,8–2–1,Antônio Rodrigo Nogueira,Decision (unanimous),Pride FC - Critical Countdown Absolute,000000002006-07-01-0000,3,5:00,Saitama,2006 Pride Open-Weight Grand Prix Quarterfinal.
+21,Win,8–1–1,Alistair Overeem,Submission (kimura),Pride FC - Total Elimination Absolute,000000002006-05-05-0000,2,3:43,Osaka,2006 Pride Open-Weight Grand Prix Opening Round.
+22,Win,7–1–1,John-Olav Einemo,Decision (unanimous),Pride 31 - Dreamers,000000002006-02-26-0000,3,5:00,Saitama,
+23,Loss,6–1–1,Sergei Kharitonov,Decision (split),Pride 30,000000002005-10-23-0000,3,5:00,Saitama,
+24,Win,6–0–1,Roman Zentsov,Submission (triangle armbar),Pride Final Conflict 2005,000000002005-08-28-0000,1,6:01,Saitama,
+25,Win,5–0–1,Tom Erikson,Submission (rear-naked choke),Pride 29,000000002005-02-20-0000,1,5:29,Saitama,
+26,Win,4–0–1,Ebenezer Fontes Braga,KO (punch),Jungle Fight 2,000000002004-05-15-0000,2,1:28,Manaus,
+27,Win,3–0–1,Gabriel Gonzaga,TKO (punches),Jungle Fight 1,000000002003-09-13-0000,3,2:11,Manaus,
+28,Win,2–0–1,Kristof Midoux,Submission (triangle armbar),WAFF 2: World Absolute Fight 2,000000002003-03-22-0000,1,4:11,Marrakech,
+29,Draw,1–0–1,James Zikic,Draw,Millennium Brawl 8,000000002002-09-22-0000,3,5:00,High Wycombe,Werdum was deducted 1 point for an illegal knee to grounded opponent
+30,Win,1–0,Tengiz Tedoradze,Submission (triangle choke),Millennium Brawl 7,000000002002-06-16-0000,1,N/A,High Wycombe,

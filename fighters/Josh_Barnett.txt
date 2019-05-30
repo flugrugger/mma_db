@@ -1,0 +1,44 @@
+,Result,Record,Opponent,Method,Event,Date,Round,Time,Location,Notes
+0,Win,35–8,Andrei Arlovski,Submission (rear-naked choke),UFC Fight Night: Arlovski vs. Barnett,000000002016-09-03-0000,3,2:53,Hamburg,Performance of the Night. Fight of the Night.
+1,Loss,34–8,Ben Rothwell,Submission (guillotine choke),UFC on Fox: Johnson vs. Bader,000000002016-01-30-0000,2,3:48,"Newark, New Jersey",
+2,Win,34–7,Roy Nelson,Decision (unanimous),UFC Fight Night: Barnett vs. Nelson,000000002015-09-27-0000,5,5:00,Saitama,Performance of the Night.
+3,Loss,33–7,Travis Browne,KO (elbows),UFC 168,000000002013-12-28-0000,1,1:00,"Las Vegas, Nevada",
+4,Win,33–6,Frank Mir,TKO (knee),UFC 164,000000002013-08-31-0000,1,1:56,"Milwaukee, Wisconsin",
+5,Win,32–6,Nandor Guelmino,Submission (arm-triangle choke),Strikeforce: Marquardt vs. Saffiedine,000000002013-01-12-0000,1,2:11,"Oklahoma City, Oklahoma",
+6,Loss,31–6,Daniel Cormier,Decision (unanimous),Strikeforce: Barnett vs. Cormier,000000002012-05-19-0000,5,5:00,"San Jose, California",Strikeforce Heavyweight Grand Prix Final.
+7,Win,31–5,Sergei Kharitonov,Submission (arm-triangle choke),Strikeforce: Barnett vs. Kharitonov,000000002011-09-10-0000,1,4:28,"Cincinnati, Ohio",Strikeforce Heavyweight Grand Prix Semifinal.
+8,Win,30–5,Brett Rogers,Submission (arm-triangle choke),Strikeforce: Overeem vs. Werdum,000000002011-06-18-0000,2,1:17,"Dallas, Texas",Strikeforce Heavyweight Grand Prix Quarterfinal.
+9,Win,29–5,Geronimo dos Santos,TKO (punches),Impact FC 1,000000002010-07-10-0000,1,2:35,Brisbane,
+10,Win,28–5,Siala-Mou Siliga,Submission (kimura),DREAM 13,000000002010-03-22-0000,1,4:41,Kanagawa,
+11,Win,27–5,Gilbert Yvel,Submission (punches),Affliction: Day of Reckoning,000000002009-01-24-0000,3,3:05,"Anaheim, California",
+12,Win,26–5,Pedro Rizzo,KO (punch),Affliction: Banned,000000002008-07-19-0000,2,1:44,"Anaheim, California",
+13,Win,25–5,Jeff Monson,Decision (unanimous),World Victory Road Presents: Sengoku 2,000000002008-05-18-0000,3,5:00,Tokyo,
+14,Win,24–5,Hidehiko Yoshida,Submission (heel hook),World Victory Road Presents: Sengoku First Battle,000000002008-03-05-0000,3,3:23,Tokyo,
+15,Loss,23–5,Antônio Rodrigo Nogueira,Decision (unanimous),PRIDE FC: Shockwave 2006,000000002006-12-31-0000,3,5:00,Saitama,
+16,Win,23–4,Pawel Nastula,Submission (toe hold),PRIDE 32: The Real Deal,000000002006-10-21-0000,2,3:04,"Las Vegas, Nevada",
+17,Loss,22–4,Mirko Cro Cop,Submission (punches),PRIDE FC: Final Conflict Absolute,000000002006-09-10-0000,1,7:32,Saitama,2006 PRIDE Heavyweight Grand Prix Final.
+18,Win,22–3,Antônio Rodrigo Nogueira,Decision (split),PRIDE FC: Final Conflict Absolute,000000002006-09-10-0000,2,5:00,Saitama,2006 PRIDE Heavyweight Grand Prix Semifinal.
+19,Win,21–3,Mark Hunt,Submission (kimura),PRIDE FC: Critical Countdown Absolute,000000002006-07-01-0000,1,2:02,Saitama,2006 PRIDE Heavyweight Grand Prix Quarterfinal.
+20,Win,20–3,Alexander Emelianenko,Submission (americana),PRIDE FC: Total Elimination Absolute,000000002006-05-05-0000,2,1:57,Osaka,2006 PRIDE Heavyweight Grand Prix Opening Round.
+21,Win,19–3,Kazuhiro Nakamura,Submission (rear-naked choke),PRIDE 31: Dreamers,000000002006-02-26-0000,1,8:10,Saitama,
+22,Loss,18–3,Mirko Cro Cop,Decision (unanimous),PRIDE 30,000000002005-10-23-0000,3,5:00,Saitama,
+23,Loss,18–2,Mirko Cro Cop,Submission (shoulder injury),PRIDE 28,000000002004-10-31-0000,1,0:46,Saitama,
+24,Win,18–1,Rene Rooze,TKO (punches),K-1 MMA: Romanex,000000002004-05-22-0000,1,2:15,Saitama,
+25,Win,17–1,Semmy Schilt,Submission (armbar),Inoki Bom-Ba-Ye 2003,000000002003-12-31-0000,3,4:48,Hyogo,Defended the 
+26,Win,16–1,Yoshiki Takahashi,Submission (triangle armbar),NJPW: Ultimate Crush II,000000002003-10-13-0000,2,2:52,Tokyo,Defended the 
+27,Win,15–1,Yuki Kondo,Submission (rear-naked choke),Pancrase: 10th Anniversary Show,000000002003-08-31-0000,3,3:26,Tokyo,Won the 
+28,Win,14–1,Jimmy Ambriz,TKO (knee and punches),NJPW: Ultimate Crush,000000002003-05-02-0000,1,3:05,Tokyo,
+29,Win,13–1,Randy Couture,TKO (punches),UFC 36,000000002002-03-22-0000,2,4:35,"Las Vegas, Nevada",Won the 
+30,Win,12–1,Bobby Hoffman,Submission (punches),UFC 34,000000002001-11-02-0000,2,4:25,"Las Vegas, Nevada",Tested positive for banned substances and given a warning by the NSAC.
+31,Win,11–1,Semmy Schilt,Submission (armbar),UFC 32,000000002001-06-29-0000,1,4:21,"East Rutherford, New Jersey",
+32,Loss,10–1,Pedro Rizzo,KO (punch),UFC 30,000000002001-02-23-0000,2,4:21,"Atlantic City, New Jersey",
+33,Win,10–0,Gan McGee,TKO (punches),UFC 28,000000002000-11-17-0000,2,4:34,"Atlantic City, New Jersey",Super Heavyweight bout.
+34,Win,9–0,Dan Severn,Submission (armbar),SuperBrawl 16,000000002000-02-08-0000,4,1:21,"Honolulu, Hawaii",
+35,Win,8–0,Bobby Hoffman,Decision (unanimous),SuperBrawl 13,000000001999-09-07-0000,3,5:00,"Honolulu, Hawaii",Won SuperBrawl 13 Heavyweight Tournament
+36,Win,7–0,John Marsh,Submission (kimura),SuperBrawl 13,000000001999-09-07-0000,1,4:23,"Honolulu, Hawaii",SuperBrawl 13 Heavyweight Tournament Semifinals
+37,Win,6–0,Juha Tuhkasaari,Submission (armbar),SuperBrawl 13,000000001999-09-07-0000,1,3:32,"Honolulu, Hawaii",SuperBrawl 13 Heavyweight Tournament Quarterfinals
+38,Win,5–0,Trevor Howard,Submission (armbar),UFCF 4,000000001998-09-19-0000,1,N/A,Washington,
+39,Win,4–0,Bob Gilstrap,DQ (illegal strike),UFCF 3,000000001998-03-14-0000,1,0:42,"Lynnwood, Washington",
+40,Win,3–0,Chris Munsen,TKO (punches),UFCF 2,000000001997-09-06-0000,1,N/A,Washington,
+41,Win,2–0,Bob Gilstrap,Decision (unanimous),UFCF 2,000000001997-07-07-0000,1,10:00,Washington,
+42,Win,1–0,Chris Charnos,Submission (rear-naked choke),UFCF 1,000000001997-01-11-0000,1,2:41,Washington,
