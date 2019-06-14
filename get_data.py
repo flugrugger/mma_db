@@ -77,6 +77,8 @@ def find_data(name):
 	#end_of_string = ""
 
 	data = {}
+
+	data['fighter_id'] = None 
 	
 	data['name'] = name
 	#end_of_string += name + '\', ' 
@@ -96,7 +98,7 @@ def find_data(name):
 		headers = row.find('th')
 		tdata = row.find('td')
 		if headers:
-			headers_list += [headers.string]
+			#headers_list += [headers.string]
 			#Find the age of the fighter.
 			if headers.string == "Born":
 				age_data = tdata.find('span', class_="noprint ForceAgeToShow")
@@ -170,12 +172,14 @@ def find_data(name):
 	insert_string += end_of_string
 
 	insert_string += '\');\n' '''
-	fieldnames = ['name', 'age', 'height_ft', 'weight_lbs', 'reach_inch', 'gym']
-	f = open('fighter_stats.csv', 'w')
-	w = csv.DictWriter(f,fieldnames)
-	f.writerow(data)
 
 	print(data)
+	fieldnames = ['name', 'age', 'height_ft', 'weight_lbs', 'reach_inch', 'gym']
+	f = open('fighter_stats.csv', 'w')
+	w = csv.DictWriter(f,data.keys())
+	w.writerow(data)
+
+	
 	return data
 
 #MMA Record Information
