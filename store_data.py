@@ -20,7 +20,7 @@ for f in list_of_fighter_names:
 			print("")
 
 			with open('uninserted_fighters.txt', 'a') as w: 
-				w.write(f)
+				w.write(f + '\n')
 	except UnicodeEncodeError:
 		print('Normalize weird characters')
 		try:
@@ -33,9 +33,9 @@ for f in list_of_fighter_names:
 			print("")
 
 			with open('uninserted_fighters.txt', 'a') as w: 
-				w.write(f)
+				w.write(f + '\n')
 	except:
 		print('Unexpected error for ' + f + '. The name of the fighter has been saved to \"uninserted_list\" text')
 		
 		with open('uninserted_fighters.txt', 'a') as w: 
-			w.write(f)
+			w.write(f + '\n')

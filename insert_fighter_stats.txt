@@ -11,3 +11,10 @@ INSERT INTO fighter_stats (name, age, height_ft, weight_lbs, reach_inch, gym) VA
 INSERT INTO fighter_stats (name, age, height_ft, weight_lbs, reach_inch, gym) VALUES ('Shamil_Abdurakhimov', 37, 6.3, 256, 76, 'Fighting Eagle');
 INSERT INTO fighter_stats (name, age, height_ft, weight_lbs, reach_inch, gym) VALUES ('Chris_de_la_Rocha', 40, 6.4, 243, 80, INSERT INTO fighter_stats (name, age, height_ft, weight_lbs, reach_inch, gym) VALUES ('Francis_Ngannou', 32, 6.5, 258, 83, 'MMA Factory ');
 INSERT INTO fighter_stats (name, age, height_ft, weight_lbs, reach_inch, gym) VALUES ('Curtis_Blaydes', 28, 6.4, 260, 80, 'Elevation Fight Team');
+INSERT INTO fighter_stats (name, age, height_ft, weight_lbs, reach_inch, gym) VALUES ('Chris_de_la_Rocha', 40, 6.4, 243, 80, INSERT INTO fighter_stats (name, age, height_ft, weight_lbs, reach_inch, gym) VALUES ('Chris_de_la_Rocha', 40, 6.4, 243, 80, ');
+INSERT INTO fighter_stats (name, age, height_ft, weight_lbs, reach_inch, gym) VALUES ('Chris_de_la_Rocha', 40, 6.4, 243, 80, ');
+INSERT INTO fighter_stats (name, age, height_ft, weight_lbs, reach_inch, gym) VALUES ('Chris_de_la_Rocha', 40, 6.4, 243, 80, ');
+INSERT INTO fighter_stats (name, age, height_ft, weight_lbs, reach_inch, gym) VALUES ('Chris_de_la_Rocha', 40, 6.4, 243, 80, ');
+INSERT INTO fighter_stats (name, age, height_ft, weight_lbs, reach_inch, gym) VALUES ('Chris_de_la_Rocha', 40, 6.4, 243, 80, ');
+INSERT INTO fighter_stats (name, Chris_de_la_Rocha', age, height_ft, weight_lbs, reach_inch, ) VALUES ('40, 6.4, 243, 80, ');
+INSERT INTO fighter_stats (name, age, height_ft, weight_lbs, reach_inch, ) VALUES ('Chris_de_la_Rocha', 40, 6.4, 243, 80, ');
