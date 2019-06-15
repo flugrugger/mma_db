@@ -2,8 +2,6 @@ import urllib
 
 from bs4 import BeautifulSoup
 
-import pandas as pd
-
 import sys
 
 import unicodedata
@@ -73,16 +71,11 @@ def random_fighter():
 	
 #Takes fighter stats, writes them into an SQL INSERT statement string
 def find_data(name):
-	#insert_string = "INSERT INTO fighter_stats (name, "
-	#end_of_string = ""
-
 	data = {}
 
-	data['fighter_id'] = None 
+	#data['fighter_id'] = None 
 	
 	data['name'] = name
-	#end_of_string += name + '\', ' 
-	#headers_list = []
 	
 	wiki = "https://en.wikipedia.org/wiki/" + name
 
@@ -98,7 +91,7 @@ def find_data(name):
 		headers = row.find('th')
 		tdata = row.find('td')
 		if headers:
-			#headers_list += [headers.string]
+
 			#Find the age of the fighter.
 			if headers.string == "Born":
 				age_data = tdata.find('span', class_="noprint ForceAgeToShow")
@@ -106,27 +99,24 @@ def find_data(name):
 				#Use regex to separate the integers
 				age_int = int(re.search(r'\d+', age_str).group())
 				data['age']= age_int
-				#end_of_string += str(age_int) + ', '
+
 			if headers.string == "Team":
 				tdata_str = str(tdata.find(string=True))
 				tdata_str = tdata_str.replace('\xa0','')
 				data['gym']= tdata_str 
-				#end_of_string += "\'" + tdata_str
+
 			if headers.string == "Weight":
 				tdata_str = str(tdata.find(string=True))
 				tdata_str = tdata_str.replace('\xa0','')
 				tdata_str = re.sub(r'.*([0-9]{3})\s*lb.*',r'\1',tdata_str)
 				tdata_str = int(tdata_str)
 				data['weight']= tdata_str
-				#end_of_string += str(tdata_str) + ', '
-			#For height and reach use RegEx to separate inches/cm into to separate items in a list.
+
 			if headers.string == "Height":
 				tdata_str = str(tdata.find(string=True))
 				tdata_str = tdata_str.replace('\xa0','')
 				tdata_str = re.sub(r'(.*ft) (.*in).*\((.*)\)',r'\1\2 \3',tdata_str)
 				tdata_str = tdata_str.split(" ")
-
-				#print(tdata_str)
 
 				numbers = re.findall('\d+',tdata_str[0]) 
 
@@ -138,46 +128,27 @@ def find_data(name):
 				full_number = float(full_number)
 
 				data['height']= full_number
-				#end_of_string += str(full_number) + ', '
 
 			if headers.string == "Reach":
 				tdata_str = str(tdata.find(string=True))
 				tdata_str = tdata_str.replace('\xa0','')
 				tdata_str = re.sub(r'(.*in).*\((.*)\)',r'\1 \2',tdata_str)
 				tdata_str = tdata_str.split(" ")
-				
-				#print(tdata_str)
 
 				numbers = re.findall('\d+',tdata_str[0]) 
 
 				numbers = [int(i) for i in numbers]
 
 				data['reach']= numbers[0]
-				#end_of_string += str(numbers[0]) + ', '
-
-	'''Construct the INSERT statement
-	if "Born" in headers_list:
-		insert_string += 'age, '
-	if "Height" in headers_list:
-		insert_string += 'height_ft, '
-	if "Height" in headers_list:
-		insert_string += 'weight_lbs, '
-	if "Height" in headers_list:
-		insert_string += 'reach_inch, '	
-	if "Team" in headers_list:
-		insert_string += 'gym' '''
-
-	''' insert_string += ") VALUES (\'"
-
-	insert_string += end_of_string
-
-	insert_string += '\');\n' '''
 
 	print(data)
-	fieldnames = ['name', 'age', 'height_ft', 'weight_lbs', 'reach_inch', 'gym']
-	f = open('fighter_stats.csv', 'w')
+	f = open('fighter_stats.csv', 'a')
+	
 	w = csv.DictWriter(f,data.keys())
-	w.writerow(data)
+	
+	if len(data) == 6:
+	#w.writeheader()
+		w.writerow(data)
 
 	
 	return data

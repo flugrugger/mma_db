@@ -2,14 +2,18 @@
 
 from get_data import *
 
-with open('insert_fighter_stats.txt', 'w') as f: 
-	    f.write('USE mma;')
+with open('fighter_stats.csv', 'a') as f: 
+	f.write('name, age, height, weight, reach, gym\n')
 
 list_of_fighter_names = all_fighters()
 
 for f in list_of_fighter_names:
 	try:
-		find_data(f)
+		f_dict = find_data(f)
+
+		if f_dict != 6:
+			with open('uninserted_fighters.txt', 'a') as w: 
+				w.write(f + '\n')
 	except IndexError:
 		print('Try adding \"_(fighter)\" to the end of the wiki link')
 		try:
