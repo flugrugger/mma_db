@@ -103,6 +103,7 @@ def find_data(name):
 			if headers.string == "Team":
 				tdata_str = str(tdata.find(string=True))
 				tdata_str = tdata_str.replace('\xa0','')
+				tdata_str = tdata_str.replace(',','')
 				data['gym']= tdata_str 
 
 			if headers.string == "Weight":
