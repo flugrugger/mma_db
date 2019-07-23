@@ -1,0 +1,1917 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+  <script>
+   window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","errorBeacon":"bam.nr-data.net","licenseKey":"60bb929f68","applicationID":"311537","transactionName":"JlkLEkQJW14DFhxUXAJeEQNEFRhBDgtE","queueTime":0,"applicationTime":471,"agent":""}
+  </script>
+  <script>
+   window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({1:[function(e,n,t){function r(){}function o(e,n,t){return function(){return i(e,[c.now()].concat(u(arguments)),n?null:this,t),n?void 0:this}}var i=e("handle"),a=e(3),u=e(4),f=e("ee").get("tracer"),c=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,n){s[n]=o(d+n,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,o="function"==typeof n;return i(l+"tracer",[c.now(),e,t],r),function(){if(f.emit((o?"":"no-")+"fn-start",[c.now(),r,o],t),o)try{return n.apply(this,arguments)}catch(e){throw f.emit("fn-err",[arguments,this,e],t),e}finally{f.emit("fn-end",[c.now()],t)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=o(l+n)}),newrelic.noticeError=function(e,n){"string"==typeof e&&(e=new Error(e)),i("err",[e,c.now(),!1,n])}},{}],2:[function(e,n,t){function r(e,n){if(!o)return!1;if(e!==o)return!1;if(!n)return!0;if(!i)return!1;for(var t=i.split("."),r=n.split("."),a=0;a<r.length;a++)if(r[a]!==t[a])return!1;return!0}var o=null,i=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var u=navigator.userAgent,f=u.match(a);f&&u.indexOf("Chrome")===-1&&u.indexOf("Chromium")===-1&&(o="Safari",i=f[1])}n.exports={agent:o,version:i,match:r}},{}],3:[function(e,n,t){function r(e,n){var t=[],r="",i=0;for(r in e)o.call(e,r)&&(t[i]=n(r,e[r]),i+=1);return t}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],4:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(o<0?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=r},{}],5:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function o(e){function n(e){return e&&e instanceof r?e:e?f(e,u,i):i()}function t(t,r,o,i){if(!d.aborted||i){e&&e(t,r,o);for(var a=n(o),u=v(t),f=u.length,c=0;c<f;c++)u[c].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function l(e,n){h[e]=v(e).concat(n)}function m(e,n){var t=h[e];if(t)for(var r=0;r<t.length;r++)t[r]===n&&t.splice(r,1)}function v(e){return h[e]||[]}function g(e){return p[e]=p[e]||o(t)}function w(e,n){c(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var h={},y={},b={on:l,addEventListener:l,removeEventListener:m,emit:t,get:g,listeners:v,context:n,buffer:w,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",f=e("gos"),c=e(3),s={},p={},d=n.exports=o();d.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(o.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){o.buffer([e],r),o.emit(e,n,t)}var o=e("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!E++){var e=x.info=NREUM.info,n=l.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();c(y,function(n,t){e[n]||(e[n]=t)}),f("mark",["onload",a()+x.offset],null,"api");var t=l.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function o(){"complete"===l.readyState&&i()}function i(){f("mark",["domContent",a()+x.offset],null,"api")}function a(){return O.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-x.offset}var u=(new Date).getTime(),f=e("handle"),c=e(3),s=e("ee"),p=e(2),d=window,l=d.document,m="addEventListener",v="attachEvent",g=d.XMLHttpRequest,w=g&&g.prototype;NREUM.o={ST:setTimeout,SI:d.setImmediate,CT:clearTimeout,XHR:g,REQ:d.Request,EV:d.Event,PR:d.Promise,MO:d.MutationObserver};var h=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1123.min.js"},b=g&&w&&w[m]&&!/CriOS/.test(navigator.userAgent),x=n.exports={offset:u,now:a,origin:h,features:{},xhrWrappable:b,userAgent:p};e(1),l[m]?(l[m]("DOMContentLoaded",i,!1),d[m]("load",r,!1)):(l[v]("onreadystatechange",o),d[v]("onload",r)),f("mark",["firstbyte",u],null,"api");var E=0,O=e(5)},{}]},{},["loader"]);
+  </script>
+  <meta content="upgrade-insecure-requests" http-equiv="Content-Security-Policy"/>
+  <meta content="authenticity_token" name="csrf-param"/>
+  <meta content="JAdfHCEYnqnvp9g2GREtMf6Y1mJ7nh+pVBymTVZjh9sL1QscVmvcce04RBixPIFCTFEdf0RX4s16M+fNYMDGow==" name="csrf-token"/>
+  <link href="/assets/master/favicon-c12f0a0abf2fd7d943be3cc8e3c0621d8a3f768a1b9a56157da440a2fd955a97.png" rel="shortcut icon" type="image/x-icon"/>
+  <link href="/assets/master/favicon-c12f0a0abf2fd7d943be3cc8e3c0621d8a3f768a1b9a56157da440a2fd955a97.png" rel="apple-touch-icon" type="image/png"/>
+  <meta content="width=796" name="viewport"/>
+  <meta content="Tapology, Tapology.com, MMA, UFC, boxing, boxer, Ultimate Fighting Championship, mixed martial arts, Octagon, fight, fighters, ko, tko, knockout, submission, grappling, BJJ, Brazilian Jiu-Jitsu, judo, kickboxing, muay thai, wrestling, tapout, takedown, Bellator, Spike TV, Axs.tv, fight finder, fight center, fightcenter, local MMA, regional MMA, WMMA, MMA rankings, regional rankings, fantasy MMA, fantasy UFC, fantasy boxing, pick em" name="keywords"/>
+  <title>
+   Lyoto Machida ("The Dragon") | MMA Fighter Page | Tapology
+  </title>
+  <meta content='Lyoto Machida ("The Dragon") | MMA Fighter Page | Tapology' property="og:title"/>
+  <meta content='Lyoto "The Dragon" Machida (26-8-0) is a Pro MMA Fighter out of Los Angeles, California and the #35th ranked Top Light Heavyweight MMA fighter. View complete Tapology profile, bio, rankings, photos, news and record.' name="description"/>
+  <meta content="19" name="fid"/>
+  <meta content="263" name="riid"/>
+  <meta content="https://images.tapology.com/letterbox_images/19/default/Lyoto-Machida.jpg?1386106511" property="og:image"/>
+  <meta content="athlete" property="og:type"/>
+  <meta content="https://www.tapology.com/fightcenter/fighters/lyoto-machida-the-dragon" property="og:url"/>
+  <meta content="Tapology" property="og:site_name"/>
+  <meta content="696730389, 1133895365, 224305674489" property="fb:admins"/>
+  <meta content="180152972033082" property="fb:app_id"/>
+  <!--[if lte IE 8]><meta http-equiv="refresh" content="0;URL=https://www.tapology.com/browser.html"><![endif]-->
+  <link href="/assets/new-72de3441d4d8aa5a5d5877c2a1c8b4d0d55f2e58f18625ee1ca08b734db1b457.css" media="all" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" media="screen" rel="stylesheet"/>
+  <script src="/packs/application-ffa1eb13f11c0f251e1b.js">
+  </script>
+  <script>
+   _tapology({
+    aname: 'show',
+    cname: 'fighters',
+    isAdmin: 'false'
+  });
+  </script>
+  <script async="true" class="teads" src="//a.teads.tv/page/82051/tag" type="text/javascript">
+  </script>
+  <script async="async" src="https://www.googletagservices.com/tag/js/gpt.js">
+  </script>
+  <script async="async" src="//tags-cdn.deployads.com/a/dfp.tapology.com.js">
+  </script>
+  <script>
+   var googletag = googletag || {};
+  googletag.cmd = googletag.cmd || [];
+  window.deployads = window.deployads || [];
+  googletag.cmd.push(function() {
+    googletag.defineSlot('/50126581/sortlayouttop', [[728, 90], [970, 90], [970, 250]], 'div-gpt-ad-1527779301975-0').addService(googletag.pubads());
+    googletag.defineSlot('/50126581/sortcontentmiddle', [728, 90], 'div-gpt-ad-1527779529805-0').addService(googletag.pubads());
+    googletag.defineSlot('/50126581/sortcontentlower', [[300, 250], [728, 90], [336, 280]], 'div-gpt-ad-1527779688976-0').addService(googletag.pubads());
+    googletag.defineSlot('/50126581/sortsidebartop', [[300, 600], [300, 250], [336, 280]], 'div-gpt-ad-1527779787969-0').addService(googletag.pubads());
+    googletag.defineSlot('/50126581/sortsidebarmiddle', [[336, 280], [300, 600], [160, 600], [300, 250]], 'div-gpt-ad-1527074803070-0').addService(googletag.pubads());
+    googletag.pubads().enableSingleRequest();
+    deployads.push(function () { deployads.gpt.enableServices(); });
+  });
+  </script>
+  <script src="/packs/newFightersShow-a676f1d4004bd78262c2.js">
+  </script>
+  <link href="/packs/newFightersShow-858a9a08579ae5b6d00b6a501d918a4e.css" media="screen" rel="stylesheet"/>
+ </head>
+ <body itemscope="" itemtype="http://schema.org/WebPage">
+  <header class="clearfix" id="header">
+   <i class="material-icons" id="sidebarToggle">
+    menu
+   </i>
+   <div class="mainLogin clearfix" id="mainLogin">
+    <form accept-charset="UTF-8" action="/sign_in" class="simple_form new_identities_password" id="tapin-form" method="post" novalidate="novalidate">
+     <input name="utf8" type="hidden" value="✓"/>
+     <input name="authenticity_token" type="hidden" value="LCgp3QA39pA6ZhwWyqeOzaDX+C1ZjlWmncv7+orDZ+6EtSI+x5KN2svOGTUaNcMcv3qnTURgpT3SQRzCp9fIzQ=="/>
+     <ul>
+      <li class="field">
+       <div class="input string required identities_password_uid">
+        <input class="string required show_hint" id="identities_password_uid" name="identities_password[uid]" title="Username" type="text"/>
+       </div>
+      </li>
+      <li class="field">
+       <div class="input password optional identities_password_password">
+        <input class="password optional show_hint" id="identities_password_password" name="identities_password[password]" title="Password" type="password"/>
+       </div>
+      </li>
+      <li class="btn">
+       <input class="btn tapInSlider submit" data-disable-with="Create Password" name="commit" type="submit" value="Create Password"/>
+      </li>
+      <input id="identities_password_remember" name="identities_password[remember]" type="hidden" value="true"/>
+     </ul>
+     <p class="forgot">
+      <a href="/password_reset">
+       Lost / Forgot?
+      </a>
+     </p>
+    </form>
+   </div>
+   <ul class="topNav clearfix">
+    <li>
+     <a href="/site_tour" title="Site Tour">
+      Tour
+     </a>
+    </li>
+    <li>
+     <a href="/faq" title="Frequently Asked Questions">
+      FAQ
+     </a>
+    </li>
+    <li>
+     <a href="/signup" title="Register">
+      Register
+     </a>
+    </li>
+    <li class="start">
+     <a href="/sign_in" id="tapin" title="Tap In">
+      Tap In
+     </a>
+    </li>
+   </ul>
+   <nav class="brandingNav clearfix" itemscope="" itemtype="http://schema.org/WPHeader">
+    <p class="logo" itemscope="" itemtype="http://schema.org/SiteNavigationElement">
+     <a href="/">
+      <span>
+       Tapology
+      </span>
+      <svg id="tapology-logo" viewbox="0 0 748 117" xmlns="http://www.w3.org/2000/svg">
+       <g fill="none" stroke="none" stroke-width="1">
+        <g fill="#000000" transform="translate(373.500000, 58.500000) scale(1, -1) translate(-373.500000, -58.500000) translate(-1.000000, -1.000000)">
+         <g transform="translate(0.000000, 0.150000)">
+          <g transform="translate(64.657000, 1.170000)">
+           <path d="M0,8.75 C0,4.18 3.70625,0.475 8.275,0.475 L66.73125,0.475 C71.30125,0.475 75.005,4.18 75.005,8.75 L75.005,23.085 C75.005,27.65625 71.30125,31.36 66.73125,31.36 L8.275,31.36 C3.70625,31.36 0,27.65625 0,23.085 L0,8.75 Z">
+           </path>
+          </g>
+          <g transform="translate(106.999500, 35.854500)">
+           <path d="M8.75,80 C3.91625,80 0,76.0825 0,71.24875 L0,9.42625 C0,4.5925 3.91625,0.675 8.75,0.675 L23.91125,0.675 C28.74375,0.675 32.6625,4.5925 32.6625,9.42625 L32.6625,71.24875 C32.6625,76.0825 28.74375,80 23.91125,80 L8.75,80 Z">
+           </path>
+          </g>
+          <g transform="translate(69.086875, 35.854500)">
+           <path d="M10,80 C5.16625,80 1.24875,76.0825 1.24875,71.24875 L1.24875,9.42625 C1.24875,4.5925 5.16625,0.675 10,0.675 L25.16125,0.675 C29.995,0.675 33.9125,4.5925 33.9125,9.42625 L33.9125,71.24875 C33.9125,76.0825 29.995,80 25.16125,80 L10,80 Z">
+           </path>
+          </g>
+          <g transform="translate(32.424375, 35.854500)">
+           <path d="M10,80 C5.16625,80 1.2475,76.0825 1.2475,71.24875 L1.2475,9.42625 C1.2475,4.5925 5.16625,0.675 10,0.675 L25.16,0.675 C29.99375,0.675 33.91125,4.5925 33.91125,9.42625 L33.91125,71.24875 C33.91125,76.0825 29.99375,80 25.16,80 L10,80 Z">
+           </path>
+          </g>
+          <g transform="translate(0.406500, 45.979625)">
+           <path d="M8.75,68.75 C4.60125,68.75 1.24125,65.38875 1.24125,61.2425 L1.24125,8.1975 C1.24125,4.05 4.60125,0.69 8.75,0.69 L21.7575,0.69 C25.90375,0.69 29.26625,4.05 29.26625,8.1975 L29.26625,61.2425 C29.26625,65.38875 25.90375,68.75 21.75625,68.75 L8.75,68.75 Z">
+           </path>
+          </g>
+         </g>
+         <g transform="translate(150.000000, 31.986626)">
+          <g transform="translate(0.780000, 2.769750)">
+           <polygon points="82.5 81.25 0.39 81.25 0.39 56.4 26.13375 56.4 26.13375 0.71 56.8575 0.71 56.8575 56.4 82.5 56.4">
+           </polygon>
+          </g>
+          <g transform="translate(58.238500, 2.448125)">
+           <path d="M42.5,31.25 L48.76625,51.27 L55.1,31.25 L42.5,31.25 Z M95.195,4.1075 L64.6625,81.57125 L32.94625,81.57125 L1.20375,1.03375 L32.76375,1.03375 L36.51,12.3725 L61.21625,12.3725 L65.0625,1.03375 L96.40625,1.03375 L95.195,4.1075 L95.195,4.1075 Z">
+           </path>
+          </g>
+          <g transform="translate(148.197000, 2.592750)">
+           <path d="M41.25,48.75 C40.085,47.715 38.04,47.00125 34.83375,47.00375 L31.21125,47.00375 L31.21125,60.82875 L34.93375,60.82875 C38.10625,60.82875 40.13,60.12375 41.27625,59.105 C42.415,58.095 43.09375,56.60625 43.1125,53.96625 C43.09375,51.29125 42.40625,49.775 41.25,48.75 M64.41,74.84 C58.90625,79.30375 51.61375,81.4325 42.83375,81.42625 L0.3875,81.42625 L0.3875,0.8875 L31.21125,0.8875 L31.21125,26.3125 C43.83375,26.43125 52.62125,27.39125 58.03625,29.49625 C68.07375,33.3 73.3475,42.13625 73.23125,54.1675 C73.26125,62.86625 70.3175,70.0125 64.41,74.84">
+           </path>
+          </g>
+          <g transform="translate(218.532750, 1.073000)">
+           <path d="M52.5,32.5 C50.4775,30.07375 47.63375,28.80875 43.215,28.7775 C39.10875,28.81625 36.46875,30.0525 34.455,32.5725 C32.53625,34.94875 31.49625,38.14875 31.49,42.52625 C31.49625,47.04875 32.5475,50.32125 34.4325,52.6525 C36.52625,55.26125 39.275,56.53875 43.5175,56.5775 C47.61625,56.54375 50.36125,55.29375 52.51625,52.73625 C54.39625,50.4075 55.4375,47.2025 55.4425,42.83 C55.44125,38.1625 54.375,34.81375 52.5,32.5 M74.41875,73.22625 C66.42125,80.6725 56.06875,84.3825 43.82125,84.365 C31.0625,84.38 20.47625,80.72875 12.525,73.33375 C4.265,65.67875 0.135,55.20375 0.16,42.52625 C0.135,29.97875 4.23375,19.60375 12.42125,12.0225 C20.37875,4.695 30.89125,1.0775 43.5175,1.0925 L43.61125,1.0925 C56.33875,1.0925 66.895,4.84 74.7875,12.39625 C82.74375,19.9675 86.695,30.41125 86.6725,43.1325 C86.6975,55.35875 82.5875,65.59 74.41875,73.22625">
+           </path>
+          </g>
+          <g transform="translate(303.415500, 2.769750)">
+           <polygon points="31.25 81.25 0.53 81.25 0.53 0.71 57.88 0.71 57.88 25.4625 31.25 25.4625">
+           </polygon>
+          </g>
+          <g transform="translate(354.207750, 1.073625)">
+           <path d="M52.5,32.5 C50.4725,30.0725 47.62875,28.8075 43.21125,28.7775 C39.105,28.815 36.46625,30.0525 34.4525,32.57125 C32.5325,34.9475 31.49625,38.1475 31.49,42.525 C31.49375,47.0475 32.545,50.32125 34.43,52.6525 C36.5225,55.2625 39.2725,56.53875 43.515,56.57625 C47.61375,56.54125 50.36,55.295 52.51375,52.735 C54.3925,50.40625 55.435,47.2025 55.44125,42.82875 L55.4425,42.82875 C55.4375,38.16125 54.37375,34.81375 52.5,32.5 M74.4175,73.225 C66.42,80.67125 56.06625,84.38125 43.82,84.3625 C31.06,84.37875 20.4725,80.72875 12.52375,73.335 C4.26125,65.67875 0.1325,55.20375 0.1575,42.525 C0.1325,29.97875 4.23,19.60375 12.42125,12.02125 C20.375,4.6925 30.89,1.07625 43.515,1.09 L43.5975,1.09 C56.32875,1.09 66.89125,4.8375 74.78625,12.39625 C82.74,19.9675 86.6925,30.40875 86.67,43.1325 C86.695,55.36 82.58375,65.59 74.4175,73.225">
+           </path>
+          </g>
+          <g transform="translate(438.653625, 1.021125)">
+           <path d="M42.5,30 L52.42125,30 L52.42125,26.945 C51.7175,26.44375 51.06125,25.83125 50.41625,25.12 C50.15,25.02875 49.25625,24.86625 47.99,24.88 C42.56,24.90875 38.81,26.48875 36.05875,29.585 C33.27125,32.76625 31.82375,36.92625 31.81125,42.47625 C31.82375,47.88375 33.2525,52.02375 36.0275,55.29 C39.01625,58.76625 42.76,60.4425 47.99,60.475 C53.175,60.46875 58.18,58.64625 63.2175,54.7675 L64.63,53.67625 L79.23625,65.635 L78.29125,67.28625 C75.11125,72.85625 70.49125,77.2125 64.6075,80.22125 C59.07625,83.02375 52.995,84.41875 46.47125,84.41625 C33.45375,84.4275 22.51375,80.86625 14.03,73.65375 C5.00875,65.96 0.44625,55.335 0.48,42.47625 C0.44625,29.82625 4.90125,19.37125 13.715,11.815 C22.04125,4.6125 32.77,1.04125 45.495,1.04125 L45.55625,1.04125 C57.685,1.03875 68.80125,3.615 78.79,8.7875 L80.0075,9.41625 L80.0075,50.19375 L42.5,50.19375 L42.5,30 Z">
+           </path>
+          </g>
+          <g transform="translate(505.861875, 2.769750)">
+           <polygon points="58.75 81.25 48.04125 60.815 37.0575 81.25 0.3 81.25 30.8275 35.88875 30.8275 0.7125 61.6575 0.7125 61.6575 35.485 92.49 81.25">
+           </polygon>
+          </g>
+         </g>
+        </g>
+       </g>
+      </svg>
+     </a>
+    </p>
+    <ul class="mainNav clearfix">
+     <li class="navSearch" itemscope="" itemtype="http://schema.org/SiteNavigationElement">
+      <a class="" href="/search">
+       <span>
+        Search
+       </span>
+       <svg viewbox="0 0 70 13" xmlns="http://www.w3.org/2000/svg">
+        <g transform="translate(-798.000000, -54.000000)">
+         <path d="M804.456,66.208 C807.464,66.208 809.4,64.768 809.4,62.416 L809.4,62.384 C809.4,60.128 807.48,59.296 804.616,58.768 C803.432,58.544 803.128,58.352 803.128,58.048 L803.128,58.016 C803.128,57.744 803.384,57.552 803.944,57.552 C804.984,57.552 806.248,57.888 807.304,58.656 L809.128,56.128 C807.832,55.104 806.232,54.592 804.072,54.592 C800.984,54.592 799.32,56.24 799.32,58.368 L799.32,58.4 C799.32,60.768 801.528,61.488 804.04,62 C805.24,62.24 805.592,62.416 805.592,62.736 L805.592,62.768 C805.592,63.072 805.304,63.248 804.632,63.248 C803.32,63.248 801.928,62.864 800.712,61.936 L798.712,64.32 C800.136,65.568 802.184,66.208 804.456,66.208 Z M810.264,66 L819.896,66 L819.896,62.928 L813.944,62.928 L813.944,61.712 L819.416,61.712 L819.416,59.008 L813.944,59.008 L813.944,57.872 L819.816,57.872 L819.816,54.8 L810.264,54.8 L810.264,66 Z M820.088,66 L824.088,66 L824.664,64.496 L828.584,64.496 L829.176,66 L833.24,66 L828.52,54.72 L824.808,54.72 L820.088,66 Z M825.608,61.84 L826.632,59.12 L827.656,61.84 L825.608,61.84 Z M833.704,66 L837.448,66 L837.448,62.8 L838.248,62.8 L840.36,66 L844.632,66 L842.024,62.192 C843.384,61.536 844.232,60.4 844.232,58.768 L844.232,58.736 C844.232,57.584 843.88,56.752 843.208,56.08 C842.424,55.296 841.16,54.8 839.176,54.8 L833.704,54.8 L833.704,66 Z M837.448,60.128 L837.448,57.936 L839.08,57.936 C839.944,57.936 840.504,58.288 840.504,59.008 L840.504,59.04 C840.504,59.728 839.96,60.128 839.064,60.128 L837.448,60.128 Z M850.696,66.24 C853.48,66.24 855.048,64.88 855.992,63.216 L852.904,61.472 C852.44,62.304 851.848,62.88 850.792,62.88 C849.56,62.88 848.696,61.856 848.696,60.4 L848.696,60.368 C848.696,59.024 849.528,57.92 850.792,57.92 C851.816,57.92 852.408,58.48 852.824,59.28 L855.912,57.472 C854.968,55.76 853.304,54.56 850.84,54.56 C847.496,54.56 844.888,57.056 844.888,60.4 L844.888,60.432 C844.888,63.904 847.592,66.24 850.696,66.24 Z M856.712,66 L860.456,66 L860.456,61.984 L863.88,61.984 L863.88,66 L867.624,66 L867.624,54.8 L863.88,54.8 L863.88,58.752 L860.456,58.752 L860.456,54.8 L856.712,54.8 L856.712,66 Z">
+         </path>
+        </g>
+       </svg>
+      </a>
+     </li>
+     <li class="navForum" itemscope="" itemtype="http://schema.org/SiteNavigationElement">
+      <a class="" href="/forum/threads">
+       <span>
+        Forum
+       </span>
+       <svg viewbox="0 0 61 13" xmlns="http://www.w3.org/2000/svg">
+        <g transform="translate(-728.000000, -111.000000)">
+         <path d="M728.64,123 L732.384,123 L732.384,119.336 L737.616,119.336 L737.616,116.424 L732.384,116.424 L732.384,115 L738.016,115 L738.016,111.8 L728.64,111.8 L728.64,123 Z M744.736,123.24 C748.192,123.24 750.864,120.648 750.864,117.4 L750.864,117.368 C750.864,114.12 748.224,111.56 744.768,111.56 C741.312,111.56 738.64,114.152 738.64,117.4 L738.64,117.432 C738.64,120.68 741.28,123.24 744.736,123.24 Z M744.768,119.928 C743.328,119.928 742.416,118.728 742.416,117.4 L742.416,117.368 C742.416,116.056 743.312,114.872 744.736,114.872 C746.176,114.872 747.088,116.072 747.088,117.4 L747.088,117.432 C747.088,118.744 746.192,119.928 744.768,119.928 Z M751.888,123 L755.632,123 L755.632,119.8 L756.432,119.8 L758.544,123 L762.816,123 L760.208,119.192 C761.568,118.536 762.416,117.4 762.416,115.768 L762.416,115.736 C762.416,114.584 762.064,113.752 761.392,113.08 C760.608,112.296 759.344,111.8 757.36,111.8 L751.888,111.8 L751.888,123 Z M755.632,117.128 L755.632,114.936 L757.264,114.936 C758.128,114.936 758.688,115.288 758.688,116.008 L758.688,116.04 C758.688,116.728 758.144,117.128 757.248,117.128 L755.632,117.128 Z M768.736,123.224 C772.08,123.224 774.304,121.72 774.304,117.896 L774.304,111.8 L770.496,111.8 L770.496,118.008 C770.496,119.368 769.776,119.912 768.768,119.912 C767.76,119.912 767.04,119.32 767.04,117.928 L767.04,111.8 L763.232,111.8 L763.232,117.976 C763.232,121.688 765.392,123.224 768.736,123.224 Z M775.488,123 L779.152,123 L779.152,117.448 L781.728,121.432 L781.792,121.432 L784.368,117.448 L784.368,123 L788.096,123 L788.096,111.8 L784.192,111.8 L781.792,115.736 L779.392,111.8 L775.488,111.8 L775.488,123 Z">
+         </path>
+        </g>
+       </svg>
+      </a>
+     </li>
+     <li class="navRankings" itemscope="" itemtype="http://schema.org/SiteNavigationElement">
+      <a class="" href="/rankings">
+       <span>
+        Rankings
+       </span>
+       <svg version="1.1" viewbox="0 0 89 13" xmlns="http://www.w3.org/2000/svg">
+        <g transform="translate(-660.000000, -150.000000)">
+         <path d="M660.64,162 L664.384,162 L664.384,158.8 L665.184,158.8 L667.296,162 L671.568,162 L668.96,158.192 C670.32,157.536 671.168,156.4 671.168,154.768 L671.168,154.736 C671.168,153.584 670.816,152.752 670.144,152.08 C669.36,151.296 668.096,150.8 666.112,150.8 L660.64,150.8 L660.64,162 Z M664.384,156.128 L664.384,153.936 L666.016,153.936 C666.88,153.936 667.44,154.288 667.44,155.008 L667.44,155.04 C667.44,155.728 666.896,156.128 666,156.128 L664.384,156.128 Z M670.864,162 L674.864,162 L675.44,160.496 L679.36,160.496 L679.952,162 L684.016,162 L679.296,150.72 L675.584,150.72 L670.864,162 Z M676.384,157.84 L677.408,155.12 L678.432,157.84 L676.384,157.84 Z M684.48,162 L688.192,162 L688.192,156.832 L692.352,162 L695.68,162 L695.68,150.8 L691.968,150.8 L691.968,155.744 L687.984,150.8 L684.48,150.8 L684.48,162 Z M696.96,162 L700.704,162 L700.704,159.616 L701.664,158.448 L703.856,162 L708.32,162 L704.336,155.664 L708.24,150.8 L703.888,150.8 L700.704,154.992 L700.704,150.8 L696.96,150.8 L696.96,162 Z M708.672,162 L712.416,162 L712.416,150.8 L708.672,150.8 L708.672,162 Z M713.728,162 L717.44,162 L717.44,156.832 L721.6,162 L724.928,162 L724.928,150.8 L721.216,150.8 L721.216,155.744 L717.232,150.8 L713.728,150.8 L713.728,162 Z M732.24,162.24 C734.272,162.24 735.968,161.552 737.184,160.56 L737.184,155.376 L731.76,155.376 L731.76,157.776 L733.68,157.776 L733.68,158.896 C733.392,159.056 733.04,159.152 732.4,159.152 C730.832,159.152 729.728,158.064 729.728,156.48 L729.728,156.448 C729.728,154.928 730.784,153.808 732.24,153.808 C733.168,153.808 733.984,154.16 734.72,154.784 L736.816,152.256 C735.6,151.2 734.048,150.56 732.128,150.56 C728.592,150.56 725.952,153.056 725.952,156.4 L725.952,156.432 C725.952,159.904 728.752,162.24 732.24,162.24 Z M743.088,162.208 C746.096,162.208 748.032,160.768 748.032,158.416 L748.032,158.384 C748.032,156.128 746.112,155.296 743.248,154.768 C742.064,154.544 741.76,154.352 741.76,154.048 L741.76,154.016 C741.76,153.744 742.016,153.552 742.576,153.552 C743.616,153.552 744.88,153.888 745.936,154.656 L747.76,152.128 C746.464,151.104 744.864,150.592 742.704,150.592 C739.616,150.592 737.952,152.24 737.952,154.368 L737.952,154.4 C737.952,156.768 740.16,157.488 742.672,158 C743.872,158.24 744.224,158.416 744.224,158.736 L744.224,158.768 C744.224,159.072 743.936,159.248 743.264,159.248 C741.952,159.248 740.56,158.864 739.344,157.936 L737.344,160.32 C738.768,161.568 740.816,162.208 743.088,162.208 Z">
+         </path>
+        </g>
+       </svg>
+      </a>
+     </li>
+     <li class="navFightcenter" itemscope="" itemtype="http://schema.org/SiteNavigationElement">
+      <a class="active" href="/fightcenter">
+       <span>
+        Fightcenter
+       </span>
+       <svg viewbox="0 0 118 13" xmlns="http://www.w3.org/2000/svg">
+        <g transform="translate(-510.000000, -157.000000)">
+         <path d="M510.64,169 L514.384,169 L514.384,165.336 L519.616,165.336 L519.616,162.424 L514.384,162.424 L514.384,161 L520.016,161 L520.016,157.8 L510.64,157.8 L510.64,169 Z M520.928,169 L524.672,169 L524.672,157.8 L520.928,157.8 L520.928,169 Z M532.016,169.24 C534.048,169.24 535.744,168.552 536.96,167.56 L536.96,162.376 L531.536,162.376 L531.536,164.776 L533.456,164.776 L533.456,165.896 C533.168,166.056 532.816,166.152 532.176,166.152 C530.608,166.152 529.504,165.064 529.504,163.48 L529.504,163.448 C529.504,161.928 530.56,160.808 532.016,160.808 C532.944,160.808 533.76,161.16 534.496,161.784 L536.592,159.256 C535.376,158.2 533.824,157.56 531.904,157.56 C528.368,157.56 525.728,160.056 525.728,163.4 L525.728,163.432 C525.728,166.904 528.528,169.24 532.016,169.24 Z M538.048,169 L541.792,169 L541.792,164.984 L545.216,164.984 L545.216,169 L548.96,169 L548.96,157.8 L545.216,157.8 L545.216,161.752 L541.792,161.752 L541.792,157.8 L538.048,157.8 L538.048,169 Z M553.104,169 L556.848,169 L556.848,160.968 L560.144,160.968 L560.144,157.8 L549.808,157.8 L549.808,160.968 L553.104,160.968 L553.104,169 Z M566.064,169.24 C568.848,169.24 570.416,167.88 571.36,166.216 L568.272,164.472 C567.808,165.304 567.216,165.88 566.16,165.88 C564.928,165.88 564.064,164.856 564.064,163.4 L564.064,163.368 C564.064,162.024 564.896,160.92 566.16,160.92 C567.184,160.92 567.776,161.48 568.192,162.28 L571.28,160.472 C570.336,158.76 568.672,157.56 566.208,157.56 C562.864,157.56 560.256,160.056 560.256,163.4 L560.256,163.432 C560.256,166.904 562.96,169.24 566.064,169.24 Z M572.08,169 L581.712,169 L581.712,165.928 L575.76,165.928 L575.76,164.712 L581.232,164.712 L581.232,162.008 L575.76,162.008 L575.76,160.872 L581.632,160.872 L581.632,157.8 L572.08,157.8 L572.08,169 Z M582.72,169 L586.432,169 L586.432,163.832 L590.592,169 L593.92,169 L593.92,157.8 L590.208,157.8 L590.208,162.744 L586.224,157.8 L582.72,157.8 L582.72,169 Z M598.064,169 L601.808,169 L601.808,160.968 L605.104,160.968 L605.104,157.8 L594.768,157.8 L594.768,160.968 L598.064,160.968 L598.064,169 Z M605.952,169 L615.584,169 L615.584,165.928 L609.632,165.928 L609.632,164.712 L615.104,164.712 L615.104,162.008 L609.632,162.008 L609.632,160.872 L615.504,160.872 L615.504,157.8 L605.952,157.8 L605.952,169 Z M616.592,169 L620.336,169 L620.336,165.8 L621.136,165.8 L623.248,169 L627.52,169 L624.912,165.192 C626.272,164.536 627.12,163.4 627.12,161.768 L627.12,161.736 C627.12,160.584 626.768,159.752 626.096,159.08 C625.312,158.296 624.048,157.8 622.064,157.8 L616.592,157.8 L616.592,169 Z M620.336,163.128 L620.336,160.936 L621.968,160.936 C622.832,160.936 623.392,161.288 623.392,162.008 L623.392,162.04 C623.392,162.728 622.848,163.128 621.952,163.128 L620.336,163.128 Z">
+         </path>
+        </g>
+       </svg>
+      </a>
+     </li>
+     <li class="navNews" itemscope="" itemtype="http://schema.org/SiteNavigationElement">
+      <a class="" href="/news">
+       <span>
+        News
+       </span>
+       <svg viewbox="0 0 51 13" xmlns="http://www.w3.org/2000/svg">
+        <g transform="translate(-789.000000, -166.000000)">
+         <path d="M789.64,178 L793.352,178 L793.352,172.832 L797.512,178 L800.84,178 L800.84,166.8 L797.128,166.8 L797.128,171.744 L793.144,166.8 L789.64,166.8 L789.64,178 Z M802.12,178 L811.752,178 L811.752,174.928 L805.8,174.928 L805.8,173.712 L811.272,173.712 L811.272,171.008 L805.8,171.008 L805.8,169.872 L811.672,169.872 L811.672,166.8 L802.12,166.8 L802.12,178 Z M815.784,178.08 L819.048,178.08 L821.016,172.512 L822.984,178.08 L826.248,178.08 L829.912,166.8 L826.056,166.8 L824.472,172.176 L822.664,166.768 L819.432,166.768 L817.624,172.176 L816.04,166.8 L812.12,166.8 L815.784,178.08 Z M835.048,178.208 C838.056,178.208 839.992,176.768 839.992,174.416 L839.992,174.384 C839.992,172.128 838.072,171.296 835.208,170.768 C834.024,170.544 833.72,170.352 833.72,170.048 L833.72,170.016 C833.72,169.744 833.976,169.552 834.536,169.552 C835.576,169.552 836.84,169.888 837.896,170.656 L839.72,168.128 C838.424,167.104 836.824,166.592 834.664,166.592 C831.576,166.592 829.912,168.24 829.912,170.368 L829.912,170.4 C829.912,172.768 832.12,173.488 834.632,174 C835.832,174.24 836.184,174.416 836.184,174.736 L836.184,174.768 C836.184,175.072 835.896,175.248 835.224,175.248 C833.912,175.248 832.52,174.864 831.304,173.936 L829.304,176.32 C830.728,177.568 832.776,178.208 835.048,178.208 Z">
+         </path>
+        </g>
+       </svg>
+      </a>
+     </li>
+    </ul>
+   </nav>
+  </header>
+  <section class="searchNews clearfix">
+   <form action="/search" class="mainSearch" style="position: relative">
+    <fieldset style="position: relative">
+     <input autocomplete="off" id="siteSearch" name="term" type="text"/>
+     <img alt="Ajax loader" class="ajax_spinner hide" id="site_search_spinner" src="/assets/shared/ajax-loader-0e74227ef57fb50cd37b1856b330ecf51f8563c4e5d56506f8d796d64a02c938.gif" style="right: 70px; top: 3px; position: absolute;"/>
+     <span class="searchBtn">
+      <input id="search" name="search" type="button"/>
+     </span>
+     <ul class="mainSearchCat clearfix">
+      <li>
+       <input id="searchFighters" name="mainSearchFilter" type="radio" value="fighters"/>
+       <label class="searchSelected" for="searchFighters">
+        Fighters
+       </label>
+      </li>
+      <li>
+       <input id="searchEvents" name="mainSearchFilter" type="radio" value="events"/>
+       <label for="searchEvents">
+        Events
+       </label>
+      </li>
+      <li>
+       <input id="searchBouts" name="mainSearchFilter" type="radio" value="bouts"/>
+       <label for="searchBouts">
+        Bouts
+       </label>
+      </li>
+     </ul>
+    </fieldset>
+    <div class="hide" id="searchSuggest">
+    </div>
+   </form>
+  </section>
+  <div class="hide" id="general-message">
+   <p class="message">
+   </p>
+  </div>
+  <div class="hide" id="general-confirm">
+   <p class="message">
+   </p>
+  </div>
+  <div class="contentWrap clearfix">
+   <div class="logged-out-layout-top pageLocationContainer">
+    <div class="LayoutTopAdvertisement">
+     <!-- /50126581/sortlayouttop -->
+     <div id="div-gpt-ad-1527779301975-0">
+      <script>
+       googletag.cmd.push(function() {
+      deployads.push(function() { deployads.gpt.display('div-gpt-ad-1527779301975-0'); });
+    });
+      </script>
+     </div>
+    </div>
+   </div>
+   <div id="content">
+    <div class="clearfix subnav">
+     <div class="breadcrumbPrivacyNotice">
+      <a href="/privacy">
+       Tapology Privacy Policy
+      </a>
+     </div>
+     <ul class="clearfix">
+      <li id="subHome">
+       <a class="breadcrumb" href="/" id="home_breadcrumb">
+        Home
+       </a>
+      </li>
+      <li class="">
+       <a class="breadcrumb" href="/fightcenter">
+        FightCenter
+       </a>
+      </li>
+      <li class="selected">
+       <a href="#">
+        Lyoto "The Dragon" Machida
+       </a>
+      </li>
+     </ul>
+    </div>
+    <div class="fighterUpcomingHeader">
+     <h2 id="flag">
+      <a class="hoverTool" href="/search/mma-fighters-by-nationality/country-br" title="See all Brazil Fighters">
+       <img alt="Br" class="flag" src="/assets/flags/BR-803dfacff65d619c70d033530c01e88d422c1dc660cea86730549ebd68362035.gif"/>
+      </a>
+     </h2>
+     <h4 class="preTitle prorecord">
+      Pro MMA Record
+     </h4>
+     <h4 class="preTitle nickname">
+      "The Dragon"
+     </h4>
+     <h1 class="prorecord">
+      26-8-0
+     </h1>
+     <h1>
+      Lyoto Machida
+     </h1>
+    </div>
+    <p class="navLinks altD">
+     <span class="left">
+      Main Page
+ |
+      <a href="/fightcenter/fighters/lyoto-machida-the-dragon/news">
+       News
+      </a>
+      |
+      <a href="/forum/topics/18374">
+       Discussion
+      </a>
+     </span>
+     <span class="right">
+      <a class="hoverTool" href="/manage_tapology/new?related_id=19&amp;related_type=Fighter" title="Are you Lyoto Machida?">
+       Update / Claim Page
+      </a>
+     </span>
+    </p>
+    <div class="fighterImg">
+     <img alt='Lyoto "The Dragon" Machida' src="https://images.tapology.com/letterbox_images/19/default/Lyoto-Machida.jpg?1386106511"/>
+     <div class="fighterPartnerImage">
+      <p>
+       Photo Source:
+      </p>
+      <a href="http://www.mmaweekly.com" onclick="ga('send', 'event', 'ExternalClick', 'MMAW_MorePhotos');">
+       <img alt="Mma weekly" src="/assets/logos/mma-weekly-7365eb1ebd08119fafd7f8a9f131e539d1dd2615b48931cdcd8e69d4eecd9b8a.png"/>
+      </a>
+     </div>
+    </div>
+    <h3>
+     Fighter Details
+    </h3>
+    <div class="details details_two_columns" id="stats">
+     <ul class="clearfix">
+      <li>
+       <strong>
+        Given Name:
+       </strong>
+       <span>
+        Lyoto Carvalho Machida
+       </span>
+      </li>
+      <li>
+       <strong>
+        Pro MMA Record:
+       </strong>
+       <span>
+        26-8-0 (Win-Loss-Draw)
+       </span>
+      </li>
+      <li>
+       <strong>
+        Nickname:
+       </strong>
+       <span>
+        The Dragon
+       </span>
+      </li>
+      <li>
+       <strong>
+        Current Streak:
+       </strong>
+       <span>
+        4 Wins
+       </span>
+      </li>
+      <li>
+       <strong>
+        Age:
+       </strong>
+       <span>
+        41
+       </span>
+       <strong>
+        | Date of Birth:
+       </strong>
+       <span>
+        1978.05.30
+       </span>
+      </li>
+      <li>
+       <strong>
+        Last Fight:
+       </strong>
+       <span>
+        June 14, 2019
+       </span>
+       <span>
+        in
+       </span>
+       <span>
+        <a href="/fightcenter/promotions/2-bellator-fighting-championships-bfc">
+         BFC
+        </a>
+       </span>
+      </li>
+      <li>
+       <strong>
+        Weight Class:
+       </strong>
+       <span>
+        Light Heavyweight
+       </span>
+       <strong>
+        | Last Weigh-In:
+       </strong>
+       <span>
+        204.4 lbs
+       </span>
+      </li>
+      <li>
+       <strong>
+        Affiliation:
+       </strong>
+       <span>
+        <a href="/gyms/779-black-house-mma">
+         Black House MMA
+        </a>
+       </span>
+      </li>
+      <li>
+       <strong>
+        Height:
+       </strong>
+       <span>
+        6'1" (186cm)
+       </span>
+       <strong>
+        | Reach:
+       </strong>
+       <span>
+        74.0" (188cm)
+       </span>
+      </li>
+      <li>
+       <strong>
+        Career Disclosed Earnings:
+       </strong>
+       <span>
+        $1,940,000 USD
+       </span>
+      </li>
+      <li>
+       <strong>
+        Born:
+       </strong>
+       <span>
+        Salvador, Bahia, Brazil
+       </span>
+      </li>
+      <li>
+       <strong>
+        Fighting out of:
+       </strong>
+       <span>
+        Los Angeles, California
+       </span>
+      </li>
+      <li>
+       <strong>
+        Fighter Links:
+       </strong>
+       <br/>
+       <div class="externalIconsHolder">
+        <a href="http://www.sherdog.com/fighter/lyoto-machida-7513" onclick="ga('send', 'event', 'ExternalClick', 'Fighter_Sherdog');" rel="nofollow" target="_blank">
+         <div class="externalIcon">
+          <img alt="Sherdog" src="/assets/social/sherdog-c1ed3349eba0962faf60d53347a4b93b094cfd019a6b9db871a2fd428844fbec.png"/>
+         </div>
+        </a>
+        <a href="http://en.wikipedia.org/wiki/Lyoto_Machida" onclick="ga('send', 'event', 'ExternalClick', 'Fighter_Wikipedia');" rel="nofollow" target="_blank">
+         <div class="externalIcon">
+          <img alt="Wikipedia" src="/assets/social/wikipedia-22bfe7696efbf697304765453b7b3e1cadd139e76a084d4097cdfba40d04b93a.png"/>
+         </div>
+        </a>
+        <a href="http://www.mixedmartialarts.com/fighter/a:5c486a6c15f2de01" onclick="ga('send', 'event', 'ExternalClick', 'Fighter_UG/MMA.com');" rel="nofollow" target="_blank">
+         <div class="externalIcon">
+          <img alt="Ug" src="/assets/social/ug-5c64b50b91bc9407566d75c614f3359df296796b1d97e18010aadff3f0c03a29.png"/>
+         </div>
+        </a>
+        <a href="http://www.ufc.com/LyotoMachida" onclick="ga('send', 'event', 'ExternalClick', 'Fighter_Promoter');" rel="nofollow" target="_blank">
+         <div class="externalIcon">
+          <img alt="Missing promoter" src="/assets/social/missing_promoter-65c8804fb5e9320a20aac3747c479f1f7e120e991c9ae19f8af6a8eb1a97c04b.png"/>
+         </div>
+        </a>
+        <a href="http://www.ufcstats.com/fighter-details/f7a7f7118d4b01b6" onclick="ga('send', 'event', 'ExternalClick', 'Fighter_UFC Stats');" rel="nofollow" target="_blank">
+         <div class="externalIcon">
+          <img alt="Ufc stats" src="/assets/social/ufc_stats-7562d1dc929fa5eef5efeff74f6a4c104919ae1c0cefde3ea531892758c0d3e6.png"/>
+         </div>
+        </a>
+        <a href="https://www.bestfightodds.com/fighters/lyoto-machida-161" onclick="ga('send', 'event', 'ExternalClick', 'Fighter_BestFighOdds');" rel="nofollow" target="_blank">
+         <div class="externalIcon">
+          <img alt="Bestfightodds" src="/assets/social/bestfightodds-b30d9cb35e8ef8457a48558c2c96698db4c2cfa127fea9ff98820c94b54754db.png"/>
+         </div>
+        </a>
+       </div>
+      </li>
+      <li>
+       <strong>
+        Personal Links:
+       </strong>
+       <br/>
+       <div class="externalIconsHolder">
+        <a href="https://www.facebook.com/pages/lyoto-machida-the-dragon/179683902050509" onclick="ga('send', 'event', 'ExternalClick', 'Fighter_Facebook');" rel="nofollow" target="_blank">
+         <div class="externalIcon">
+          <img alt="Facebook" src="/assets/social/facebook-caaa8c8ad12aebc3b58ef8f696a1acff4222eeb72b01297b1d0ed9dfb2efd3c6.png"/>
+         </div>
+        </a>
+        <a href="https://www.twitter.com/lyotomachidafw" onclick="ga('send', 'event', 'ExternalClick', 'Fighter_Twitter');" rel="nofollow" target="_blank">
+         <div class="externalIcon">
+          <img alt="Twitter" src="/assets/social/twitter-67a46008550d527a2d9dd557f90f1e0e2a093eb44767efb3c7393e5f7c809578.png"/>
+         </div>
+        </a>
+        <a href="http://lyotomachida.net/" onclick="ga('send', 'event', 'ExternalClick', 'Fighter_Personal');" rel="nofollow" target="_blank">
+         <div class="externalIcon">
+          <img alt="Missing fighter" src="/assets/social/missing_fighter-e07d8b02b423f8e9d3b34853d75f70e50fe7f9b9fe6d6c708e99e4639044fcbd.png"/>
+         </div>
+        </a>
+        <a href="https://instagram.com/lyotomachidafw" onclick="ga('send', 'event', 'ExternalClick', 'Fighter_Instagram');" rel="nofollow" target="_blank">
+         <div class="externalIcon">
+          <img alt="Instagram" src="/assets/social/instagram-0514a15687d72df706ccd753ee5fdca547fbddc29292b746c4c7944c64611ae1.png"/>
+         </div>
+        </a>
+       </div>
+      </li>
+     </ul>
+    </div>
+    <div class="logged-out-content-premium pageLocationContainer">
+     <div class="teadContentContainer" id="teadTapologyContainer">
+     </div>
+    </div>
+    <div class="fighterRankingSectionContainer">
+     <div class="noMargin rankInfo">
+      <h4>
+       Worldwide Rankings
+       <span class="help">
+        <a href="/faq_rankings">
+         Rankings FAQ
+        </a>
+       </span>
+      </h4>
+      <div class="rankInfoListHolder">
+       <div class="rankInfoListItem">
+        <div class="rankInfoListRank">
+         #7
+        </div>
+        <div class="rankInfoListName">
+         <a href="/rankings/top-ten-all-time-greatest-mma-and-ufc-strikers">
+          Greatest MMA Striker of All Time
+         </a>
+        </div>
+       </div>
+       <div class="rankInfoListItem">
+        <div class="rankInfoListRank">
+         #25
+        </div>
+        <div class="rankInfoListName">
+         <a href="/rankings/top-ten-all-time-greatest-mma-and-ufc-fighters">
+          Greatest MMA Fighter of All Time
+         </a>
+        </div>
+       </div>
+       <div class="rankInfoListItem">
+        <div class="rankInfoListRank">
+         #35
+        </div>
+        <div class="rankInfoListName">
+         <a href="/rankings/current-top-ten-light-heavyweight-mma-fighters-205-pounds">
+          Current Best MMA Light Heavyweight Fighter
+         </a>
+        </div>
+       </div>
+       <div class="rankInfoListItem">
+        <div class="rankInfoListRank">
+         #47
+        </div>
+        <div class="rankInfoListName">
+         <a href="/rankings/top-ten-fan-favorite-mma-and-ufc-fighters">
+          Top Fan Favorite MMA Fighter
+         </a>
+        </div>
+       </div>
+      </div>
+     </div>
+     <div class="fighterRegionRankingsHolder">
+      <h4>
+       Regional Rankings
+       <span class="help">
+        <a href="/faq_rankings">
+         Rankings FAQ
+        </a>
+       </span>
+      </h4>
+      <div class="fighterRegionRankingIneligible">
+       <p>
+        Fighting for a major organization has made Lyoto Machida ineligible for regional rankings.
+       </p>
+      </div>
+     </div>
+    </div>
+    <div class="fighterGymsContainer">
+     <h4>
+      Gyms &amp; Affiliations
+     </h4>
+     <div class="fighterGymsListHolder">
+      <div class="fighterGymListItem">
+       <div class="fighterGymListImage">
+        <a href="/gyms/779-black-house-mma">
+         <img alt="Black House MMA" src="https://images.tapology.com/gyms/logos/779/profile/779-black-house-mma.jpg?1410888402"/>
+        </a>
+       </div>
+       <div class="fighterGymListName">
+        <a href="/gyms/779-black-house-mma">
+         Black House MMA
+        </a>
+       </div>
+      </div>
+     </div>
+    </div>
+    <div class="logged-out-content-middle pageLocationContainer">
+     <div class="contentDfpContainer">
+      <!-- /50126581/sortcontentmiddle -->
+      <div id="div-gpt-ad-1527779529805-0" style="height:90px; width:728px;">
+       <script>
+        googletag.cmd.push(function() {
+      deployads.push(function() { deployads.gpt.display('div-gpt-ad-1527779529805-0'); });
+    });
+       </script>
+      </div>
+     </div>
+    </div>
+    <div id="react-container">
+    </div>
+    <div class="logged-out-content-lower pageLocationContainer">
+     <div class="contentDfpContainer">
+      <!-- /50126581/sortcontentlower -->
+      <div id="div-gpt-ad-1527779688976-0">
+       <script>
+        googletag.cmd.push(function() {
+      deployads.push(function() { deployads.gpt.display('div-gpt-ad-1527779688976-0'); });
+    });
+       </script>
+      </div>
+     </div>
+    </div>
+    <div class="fighterWikiHolder">
+     <h3>
+      Wiki
+     </h3>
+     <div class="writeupContainer">
+      <div class="writeupContentsContainer">
+       <div class="writeupContentsHeader">
+        <h4>
+         Lyoto Machida Wiki
+         <span class="right">
+          <a href="/profiles/new">
+           Update Wiki
+          </a>
+         </span>
+        </h4>
+       </div>
+       <div class="writeupContents clearfix">
+        <p>
+         Lyoto “The Dragon” Machida is one of the most skilled and elusive fighters in the history of mixed martial arts. His impressive list of victories includes former UFC Champions
+         <a href="http://www.tapology.com/fightcenter/fighters/rich-franklin-ace" rel="nofollow">
+          Rich Franklin
+         </a>
+         ,
+         <a href="http://www.tapology.com/fightcenter/fighters/bj-penn-the-prodigy" rel="nofollow">
+          BJ Penn
+         </a>
+         ,
+         <a href="http://www.tapology.com/fightcenter/fighters/tito-ortiz-the-huntington-beach-bad-boy" rel="nofollow">
+          Tito Ortiz
+         </a>
+         ,
+         <a href="http://www.tapology.com/fightcenter/fighters/rashad-evans-sugar" rel="nofollow">
+          Rashad Evans
+         </a>
+         ,
+         <a href="http://www.tapology.com/fightcenter/fighters/mauricio-rua-shogun" rel="nofollow">
+          Mauricio Rua
+         </a>
+         and
+         <a href="http://www.tapology.com/fightcenter/fighters/randy-couture-the-natural" rel="nofollow">
+          Randy Couture
+         </a>
+         as well as
+         <a href="http://www.tapology.com/fightcenter/fighters/thiago-silva" rel="nofollow">
+          Thiago Silva
+         </a>
+         ,
+         <a href="http://www.tapology.com/fightcenter/fighters/stephan-bonnar-the-american-psycho" rel="nofollow">
+          Stephan Bonnar
+         </a>
+         ,
+         <a href="http://www.tapology.com/fightcenter/fighters/rameau-thierry-sokoudjou-the-african-assassin" rel="nofollow">
+          "The African Assassin" Rameau Thierry Sokoudjou
+         </a>
+         ,
+         <a href="http://www.tapology.com/fightcenter/fighters/ryan-bader-darth" rel="nofollow">
+          Ryan Bader
+         </a>
+         and
+         <a href="http://www.tapology.com/fightcenter/fighters/dan-henderson-hollywood" rel="nofollow">
+          Dan Henderson
+         </a>
+         . Machida made his UFC debut in 2007 after compiling an undefeated 8-0 record outside of the promotion, and eventually propelled himself to a position as the top contender at 205 lbs. with six straight victories. Machida knocked out then-champion Rashad Evans for the Light Heavyweight Championship at UFC 98 in May of 2009, becoming the promotion’s second undefeated fighter to win a world title.
+        </p>
+        <br/>
+        <p>
+         Born in the Brazilian city of Salvador in 1978, Machida was the third son of the highly ranked head of the Brazilian branch of the Japan Karate Association, Yoshizo Machida. He earned his black belt in Machida Karate at the age of 13 and went on to win major world titles in sport Karate competition before transitioning to mixed martial arts in 2003. He comes from a traditional Japanese family. His first name means "Dragon" in Japanese which is where he got his nickname. Although he is known for his striking ability, he has only finished ten of his twenty wins with eight T/KOs. He has received some criticism for his use of urine therapy in which he drinks his own urine in the morning in order to stay fit.
+        </p>
+        <br/>
+        <p>
+         While the base of his fighting style is traditional Karate, Machida is also an experienced practitioner of Sumo, Brazilian Jiu-Jitsu and western freestyle wrestling. He is able to combine these various disciplines into one of the most deceptive and difficult combative styles in the history of the sport. Although he has been criticized for retreating from opponents in the past, Machida often utilizes this technique to lull his opponents into a sense of complacency before launching an offensive striking assault of his own. His list of knockout victims is proof of his willingness to engage. However, his style has a key defect as he drops his rear hand as he punches on a retreat. This is likely due to that fact that in competitive karate tournaments points must be scored this way.
+        </p>
+        <br/>
+        <p>
+         The first fighter to solve the Machida puzzle was vaunted Brazilian striker
+         <a href="http://www.tapology.com/fightcenter/fighters/mauricio-rua-shogun" rel="nofollow">
+          Mauricio Rua
+         </a>
+         . In their first fight, Rua used powerful leg kicks to continuously back up Machida, taking away Machida's kicks as he needs to be coming forward to get power behind them. Machida did however threw enough punches to win a highly disputed decision. In their next fight Rua, knocked Machida out in the first round of their highly anticipated rematch to deal "The Dragon" his first professional loss and relieve him of his title in the process.
+        </p>
+        <p>
+         <br/>
+        </p>
+        <p>
+         Machida would go on to lose a close split decision to
+         <a href="http://www.tapology.com/fightcenter/fighters/quinton-jackson-rampage" rel="nofollow">
+          Quinton "Rampage" Jackson
+         </a>
+         where both fighters were very tentative due to each fighters respective one punch power. He next defeated Randy Couture with a crane kick in another highly anticipated fight. This was to be Couture's last fight before retirement. This win earned him a title shot against UFC light heavyweight champion,
+         <a href="http://www.tapology.com/fightcenter/fighters/jon-jones-bones" rel="nofollow">
+          Jon Jones
+         </a>
+         . After winning the first round against the champ, Machida was choked out by a standing guillotine in the second round. Machida rebounded from with a stunning second round knockout of
+         <a href="http://www.tapology.com/fightcenter/fighters/ryan-bader-darth" rel="nofollow">
+          Ryan Bader
+         </a>
+         . At UFC 157, Lyoto would face
+         <a href="http://www.tapology.com/fightcenter/fighters/dan-henderson-hollywood" rel="nofollow">
+          Dan Henderson
+         </a>
+         in the co-main event. He was coming off of a vicious knockout of Bader and Henderson was coming off of a long layoff in which he last tasted victory at UFC 139 in one of the greatest fights of all time against
+         <a href="http://www.tapology.com/fightcenter/fighters/mauricio-rua-shogun" rel="nofollow">
+          Mauricio Rua
+         </a>
+         . Machida would earn the split decision victory over Henderson. He would follow that up with a decision loss to
+         <a href="http://www.tapology.com/fightcenter/fighters/phil-davis-mr-wonderful" rel="nofollow">
+          Phil Davis
+         </a>
+         at UFC 163 in a very close and hard to score fight.
+         <br/>
+        </p>
+        <p>
+         <br/>
+        </p>
+        <p>
+         Machida was hoping to rebound again when he took on
+         <a href="http://www.tapology.com/fightcenter/fighters/mark-munoz-the-philippine-wrecking-machine" rel="nofollow">
+          Mark Munoz
+         </a>
+         in the main event of UFC Fight Night 30. Although this was his first time competing at middleweight, he was able to quickly finish his opponent with a head kick knockout that earned him "knockout of the night" honors. Machida would then have his sophmore fight at middleweight against
+         <a href="http://www.tapology.com/fightcenter/fighters/gegard-mousasi-the-dreamcatcher" rel="nofollow">
+          Gegard Mousasi
+         </a>
+         in the main event of UFC Fight Night 36. He would pick up the unanimous decision as well as the Fight of the Night bonus. Due to
+         <a href="http://www.tapology.com/fightcenter/fighters/vitor-belfort-the-phenom" rel="nofollow">
+          Vitor Belfort
+         </a>
+         dropping out of the title fight against
+         <a href="http://www.tapology.com/fightcenter/fighters/chris-weidman" rel="nofollow">
+          Chris Weidman
+         </a>
+         , it would leave the opportunity for Machida to get the shot at UFC 175.
+         <br/>
+         <br/>
+         Machida lost the fight via unanimous decision. After Weidman had controlled much of the action throughout the first three rounds with his wrestling and relentless pressure, Machida began to find his range on his strikes in the fourth. Machida landed a number of hard strikes in the round including a left hook which stunned Weidman at the very end of the round. Machida would continue to find success striking early in the fifth as well. However, Weidman would land several hard shots of his own later in the round before seemingly clinching the round with a takedown and controlling Machida from top position for over a minute, although Machida managed to stand up and attack with a flurry of strikes in the closing seconds of the round. Despite losing on the scorecards, Machida earned his third
+         <i>
+          Fight of the Night
+         </i>
+         bonus award for his performance. Machida statde after the fight that he took to long to turn up the intensity and that it cost him the fight.
+         <br/>
+         <br/>
+         Machida looked to rebound by taking on
+         <a href="http://www.tapology.com/fightcenter/fighters/cb-dollaway-the-doberman" rel="nofollow">
+          C.B. "The Doberman" Dollaway
+         </a>
+         at
+         <a href="http://www.tapology.com/fightcenter/events/25634-ufc-fight-night" rel="nofollow">
+          UFC Fight Night 58: Machida vs. Dollaway
+         </a>
+         on December 20th. The fight with Dollaway would only last 1:02 into the first round where Machida hit Dollaway with a liver kick and would finish with strikes to earn the TKO victory. It would also earn Machida a Performance of the Night bonus.
+         <br/>
+         <br/>
+        </p>
+       </div>
+      </div>
+      <div class="writeupContributors">
+       <h4>
+        <div class="right">
+         Last updated
+         <abbr class="timefrom" title="2014-12-31 08:55:51 -0500">
+          12.31.2014,  8:55 AM ET
+         </abbr>
+        </div>
+        Wiki Contributors:
+       </h4>
+       <ul class="contributorGroup">
+        <li>
+         <dl class="contributor">
+          <a class="hoverTool" href="/profiles/edu94" id="edu94" title="edu94">
+           <img alt="edu94" class="contributor_icon" src="https://images.tapology.com/profile_images/8810/tiny/8810.jpg?1331519064"/>
+          </a>
+         </dl>
+        </li>
+        <li>
+         <dl class="contributor">
+          <a class="hoverTool" href="/profiles/hiblet" id="hiblet" title="hiblet">
+           <img alt="hiblet" class="contributor_icon" src="https://images.tapology.com/profile_images/7603/tiny/7603.jpg?1422125382"/>
+          </a>
+         </dl>
+        </li>
+        <li>
+         <dl class="contributor">
+          <a class="hoverTool" href="/profiles/joelkiz" id="Joelkiz" title="Joelkiz">
+           <img alt="Joelkiz" class="contributor_icon" src="https://images.tapology.com/profile_images/12411/tiny/12411.jpg?1352680995"/>
+          </a>
+         </dl>
+        </li>
+        <li>
+         <dl class="contributor">
+          <a class="hoverTool" href="/profiles/tapology" id="Tapology" title="Tapology">
+           <img alt="Tapology" class="contributor_icon" src="https://images.tapology.com/profile_images/8330/tiny/8330.jpg?1327178586"/>
+          </a>
+         </dl>
+        </li>
+        <li>
+         <dl class="contributor">
+          <a class="hoverTool" href="/profiles/poir420" id="poir420" title="poir420">
+           <img alt="poir420" class="contributor_icon" src="https://images.tapology.com/profile_images/1166/tiny/1166.jpg?1535145159"/>
+          </a>
+         </dl>
+        </li>
+        <li>
+         <dl class="contributor">
+          <a class="hoverTool" href="/profiles/putaforkinya" id="putaforkinya" title="putaforkinya">
+           <img alt="putaforkinya" class="contributor_icon" src="https://images.tapology.com/profile_images/3258/tiny/3258.jpg?1543675721"/>
+          </a>
+         </dl>
+        </li>
+        <li>
+         <dl class="contributor">
+          <a class="hoverTool" href="/profiles/twister44" id="Twister44" title="Twister44">
+           <img alt="Twister44" class="contributor_icon" src="https://images.tapology.com/profile_images/32287/tiny/32287.jpg?1522256029"/>
+          </a>
+         </dl>
+        </li>
+        <li>
+         <dl class="contributor">
+          <a class="hoverTool" href="/profiles/mikelovestacos%20xd" id="MikeLovesTacos XD" title="MikeLovesTacos XD">
+           <img alt="MikeLovesTacos XD" class="contributor_icon" src="https://images.tapology.com/profile_images/5366/tiny/5366.jpg?1545490256"/>
+          </a>
+         </dl>
+        </li>
+       </ul>
+      </div>
+     </div>
+    </div>
+    <h3 class="marBottom">
+     Lyoto Machida News
+     <span class="moreLink">
+      <a href="/fightcenter/fighters/lyoto-machida-the-dragon/news">
+       View All
+      </a>
+     </span>
+    </h3>
+    <div class="fighterNewsItems">
+     <div class="newsItemSmall">
+      <div class="newsItemSmallLogo">
+       <table>
+        <tr>
+         <td>
+          <a href="/news/bloody-elbow/items">
+           <img alt="Bloody Elbow" src="https://images.tapology.com/logos/17/thumb/bloody_elbow_logo.png?1351827544"/>
+          </a>
+         </td>
+        </tr>
+       </table>
+      </div>
+      <div class="newsItemSmallTitle">
+       <a href="https://www.bloodyelbow.com/2019/6/22/18713652/bellator-london-223-full-fight-results-mousasi-vs-lovato-daley-vs-silva-mma-news" onclick="ga('send', 'event', 'NewsClick', 'Bloody Elbow');" rel="nofollow" target="_blank">
+        Spoilers: Bellator London and Bellator 223 full fight results
+       </a>
+      </div>
+      <div class="newsItemSmallText">
+       Rafael Lovato Jr. won Bellator’s middleweight title on a night when James Gallagher, ...
+       <span class="gold">
+        (
+       </span>
+       <span class="gold">
+        <abbr class="timeago" title="2019-06-22 21:20:52 -0400">
+         2019-06-22 21:20:52 -0400
+        </abbr>
+       </span>
+       <span class="gold">
+        )
+       </span>
+      </div>
+     </div>
+     <div class="newsItemSmall">
+      <div class="newsItemSmallLogo">
+       <table>
+        <tr>
+         <td>
+          <a href="/news/lowkickmma/items">
+           <img alt="LowKickMMA" src="https://images.tapology.com/logos/107/thumb/lowkickmma-logo.png?1501722638"/>
+          </a>
+         </td>
+        </tr>
+       </table>
+      </div>
+      <div class="newsItemSmallTitle">
+       <a href="https://www.lowkickmma.com/lyoto-machida-plans-on-fighting-three-four-more-years/" onclick="ga('send', 'event', 'NewsClick', 'LowKickMMA');" rel="nofollow" target="_blank">
+        Lyoto Machida Plans On Fighting ‘Three, Four More Years’
+       </a>
+      </div>
+      <div class="newsItemSmallText">
+       Bellator light heavyweight Lyoto Machida has no plans on retiring from mixed martial arts...
+       <span class="gold">
+        (
+       </span>
+       <span class="gold">
+        <abbr class="timeago" title="2019-06-22 08:14:51 -0400">
+         2019-06-22 08:14:51 -0400
+        </abbr>
+       </span>
+       <span class="gold">
+        )
+       </span>
+      </div>
+     </div>
+     <div class="newsItemSmall">
+      <div class="newsItemSmallLogo">
+       <table>
+        <tr>
+         <td>
+          <a href="/news/bloody-elbow/items">
+           <img alt="Bloody Elbow" src="https://images.tapology.com/logos/17/thumb/bloody_elbow_logo.png?1351827544"/>
+          </a>
+         </td>
+        </tr>
+       </table>
+      </div>
+      <div class="newsItemSmallTitle">
+       <a href="https://www.bloodyelbow.com/2019/6/21/18700329/ufc-dana-white-chael-sonnen-best-guy-push-buttons-before-conor-mcgregor-mma-news" onclick="ga('send', 'event', 'NewsClick', 'Bloody Elbow');" rel="nofollow" target="_blank">
+        Dana: Sonnen was ‘the best guy to push buttons’ before McGregor
+       </a>
+      </div>
+      <div class="newsItemSmallText">
+       UFC president Dana White has some complimentary words for the recently-retired Chael ...
+       <span class="gold">
+        (
+       </span>
+       <span class="gold">
+        <abbr class="timeago" title="2019-06-21 11:00:00 -0400">
+         2019-06-21 11:00:00 -0400
+        </abbr>
+       </span>
+       <span class="gold">
+        )
+       </span>
+      </div>
+     </div>
+     <div class="newsItemSmall">
+      <div class="newsItemSmallLogo">
+       <table>
+        <tr>
+         <td>
+          <a href="/news/lowkickmma/items">
+           <img alt="LowKickMMA" src="https://images.tapology.com/logos/107/thumb/lowkickmma-logo.png?1501722638"/>
+          </a>
+         </td>
+        </tr>
+       </table>
+      </div>
+      <div class="newsItemSmallTitle">
+       <a href="https://www.lowkickmma.com/dana-white-praises-chael-sonnen-after-retirement/" onclick="ga('send', 'event', 'NewsClick', 'LowKickMMA');" rel="nofollow" target="_blank">
+        Dana White Praises Chael Sonnen After MMA Retirement Announcement
+       </a>
+      </div>
+      <div class="newsItemSmallText">
+       Former UFC middleweight and light heavyweight title challenger, Chael Sonnen, has decided...
+       <span class="gold">
+        (
+       </span>
+       <span class="gold">
+        <abbr class="timeago" title="2019-06-21 08:58:36 -0400">
+         2019-06-21 08:58:36 -0400
+        </abbr>
+       </span>
+       <span class="gold">
+        )
+       </span>
+      </div>
+     </div>
+     <div class="newsItemSmall">
+      <div class="newsItemSmallLogo">
+       <table>
+        <tr>
+         <td>
+          <a href="/news/mymmanews/items">
+           <img alt="MyMMANews" src="https://images.tapology.com/logos/109/thumb/My-MMA-news-logo.jpg?1541445923"/>
+          </a>
+         </td>
+        </tr>
+       </table>
+      </div>
+      <div class="newsItemSmallTitle">
+       <a href="https://mymmanews.com/chael-sonnen-breaks-down-bellator-222-loss-to-lyoto-machida/" onclick="ga('send', 'event', 'NewsClick', 'MyMMANews');" rel="nofollow" target="_blank">
+        Chael Sonnen Breaks Down Bellator 222 Loss To Lyoto Machida
+       </a>
+      </div>
+      <div class="newsItemSmallText">
+       Chael Sonnen has spoken out on his loss to Lyoto Machida at Bellator 222. Sonnen
+
+The pos...
+       <span class="gold">
+        (
+       </span>
+       <span class="gold">
+        <abbr class="timeago" title="2019-06-20 17:50:09 -0400">
+         2019-06-20 17:50:09 -0400
+        </abbr>
+       </span>
+       <span class="gold">
+        )
+       </span>
+      </div>
+     </div>
+     <div class="newsItemSmall">
+      <div class="newsItemSmallLogo">
+       <table>
+        <tr>
+         <td>
+          <a href="/news/mmafighting-com/items">
+           <img alt="MMAFighting.com" src="https://images.tapology.com/logos/20/thumb/MMA-Fighting-com-logo.png?1351827345"/>
+          </a>
+         </td>
+        </tr>
+       </table>
+      </div>
+      <div class="newsItemSmallTitle">
+       <a href="https://www.mmafighting.com/2019/6/20/18683824/fortunes-changed-for-five-at-bellator-222" onclick="ga('send', 'event', 'NewsClick', 'MMAFighting.com');" rel="nofollow" target="_blank">
+        Fortunes changed for five at Bellator 222
+       </a>
+      </div>
+      <div class="newsItemSmallText">
+       After third loss, Aaron Pico’s career in do-or-die mode. From the age of 15, Aaron Pi...
+       <span class="gold">
+        (
+       </span>
+       <span class="gold">
+        <abbr class="timeago" title="2019-06-20 10:00:00 -0400">
+         2019-06-20 10:00:00 -0400
+        </abbr>
+       </span>
+       <span class="gold">
+        )
+       </span>
+      </div>
+     </div>
+     <div class="newsItemSmall">
+      <div class="newsItemSmallLogo">
+       <table>
+        <tr>
+         <td>
+          <a href="/news/mmafighting-com/items">
+           <img alt="MMAFighting.com" src="https://images.tapology.com/logos/20/thumb/MMA-Fighting-com-logo.png?1351827345"/>
+          </a>
+         </td>
+        </tr>
+       </table>
+      </div>
+      <div class="newsItemSmallTitle">
+       <a href="https://www.mmafighting.com/2019/6/19/18691041/the-a-side-bellator-222-chael-sonnen-retirement-ufc-greenville-paulie-malignaggi-artem-lobov-more" onclick="ga('send', 'event', 'NewsClick', 'MMAFighting.com');" rel="nofollow" target="_blank">
+        The A-Side Live Chat on now
+       </a>
+      </div>
+      <div class="newsItemSmallText">
+       This is The A-Side Live Chat on MMA Fighting.
+
+Today, José Youngs will be joined by e...
+       <span class="gold">
+        (
+       </span>
+       <span class="gold">
+        <abbr class="timeago" title="2019-06-19 09:15:00 -0400">
+         2019-06-19 09:15:00 -0400
+        </abbr>
+       </span>
+       <span class="gold">
+        )
+       </span>
+      </div>
+     </div>
+     <div class="newsItemSmall">
+      <div class="newsItemSmallLogo">
+       <table>
+        <tr>
+         <td>
+          <a href="/news/mmafighting-com/items">
+           <img alt="MMAFighting.com" src="https://images.tapology.com/logos/20/thumb/MMA-Fighting-com-logo.png?1351827345"/>
+          </a>
+         </td>
+        </tr>
+       </table>
+      </div>
+      <div class="newsItemSmallTitle">
+       <a href="https://www.mmafighting.com/2019/6/19/18691041/the-a-side-bellator-222-chael-sonnen-retirement-ufc-greenville-paulie-malignaggi-artem-lobov-more" onclick="ga('send', 'event', 'NewsClick', 'MMAFighting.com');" rel="nofollow" target="_blank">
+        The A-Side Live Chat: Live 1 p.m. ET / 10 a.m. PT
+       </a>
+      </div>
+      <div class="newsItemSmallText">
+       This is The A-Side Live Chat on MMA Fighting.
+
+Today, José Youngs will be joined by e...
+       <span class="gold">
+        (
+       </span>
+       <span class="gold">
+        <abbr class="timeago" title="2019-06-19 09:15:00 -0400">
+         2019-06-19 09:15:00 -0400
+        </abbr>
+       </span>
+       <span class="gold">
+        )
+       </span>
+      </div>
+     </div>
+    </div>
+    <h3 id="videos">
+     Videos &amp; Highlights
+    </h3>
+    <div class="videos">
+     <ul>
+      <h4>
+       Promo Video  |  Signature Moves: Lyoto Machida
+       <span class="reportLink">
+        <a data-method="post" data-remote="true" href="/tickets/video_issue" rel="nofollow">
+         report dead link
+        </a>
+       </span>
+      </h4>
+      <p>
+       Watch Lyoto Machida demonstrate his favorite Octagon techniques.
+      </p>
+      <li class="border">
+       <iframe allow="autoplay; encrypted-media" allowfullscreen="" frameborder="0" height="427" src="https://www.youtube.com/embed/-p3qzMz1JAk?rel=0" width="716">
+       </iframe>
+      </li>
+      <h4>
+       Highlight  |  Black House MMA Series Vol. 2: Lyoto "The Dragon" Machida Video
+       <span class="reportLink">
+        <a data-method="post" data-remote="true" href="/tickets/video_issue" rel="nofollow">
+         report dead link
+        </a>
+       </span>
+      </h4>
+      <p>
+       Lux Tic Productions profiles Lyoto Machida in this highlight video, the second from its series featuring Brazilian fighters from team Black House MMA.
+      </p>
+      <li class="border">
+       <iframe frameborder="0" height="427" src="https://player.vimeo.com/video/16541678" width="716">
+       </iframe>
+      </li>
+      <h4>
+       Highlight  |  "Ryoto Machida - The World Warrior" HL Video by Kahl-One
+       <span class="reportLink">
+        <a data-method="post" data-remote="true" href="/tickets/video_issue" rel="nofollow">
+         report dead link
+        </a>
+       </span>
+      </h4>
+      <p>
+       Kahl-One brings us this first rate video highlight reel of "The Dragon," Lyoto Machida.
+      </p>
+      <li class="border">
+       <iframe frameborder="0" height="427" src="https://player.vimeo.com/video/4850758" width="716">
+       </iframe>
+      </li>
+      <h4>
+       Highlight  |  Lyoto Machida Highlight Video by Genghis Con
+       <span class="reportLink">
+        <a data-method="post" data-remote="true" href="/tickets/video_issue" rel="nofollow">
+         report dead link
+        </a>
+       </span>
+      </h4>
+      <p>
+       MMA video maker Genghis Con takes us through Lyoto "The Dragon" Machida's best fights in this highlight video.
+      </p>
+      <li class="border">
+       <iframe allow="autoplay; encrypted-media" allowfullscreen="" frameborder="0" height="427" src="https://www.youtube.com/embed/MShG4rLcIao?rel=0" width="716">
+       </iframe>
+      </li>
+      <h4>
+       Highlight  |  "A True Master" Lyoto Machida HL Vid by TheDrinkableOne
+       <span class="reportLink">
+        <a data-method="post" data-remote="true" href="/tickets/video_issue" rel="nofollow">
+         report dead link
+        </a>
+       </span>
+      </h4>
+      <p>
+       Underground MMA video maker TheDrinkableOne brings us this Lyoto Machida highlight video, featuring "The Dragon's" greatest knockouts and more.
+      </p>
+      <li class="">
+       <iframe allow="autoplay; encrypted-media" allowfullscreen="" frameborder="0" height="427" src="https://www.youtube.com/embed/KEB2U9UN51I?rel=0" width="716">
+       </iframe>
+      </li>
+     </ul>
+    </div>
+   </div>
+   <section class="sidebar" id="sidebar" itemscope="" itemtype="http://schema.org/WPSideBar">
+    <div class="sidebarToggler">
+     <i class="material-icons toggler">
+      close
+     </i>
+    </div>
+    <div class="logged-out-sidebar-top pageLocationContainer">
+     <div class="sidebarDfpContainer">
+      <!-- /50126581/sortsidebartop -->
+      <div id="div-gpt-ad-1527779787969-0">
+       <script>
+        googletag.cmd.push(function() {
+      deployads.push(function() { deployads.gpt.display('div-gpt-ad-1527779787969-0'); });
+    });
+       </script>
+      </div>
+     </div>
+    </div>
+    <div id="specOwnershipSidebarClaimSection">
+     <div class="ownershipSidebar" id="ownObject">
+      <div class="iconLead">
+       <i class="material-icons">
+        domain
+       </i>
+       <div class="textContents">
+        <div class="leader">
+         Lyoto Machida
+        </div>
+        <p class="sub">
+         <a href="/manage_tapology/new?related_id=19&amp;related_type=Fighter" onclick="ga('send', 'event', 'InternalClick', 'ownership');">
+          Claim this page
+         </a>
+        </p>
+       </div>
+      </div>
+     </div>
+     <div class="ownershipSidebar">
+      <div class="iconLead">
+       <i class="material-icons">
+        location_city
+       </i>
+       <div class="textContents">
+        <div class="leader">
+         MMA Promoter?
+        </div>
+        <p class="sub">
+         <a href="/manage_tapology" onclick="ga('send', 'event', 'InternalClick', 'ownership');">
+          Post and manage your events
+         </a>
+        </p>
+       </div>
+      </div>
+     </div>
+    </div>
+    <div class="pickDeadlineSidebar">
+     <div class="iconLead">
+      <i class="material-icons">
+       input
+      </i>
+      <div class="textContents">
+       <a href="/profiles/new">
+        Pick 'Em &amp; Fantasy Games
+       </a>
+       <p class="sub multi">
+        - All the biggest upcoming MMA &amp; Boxing fights
+       </p>
+       <p class="sub multi">
+        - Create a free Tapology account to play
+       </p>
+      </div>
+     </div>
+     <table class="fcCard sidebarBasic">
+      <tr>
+       <th scope="col">
+        Event
+       </th>
+       <th class="gutter thin" scope="col">
+       </th>
+       <th scope="col">
+        Start Time
+       </th>
+      </tr>
+      <tr>
+       <td>
+        <a href="/fightcenter/events/59494-dw-s-contender-series-2019-week-2">
+         Contender Series 2019
+        </a>
+       </td>
+       <td class="gutter">
+       </td>
+       <td>
+        <abbr class="timefrom" title="2019-06-25 20:00:00 -0400">
+         06.25.2019,  8:00 PM ET
+        </abbr>
+       </td>
+      </tr>
+      <tr>
+       <td>
+        <a href="/fightcenter/events/60649-titan-fc-55-puerta-vs-ledesma">
+         Titan FC 55
+        </a>
+       </td>
+       <td class="gutter">
+       </td>
+       <td>
+        <abbr class="timefrom" title="2019-06-28 19:00:00 -0400">
+         06.28.2019,  7:00 PM ET
+        </abbr>
+       </td>
+      </tr>
+      <tr>
+       <td>
+        <a href="/fightcenter/events/61142-lfa-70-ferreira-vs-martin">
+         LFA 70
+        </a>
+       </td>
+       <td class="gutter">
+       </td>
+       <td>
+        <abbr class="timefrom" title="2019-06-28 18:30:00 -0400">
+         06.28.2019,  6:30 PM ET
+        </abbr>
+       </td>
+      </tr>
+      <tr>
+       <td>
+        <a href="/fightcenter/events/57513-ufc-on-espn-4">
+         UFC on ESPN 3
+        </a>
+       </td>
+       <td class="gutter">
+       </td>
+       <td>
+        <abbr class="timefrom" title="2019-06-29 18:00:00 -0400">
+         06.29.2019,  6:00 PM ET
+        </abbr>
+       </td>
+      </tr>
+      <tr>
+       <td>
+        <a href="/fightcenter/events/58831-ufc-239">
+         UFC 239
+        </a>
+       </td>
+       <td class="gutter">
+       </td>
+       <td>
+        <abbr class="timefrom" title="2019-07-06 18:00:00 -0400">
+         07.06.2019,  6:00 PM ET
+        </abbr>
+       </td>
+      </tr>
+      <tr>
+       <td>
+        <a href="/fightcenter/events/59496-dw-s-contender-series-2019-week-4">
+         Contender Series 2019
+        </a>
+       </td>
+       <td class="gutter">
+       </td>
+       <td>
+        <abbr class="timefrom" title="2019-07-09 20:00:00 -0400">
+         07.09.2019,  8:00 PM ET
+        </abbr>
+       </td>
+      </tr>
+      <tr>
+       <td>
+        <a href="/fightcenter/events/58909-pfl-2019-4-regular-season">
+         PFL 2019 #4
+        </a>
+       </td>
+       <td class="gutter">
+       </td>
+       <td>
+        <abbr class="timefrom" title="2019-07-11 17:30:00 -0400">
+         07.11.2019,  5:30 PM ET
+        </abbr>
+       </td>
+      </tr>
+      <tr>
+       <td>
+        <a href="/fightcenter/events/60305-one-championship-masters-of-destiny">
+         ONE Championship
+        </a>
+       </td>
+       <td class="gutter">
+       </td>
+       <td>
+        <abbr class="timefrom" title="2019-07-12 06:30:00 -0400">
+         07.12.2019,  6:30 AM ET
+        </abbr>
+       </td>
+      </tr>
+     </table>
+    </div>
+    <div class="rankingPreviewSidebar">
+     <div class="iconLead">
+      <i class="material-icons">
+       format_list_numbered
+      </i>
+      <div class="textContents">
+       <div class="leader">
+        <a href="/profiles/new">
+         Build Your Own Rankings
+        </a>
+       </div>
+       <p class="sub multi">
+        - Rank fighters &amp; bouts in each division
+       </p>
+       <p class="sub multi">
+        - Create a free Tapology account to begin
+       </p>
+      </div>
+     </div>
+     <table>
+      <tr>
+       <th>
+        Greatest Featherweight Fights
+ |
+        <a href="/profiles/new">
+         edit
+        </a>
+       </th>
+      </tr>
+      <tr>
+       <td>
+        Leonard Garcia vs. Chan Sung Jung I
+       </td>
+      </tr>
+      <tr>
+       <td>
+        Urijah Faber vs. José Aldo
+       </td>
+      </tr>
+      <tr>
+       <td>
+        José Aldo vs. Mark Hominick
+       </td>
+      </tr>
+      <tr>
+       <td>
+        Dustin Poirier vs. Chan Sung Jung
+       </td>
+      </tr>
+      <tr>
+       <td>
+        Urijah Faber vs. Jens Pulver I
+       </td>
+      </tr>
+      <tr>
+       <td>
+        Mike Brown vs. Urijah Faber I
+       </td>
+      </tr>
+      <tr>
+       <td>
+        Leonard Garcia vs. Nam Phan
+       </td>
+      </tr>
+      <tr>
+       <td>
+        Urijah Faber vs. Mike Brown II
+       </td>
+      </tr>
+     </table>
+    </div>
+    <div class="logged-out-sidebar-middle pageLocationContainer">
+     <div class="sidebarDfpContainer">
+      <!-- /50126581/sortsidebarmiddle -->
+      <div id="div-gpt-ad-1527074803070-0">
+       <script>
+        googletag.cmd.push(function() {
+      deployads.push(function() { deployads.gpt.display('div-gpt-ad-1527074803070-0'); });
+    });
+       </script>
+      </div>
+     </div>
+    </div>
+    <div class="lessAdvertisingSidebar">
+     <div class="iconLead">
+      <i class="material-icons">
+       content_cut
+      </i>
+      <div class="textContents">
+       <a href="/profiles/new">
+        Cut the Advertising
+       </a>
+       <p class="sub">
+        Create an account and see fewer ads on Tapology.
+       </p>
+      </div>
+     </div>
+    </div>
+    <div class="contactSidebar">
+     <div class="iconLead">
+      <i class="material-icons">
+       feedback
+      </i>
+      <div class="textContents">
+       <a href="/tickets/new">
+        Contact Tapology
+       </a>
+       <p class="sub multi">
+        - Update Fight Cards, Fighter Bios, Gym Info.
+       </p>
+       <p class="sub multi">
+        - Get Website Support, Advertising, Other inquiries.
+       </p>
+      </div>
+     </div>
+    </div>
+    <div class="boutDisputeSidebar">
+     <div class="iconLead">
+      <i class="material-icons">
+       thumb_down
+      </i>
+      <div class="textContents">
+       <a href="/faq#errorsDisputes">
+        Dispute Fight Result
+       </a>
+       <p class="sub">
+        Submit a dispute regarding a bout's result.
+       </p>
+      </div>
+     </div>
+    </div>
+    <div class="birthdaySidebar">
+     <div class="iconLead">
+      <i class="material-icons">
+       cake
+      </i>
+      <div class="textContents">
+       <a href="/fightcenter/birthdays">
+        Fighter Birthdays
+       </a>
+       <p>
+        Kester Mark is 27 today!
+       </p>
+      </div>
+     </div>
+    </div>
+   </section>
+   <div class="newsTicker">
+    <div class="newsContent" id="newsContent">
+     <ul class="clearfix">
+      <li itemscope="" itemtype="http://schema.org/NewsArticle">
+       <span itemprop="headline">
+        <a href="/news/mma-junkie/items/452531" onclick="ga('send', 'event', 'TickerClick', 'NewsItem');">
+         MMA Junkie
+        </a>
+        :
+Dana White: If I'm wrong about Brendan Loughnane, 'knock yourself out' and sign him
+       </span>
+      </li>
+      <li itemscope="" itemtype="http://schema.org/NewsArticle">
+       <span itemprop="headline">
+        <a href="/news/mmafighting-com/items/452532" onclick="ga('send', 'event', 'TickerClick', 'NewsItem');">
+         MMAFighting.com
+        </a>
+        :
+Glover Teixeira vs. Nikita Krylov among new additions to UFC Vancouver
+       </span>
+      </li>
+      <li itemscope="" itemtype="http://schema.org/NewsArticle">
+       <span itemprop="headline">
+        <a href="/news/mmafighting-com/items/452529" onclick="ga('send', 'event', 'TickerClick', 'NewsItem');">
+         MMAFighting.com
+        </a>
+        :
+Suckerpunch Entertainment partners with Russian MMA team to expand global reach
+       </span>
+      </li>
+      <li itemscope="" itemtype="http://schema.org/NewsArticle">
+       <span itemprop="headline">
+        <a href="/news/mma-junkie/items/452521" onclick="ga('send', 'event', 'TickerClick', 'NewsItem');">
+         MMA Junkie
+        </a>
+        :
+Dana White mum on Jose Aldo's plans after new long-term UFC contract signed
+       </span>
+      </li>
+      <li itemscope="" itemtype="http://schema.org/NewsArticle">
+       <span itemprop="headline">
+        <a href="/news/mma-junkie/items/452517" onclick="ga('send', 'event', 'TickerClick', 'NewsItem');">
+         MMA Junkie
+        </a>
+        :
+Daily Debate results: What was the biggest surprise from Saturday's UFC, Bellator, BKFC cards?
+       </span>
+      </li>
+      <li itemscope="" itemtype="http://schema.org/NewsArticle">
+       <span itemprop="headline">
+        <a href="/news/mma-junkie/items/452512" onclick="ga('send', 'event', 'TickerClick', 'NewsItem');">
+         MMA Junkie
+        </a>
+        :
+Diego Sanchez is 'here to be the greatest of all time' – still after all these years
+       </span>
+      </li>
+      <li itemscope="" itemtype="http://schema.org/NewsArticle">
+       <span itemprop="headline">
+        <a href="/news/mma-junkie/items/452508" onclick="ga('send', 'event', 'TickerClick', 'NewsItem');">
+         MMA Junkie
+        </a>
+        :
+Live video stream: Dana White's Contender Series 18 pre-show from UFC Apex (7:15 p.m. ET)
+       </span>
+      </li>
+      <li itemscope="" itemtype="http://schema.org/NewsArticle">
+       <span itemprop="headline">
+        <a href="/news/mmafighting-com/items/452510" onclick="ga('send', 'event', 'TickerClick', 'NewsItem');">
+         MMAFighting.com
+        </a>
+        :
+Contender Series winner Yorgan De Castro eyeing Boston card for UFC debut
+       </span>
+      </li>
+      <li itemscope="" itemtype="http://schema.org/NewsArticle">
+       <span itemprop="headline">
+        <a href="/news/mma-weekly/items/452507" onclick="ga('send', 'event', 'TickerClick', 'NewsItem');">
+         MMA Weekly
+        </a>
+        :
+Dana White’s State of the UFC: Jon Jones is the greatest of all time (video)
+       </span>
+      </li>
+      <li itemscope="" itemtype="http://schema.org/NewsArticle">
+       <span itemprop="headline">
+        <a href="/news/mma-junkie/items/452500" onclick="ga('send', 'event', 'TickerClick', 'NewsItem');">
+         MMA Junkie
+        </a>
+        :
+Colby Covington's manager: UFC issued 'a little closer' to demand than offer to fight Robbie Lawler
+       </span>
+      </li>
+      <li itemscope="" itemtype="http://schema.org/NewsArticle">
+       <span itemprop="headline">
+        <a href="/news/mma-weekly/items/452499" onclick="ga('send', 'event', 'TickerClick', 'NewsItem');">
+         MMA Weekly
+        </a>
+        :
+Can Amanda Nunes be the first UFC champ-champ to defend at a lower weight? (video)
+       </span>
+      </li>
+      <li itemscope="" itemtype="http://schema.org/NewsArticle">
+       <span itemprop="headline">
+        <a href="/news/mma-junkie/items/452498" onclick="ga('send', 'event', 'TickerClick', 'NewsItem');">
+         MMA Junkie
+        </a>
+        :
+Justin Willis seeks UFC clarity, fight with 'clout-chaser' Tai Tuivasa
+       </span>
+      </li>
+      <li itemscope="" itemtype="http://schema.org/NewsArticle">
+       <span itemprop="headline">
+        <a href="/news/mmafighting-com/items/452494" onclick="ga('send', 'event', 'TickerClick', 'NewsItem');">
+         MMAFighting.com
+        </a>
+        :
+France to legalize MMA in January 2020
+       </span>
+      </li>
+      <li itemscope="" itemtype="http://schema.org/NewsArticle">
+       <span itemprop="headline">
+        <a href="/news/mma-junkie/items/452492" onclick="ga('send', 'event', 'TickerClick', 'NewsItem');">
+         MMA Junkie
+        </a>
+        :
+Latifi vs. Oezdemir, Miller vs. Guida among 11 fights for UFC on ESPN 5
+       </span>
+      </li>
+      <li itemscope="" itemtype="http://schema.org/NewsArticle">
+       <span itemprop="headline">
+        <a href="/news/mma-weekly/items/452490" onclick="ga('send', 'event', 'TickerClick', 'NewsItem');">
+         MMA Weekly
+        </a>
+        :
+Colby Covington vs. Robbie Lawler headlines UFC on ESPN 5
+       </span>
+      </li>
+      <li itemscope="" itemtype="http://schema.org/NewsArticle">
+       <span itemprop="headline">
+        <a href="/news/mma-junkie/items/452487" onclick="ga('send', 'event', 'TickerClick', 'NewsItem');">
+         MMA Junkie
+        </a>
+        :
+Colby Covington lashes out at Ben Askren: 'He doesn't even have a UFC win yet'
+       </span>
+      </li>
+      <li itemscope="" itemtype="http://schema.org/NewsArticle">
+       <span itemprop="headline">
+        <a href="/news/mmafighting-com/items/452488" onclick="ga('send', 'event', 'TickerClick', 'NewsItem');">
+         MMAFighting.com
+        </a>
+        :
+Brendan Loughnane on Contender Series contract snub: ‘What else do I have to do?’
+       </span>
+      </li>
+      <li itemscope="" itemtype="http://schema.org/NewsArticle">
+       <span itemprop="headline">
+        <a href="/news/mmafighting-com/items/452476" onclick="ga('send', 'event', 'TickerClick', 'NewsItem');">
+         MMAFighting.com
+        </a>
+        :
+Volkan Oezdemir vs. Ilir Latifi, Jim Miller vs. Clay Guida on tap for UFC Newark
+       </span>
+      </li>
+      <li itemscope="" itemtype="http://schema.org/NewsArticle">
+       <span itemprop="headline">
+        <a href="/news/mmafighting-com/items/452489" onclick="ga('send', 'event', 'TickerClick', 'NewsItem');">
+         MMAFighting.com
+        </a>
+        :
+Volkan Oezdemir vs. Ilir Latifi, Jim Miller vs. Clay Guida among several bouts announced for UFC Newark
+       </span>
+      </li>
+      <li itemscope="" itemtype="http://schema.org/NewsArticle">
+       <span itemprop="headline">
+        <a href="/news/mma-junkie/items/452473" onclick="ga('send', 'event', 'TickerClick', 'NewsItem');">
+         MMA Junkie
+        </a>
+        :
+Dana White doesn't foresee cultural issues if Conor McGregor shows up to UFC 242 in Abu Dhabi
+       </span>
+      </li>
+     </ul>
+    </div>
+    <span class="tickerBtn">
+     <input id="pausePlay" name="pausePlay" type="button"/>
+    </span>
+   </div>
+  </div>
+  <footer id="footer" itemscope="" itemtype="http://schema.org/WPFooter">
+   <div class="footerContent clearfix">
+    <div class="navRepeat">
+     <div class="fistContainer">
+      <svg id="tapology-fist" viewbox="0 0 139 116" xmlns="http://www.w3.org/2000/svg">
+       <g transform="translate(70.000000, 58.500000) scale(1, -1) translate(-70.000000, -58.500000) translate(-1.000000, 0.000000)">
+        <g transform="translate(0.000000, 0.150000)">
+         <g transform="translate(64.657000, 1.170000)">
+          <path d="M0,8.75 C0,4.18 3.70625,0.475 8.275,0.475 L66.73125,0.475 C71.30125,0.475 75.005,4.18 75.005,8.75 L75.005,23.085 C75.005,27.65625 71.30125,31.36 66.73125,31.36 L8.275,31.36 C3.70625,31.36 0,27.65625 0,23.085 L0,8.75 Z">
+          </path>
+         </g>
+         <g transform="translate(106.999500, 35.854500)">
+          <path d="M8.75,80 C3.91625,80 0,76.0825 0,71.24875 L0,9.42625 C0,4.5925 3.91625,0.675 8.75,0.675 L23.91125,0.675 C28.74375,0.675 32.6625,4.5925 32.6625,9.42625 L32.6625,71.24875 C32.6625,76.0825 28.74375,80 23.91125,80 L8.75,80 Z">
+          </path>
+         </g>
+         <g transform="translate(69.086875, 35.854500)">
+          <path d="M10,80 C5.16625,80 1.24875,76.0825 1.24875,71.24875 L1.24875,9.42625 C1.24875,4.5925 5.16625,0.675 10,0.675 L25.16125,0.675 C29.995,0.675 33.9125,4.5925 33.9125,9.42625 L33.9125,71.24875 C33.9125,76.0825 29.995,80 25.16125,80 L10,80 Z">
+          </path>
+         </g>
+         <g transform="translate(32.424375, 35.854500)">
+          <path d="M10,80 C5.16625,80 1.2475,76.0825 1.2475,71.24875 L1.2475,9.42625 C1.2475,4.5925 5.16625,0.675 10,0.675 L25.16,0.675 C29.99375,0.675 33.91125,4.5925 33.91125,9.42625 L33.91125,71.24875 C33.91125,76.0825 29.99375,80 25.16,80 L10,80 Z">
+          </path>
+         </g>
+         <g transform="translate(0.406500, 45.979625)">
+          <path d="M8.75,68.75 C4.60125,68.75 1.24125,65.38875 1.24125,61.2425 L1.24125,8.1975 C1.24125,4.05 4.60125,0.69 8.75,0.69 L21.7575,0.69 C25.90375,0.69 29.26625,4.05 29.26625,8.1975 L29.26625,61.2425 C29.26625,65.38875 25.90375,68.75 21.75625,68.75 L8.75,68.75 Z">
+          </path>
+         </g>
+        </g>
+       </g>
+      </svg>
+     </div>
+     <div class="links">
+      <p>
+       <a href="/team">
+        Tapology Team
+       </a>
+       ·
+       <a href="/site_tour">
+        Site Tour
+       </a>
+       ·
+       <a href="/tickets/new">
+        Contact Us
+       </a>
+       ·
+       <a href="/faq">
+        FAQ
+       </a>
+       ·
+       <a href="/terms_of_use">
+        Terms of Use
+       </a>
+       ·
+       <a href="/privacy">
+        Privacy
+       </a>
+       ·
+       <a href="/changelog">
+        Changelog
+       </a>
+      </p>
+     </div>
+    </div>
+    <div class="copyright">
+     <p class="copyright">
+      © 2019 Tapology.
+     </p>
+     <p>
+      <span>
+       Follow us:
+      </span>
+      <a href="http://www.facebook.com/Tapologycom">
+       Facebook
+      </a>
+      <span>
+       ·
+      </span>
+      <a href="http://www.twitter.com/tapology">
+       Twitter
+      </a>
+     </p>
+     <p class="version">
+      v1.4.0
+     </p>
+    </div>
+   </div>
+  </footer>
+  <!-- Google Analytics -->
+  <script>
+   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-7728585-4', 'auto');
+
+      ga('set', 'anonymizeIp', true);
+      ga('send', 'pageview');
+  </script>
+  <!-- End Google Analytics -->
+ </body>
+</html>
