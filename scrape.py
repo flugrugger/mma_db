@@ -11,18 +11,23 @@ with open('ufcRankings_html.txt', 'w') as f:
 #create a list of html tables, one for each weight class
 weightClassRankings = soup.find_all('table', class_="views-table views-view-table cols-0")
 
+#dictionary of each weight class (key), and corresponding champion (value)
+weightAndChampion = {}
+
 #for each weight class, extract the name of the weight class and the champion
 for i in weightClassRankings:
 
 	weightClassInfo = i.find('div', class_='info')
 
 	nameOfWeightClass = weightClassInfo.h4.text
-
-	print(nameOfWeightClass)
+	#print(nameOfWeightClass)
 
 	nameOfChampion = weightClassInfo.find('div', class_="views-row").text
 
-	print(nameOfChampion)
+	weightAndChampion[nameOfWeightClass] = nameOfChampion
+	#print(nameOfChampion)
 
-	print()
+	#print()
+
+print(weightAndChampion)
 
