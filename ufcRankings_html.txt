@@ -35,7 +35,7 @@ googletag.slots = googletag.slots || {};
 googletag.enableServices();
   </script>
   <link href="/sites/default/files/ufc_logo.png" rel="shortcut icon" type="image/png"/>
-  <script src="/sites/default/files/google_tag/google_tag.script.js?puw3se">
+  <script src="/sites/default/files/google_tag/google_tag.script.js?pv3e0f">
   </script>
   <script>
    window.a2a_config=window.a2a_config||{};a2a_config.callbacks=[];a2a_config.overlays=[];a2a_config.templates={};a2a_config.icon_color = "transparent,black";
@@ -136,12 +136,12 @@ googletag.enableServices();
         });
       }
   </script>
-  <link href="/sites/default/files/css/css_eUXeGTXvWG87_uyvpwhvK9qbn2UVgqCNAxUIfQwSVSA.css?puw3se" media="all" rel="stylesheet"/>
-  <link href="/modules/custom/ufc_overlay/ufc_overlay.css?puw3se" media="all" rel="stylesheet"/>
-  <link href="/sites/default/files/css/css_NVUoICFDKEhpDxDh6q0tiNNb7B7wA6U5TsxAb0v-1Uk.css?puw3se" media="all" rel="stylesheet"/>
-  <link href="/sites/default/files/css/css_nDNLM2juecvWFf6fqIGytG040SLfBVH3g_GQts_na24.css?puw3se" media="all" rel="stylesheet"/>
+  <link href="/sites/default/files/css/css_eUXeGTXvWG87_uyvpwhvK9qbn2UVgqCNAxUIfQwSVSA.css?pv3e0f" media="all" rel="stylesheet"/>
+  <link href="/modules/custom/ufc_overlay/ufc_overlay.css?pv3e0f" media="all" rel="stylesheet"/>
+  <link href="/sites/default/files/css/css_NVUoICFDKEhpDxDh6q0tiNNb7B7wA6U5TsxAb0v-1Uk.css?pv3e0f" media="all" rel="stylesheet"/>
+  <link href="/sites/default/files/css/css_nDNLM2juecvWFf6fqIGytG040SLfBVH3g_GQts_na24.css?pv3e0f" media="all" rel="stylesheet"/>
   <link href="//unpkg.com/aos@next/dist/aos.css" media="all" rel="stylesheet"/>
-  <link href="/sites/default/files/css/css_wWq87hOasxkonPSh4mLTYKh82-G1Usz752EtDdvExeo.css?puw3se" media="all" rel="stylesheet"/>
+  <link href="/sites/default/files/css/css_wWq87hOasxkonPSh4mLTYKh82-G1Usz752EtDdvExeo.css?pv3e0f" media="all" rel="stylesheet"/>
   <!--[if lte IE 8]>
 <script src="/sites/default/files/js/js_VtafjXmRvoUgAzqzYTA3Wrjkx9wcWhjP0G4ZnnqRamA.js"></script>
 <![endif]-->
@@ -392,7 +392,7 @@ googletag.enableServices();
         <div class="c-site-header__trending">
          <div class="views-element-container block block-views block-views-blocktrending-search-listing-trending-search-listing" id="block-trending-search-listing">
           <div>
-           <div class="view view-trending-search-listing view-id-trending_search_listing view-display-id-trending_search_listing js-view-dom-id-7a00f6948fe6b823930e8455ad291a6ef383a45afad1b3f41547ecb1112e7a7d">
+           <div class="view view-trending-search-listing view-id-trending_search_listing view-display-id-trending_search_listing js-view-dom-id-a040a3bf749ccc672306d47a3c200bf79d1e4864fb8b4dfd02502f28d50bc8e8">
             <div class="view-content">
              <div class="c-listing-inline-group">
               <h2 class="c-listing-inline-group__title">
@@ -400,48 +400,57 @@ googletag.enableServices();
               </h2>
               <ul class="c-listing-inline-group__list">
                <li class="c-listing-inline-group__item">
-                <a class="c-listing-inline" href="/event/ufc-94">
-                 <span class="field field--name-title field--type-string field--label-hidden">
-                  UFC 94
-                 </span>
-                </a>
-               </li>
-               <li class="c-listing-inline-group__item">
-                <a class="c-listing-inline" href="/athlete/wagner-campos">
+                <a class="c-listing-inline" href="/athlete/mike-rio">
                  <span class="c-listing-inline__thumbnail">
                   <div class="field field--name-image field--type-entity-reference field--label-hidden field__item">
                    <div class="layout layout--onecol">
                     <div class="layout__region layout__region--content">
-                     <img class="image-style-teaser" height="300" src="http://dmxg5wxfqgb4u.cloudfront.net/styles/teaser/s3/image/fighter_images/Wagner_Campos/WagnerCamos_Headshot.png?QZkq3J.S4qT5lA.OpYa6dn30hLxyf_46&amp;itok=CLrvoidS" width="400"/>
+                     <img class="image-style-teaser" height="300" src="http://dmxg5wxfqgb4u.cloudfront.net/styles/teaser/s3/image/fighter_images/Mike_Rio/MikeRio_Headshot.png?qJhdg8QtH5tANkBDEJh9ZCjQ_vsInUJF&amp;itok=jVRfqW3B" width="400"/>
                     </div>
                    </div>
                   </div>
                  </span>
                  <div class="field field--name-name field--type-name field--label-hidden field__item">
-                  Wagner Campos
+                  Mike Rio
                  </div>
                 </a>
                </li>
                <li class="c-listing-inline-group__item">
-                <a class="c-listing-inline" href="/athlete/dong-hyun-kim">
+                <a class="c-listing-inline" href="/athlete/randy-costa">
                  <span class="c-listing-inline__thumbnail">
                   <div class="field field--name-image field--type-entity-reference field--label-hidden field__item">
                    <div class="layout layout--onecol">
                     <div class="layout__region layout__region--content">
-                     <img class="image-style-teaser" height="300" src="http://dmxg5wxfqgb4u.cloudfront.net/styles/teaser/s3/image/ufc-fighter-container/67847/profile-galery/profile-picture/DongHyunKim_Headshot.png?gyBIQvx12.Nye0.DL8r7oZHzke6jI.wt&amp;itok=hWURTCcJ" width="400"/>
+                     <img class="image-style-teaser" height="300" src="http://dmxg5wxfqgb4u.cloudfront.net/styles/teaser/s3/2019-04/COSTA_RANDY.png?ZLZFes1loZNr8VPp1Y0.SKssntPhjmik&amp;itok=0KJ5PlDA" width="400"/>
                     </div>
                    </div>
                   </div>
                  </span>
                  <div class="field field--name-name field--type-name field--label-hidden field__item">
-                  Dong Hyun Kim
+                  Randy Costa
                  </div>
                 </a>
                </li>
                <li class="c-listing-inline-group__item">
-                <a class="c-listing-inline" href="/athlete/kevin-jordan">
+                <a class="c-listing-inline" href="/athlete/gleidson-cutis">
                  <div class="field field--name-name field--type-name field--label-hidden field__item">
-                  Kevin Jordan
+                  Gleidson Cutis
+                 </div>
+                </a>
+               </li>
+               <li class="c-listing-inline-group__item">
+                <a class="c-listing-inline" href="/athlete/danny-henry">
+                 <span class="c-listing-inline__thumbnail">
+                  <div class="field field--name-image field--type-entity-reference field--label-hidden field__item">
+                   <div class="layout layout--onecol">
+                    <div class="layout__region layout__region--content">
+                     <img class="image-style-teaser" height="300" src="http://dmxg5wxfqgb4u.cloudfront.net/styles/teaser/s3/image/fighter_images/Danny_Henry/HENRY_DANNY.png?unwtNiLF6DyOizLzWY7eHTj9iKfVckPq&amp;itok=4Dwp4kZ2" width="400"/>
+                    </div>
+                   </div>
+                  </div>
+                 </span>
+                 <div class="field field--name-name field--type-name field--label-hidden field__item">
+                  Danny Henry
                  </div>
                 </a>
                </li>
@@ -476,7 +485,7 @@ googletag.enableServices();
             <div class="l-container">
              <div class="l-container__content">
               <div class="block block-views block-views-blockathlete-rankings-block-1">
-               <div class="clearfix view view-athlete-rankings view-id-athlete_rankings view-display-id-block_1 js-view-dom-id-2af03b9758e57e93735b5d9274adf65dc7bbc50a15ea363cfecc176dfa30d4c2">
+               <div class="clearfix view view-athlete-rankings view-id-athlete_rankings view-display-id-block_1 js-view-dom-id-90e90e8450ae026b8ec84ff82b45447aa5f035ed620c1359faed298f6b273388">
                 <div class="view-filters">
                  <form accept-charset="UTF-8" action="/rankings" class="views-exposed-form rankings-exposed-form" data-drupal-selector="views-exposed-form-athlete-rankings-block-1" id="views-exposed-form-athlete-rankings-block-1" method="get">
                   <div class="form--inline clearfix">
@@ -569,24 +578,6 @@ googletag.enableServices();
                       </button>
                      </div>
                      <ul class="panelist-control-list clearfix">
-                      <li>
-                       <div class="panelist-item-inner changer" data-panelist="1092">
-                        <p class="main-info">
-                         Steve Juon
-                        </p>
-                        <p class="additional-info">
-                        </p>
-                       </div>
-                      </li>
-                      <li>
-                       <div class="panelist-item-inner changer panelist-active" data-panelist="1082">
-                        <p class="main-info">
-                         Overall Rankings
-                        </p>
-                        <p class="additional-info">
-                        </p>
-                       </div>
-                      </li>
                       <li>
                        <div class="panelist-item-inner changer" data-panelist="1089">
                         <p class="main-info">
@@ -704,6 +695,24 @@ googletag.enableServices();
                         </p>
                        </div>
                       </li>
+                      <li>
+                       <div class="panelist-item-inner changer" data-panelist="1092">
+                        <p class="main-info">
+                         Steve Juon
+                        </p>
+                        <p class="additional-info">
+                        </p>
+                       </div>
+                      </li>
+                      <li>
+                       <div class="panelist-item-inner changer panelist-active" data-panelist="1082">
+                        <p class="main-info">
+                         Overall Rankings
+                        </p>
+                        <p class="additional-info">
+                        </p>
+                       </div>
+                      </li>
                      </ul>
                     </div>
                    </div>
@@ -733,7 +742,7 @@ googletag.enableServices();
                         </span>
                        </h4>
                        <h5>
-                        <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-e67c7492d2aec393339181c8cdc47e1705811709790f111baea144b215854de0">
+                        <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-03d6c67c5cceec38adfb2b5064857a70f77d60946a8cfd13c7b6291853dcdc46">
                          <div class="view-content">
                           <div class="views-row">
                            <a href="/athlete/daniel-cormier" hreflang="en">
@@ -757,25 +766,7 @@ googletag.enableServices();
                        2
                       </td>
                       <td class="views-field views-field-title">
-                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-3981a6db0f72866b4cd1cc7fb7bd911fdde990736d3b88a262514bf49f9eb6ee">
-                        <div class="view-content">
-                         <div class="views-row">
-                          <a href="/athlete/jon-jones" hreflang="en">
-                           Jon Jones
-                          </a>
-                         </div>
-                        </div>
-                       </div>
-                      </td>
-                      <td class="views-field views-field-weight-class-rank-change">
-                      </td>
-                     </tr>
-                     <tr>
-                      <td class="views-field views-field-weight-class-rank">
-                       3
-                      </td>
-                      <td class="views-field views-field-title">
-                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-d7040a3eab0fc169afe95be7d392c076cb060f6d336e55478f57854b470cabc9">
+                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-416702bc13deba77eeb6d37bdd04e02ccbcbcc2d53133474eeaf032782866be9">
                         <div class="view-content">
                          <div class="views-row">
                           <a href="/athlete/khabib-nurmagomedov" hreflang="en">
@@ -786,6 +777,32 @@ googletag.enableServices();
                        </div>
                       </td>
                       <td class="views-field views-field-weight-class-rank-change">
+                       <span class="athlete-rankings--rank-change athlete-rankings--rank-increase">
+                        Rank increased by
+                       </span>
+                       1
+                      </td>
+                     </tr>
+                     <tr>
+                      <td class="views-field views-field-weight-class-rank">
+                       3
+                      </td>
+                      <td class="views-field views-field-title">
+                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-2778f4c15031c2a62077b869379212f400ae455af3f98d45b44d910c54eace01">
+                        <div class="view-content">
+                         <div class="views-row">
+                          <a href="/athlete/jon-jones" hreflang="en">
+                           Jon Jones
+                          </a>
+                         </div>
+                        </div>
+                       </div>
+                      </td>
+                      <td class="views-field views-field-weight-class-rank-change">
+                       <span class="athlete-rankings--rank-change athlete-rankings--rank-decrease">
+                        Rank decreased by
+                       </span>
+                       1
                       </td>
                      </tr>
                      <tr>
@@ -793,7 +810,7 @@ googletag.enableServices();
                        4
                       </td>
                       <td class="views-field views-field-title">
-                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-ad933bbd069a98d74b7fa1865dd74b25f8b8f7b416fe5405c438d120eb2c4234">
+                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-735fc0e50dd4fd872516692431f5b8e1cb655fa784652773fcb1bb94d732a0b9">
                         <div class="view-content">
                          <div class="views-row">
                           <a href="/athlete/henry-cejudo" hreflang="en">
@@ -811,7 +828,7 @@ googletag.enableServices();
                        5
                       </td>
                       <td class="views-field views-field-title">
-                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-e7af82749e65ff58d9b749a8a2ad4dd45376d0aed35e0defba7703e3b22d6d72">
+                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-e9ed8b211f09fb301f39400b602ce55c19b993400bd9ef3a590890795d202a04">
                         <div class="view-content">
                          <div class="views-row">
                           <a href="/athlete/amanda-nunes" hreflang="en">
@@ -829,7 +846,7 @@ googletag.enableServices();
                        6
                       </td>
                       <td class="views-field views-field-title">
-                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-a040bb730c11893d3aa7bf7b39a13869e6b34328e99f6db0959c9f47b7c11437">
+                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-4d9ef9698546d5f6860572fc588607a6f0af4a88743d493d9f8ba5a3ceeb6925">
                         <div class="view-content">
                          <div class="views-row">
                           <a href="/athlete/max-holloway" hreflang="en">
@@ -847,7 +864,7 @@ googletag.enableServices();
                        7
                       </td>
                       <td class="views-field views-field-title">
-                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-7032b974c5a1a26afe6c1a9f8e32efc0acefc9fe32be4fb81904b120457d5d35">
+                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-72be83c0b2d3b368cf20d919686c9667d319efd4ab8c566d8dbb0624239abb88">
                         <div class="view-content">
                          <div class="views-row">
                           <a href="/athlete/kamaru-usman" hreflang="en">
@@ -865,11 +882,11 @@ googletag.enableServices();
                        8
                       </td>
                       <td class="views-field views-field-title">
-                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-ee2f425a98c1a889ef3e2ba1aad1a62c3de349afcd83d82bce7227e8a90fb001">
+                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-4eb34737bdcfae99f22ecbbdf9e25aaff7dac598dec129d501958d355b696ea4">
                         <div class="view-content">
                          <div class="views-row">
-                          <a href="/athlete/robert-whittaker" hreflang="en">
-                           Robert Whittaker
+                          <a href="/athlete/dustin-poirier" hreflang="en">
+                           Dustin Poirier
                           </a>
                          </div>
                         </div>
@@ -887,17 +904,21 @@ googletag.enableServices();
                        9
                       </td>
                       <td class="views-field views-field-title">
-                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-bb2d02c7bec682e30b36ce74b60340ae5538b18320ac4a2a59bda3cd69adbd88">
+                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-d72ff9ea388bd840e2e894dcb06040134a8d628c94c9a45d8f06e27faa1fd024">
                         <div class="view-content">
                          <div class="views-row">
-                          <a href="/athlete/conor-mcgregor" hreflang="en">
-                           Conor McGregor
+                          <a href="/athlete/stipe-miocic" hreflang="en">
+                           Stipe Miocic
                           </a>
                          </div>
                         </div>
                        </div>
                       </td>
                       <td class="views-field views-field-weight-class-rank-change">
+                       <span class="athlete-rankings--rank-change athlete-rankings--rank-increase">
+                        Rank increased by
+                       </span>
+                       2
                       </td>
                      </tr>
                      <tr>
@@ -905,11 +926,11 @@ googletag.enableServices();
                        10
                       </td>
                       <td class="views-field views-field-title">
-                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-7c4502f824fd035ee28c7df50fbb3964933b13528d3cb7b53f60001bb148f143">
+                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-2ec9f4fecae2e657f357019c040c4d323794afffef993227464865c0821b31f0">
                         <div class="view-content">
                          <div class="views-row">
-                          <a href="/athlete/dustin-poirier" hreflang="en">
-                           Dustin Poirier
+                          <a href="/athlete/robert-whittaker" hreflang="en">
+                           Robert Whittaker
                           </a>
                          </div>
                         </div>
@@ -927,25 +948,7 @@ googletag.enableServices();
                        11
                       </td>
                       <td class="views-field views-field-title">
-                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-d9e0de93c8ba18116f79ea1a251f0cf0ad420bf852adbf4fd56b903593b11a81">
-                        <div class="view-content">
-                         <div class="views-row">
-                          <a href="/athlete/stipe-miocic" hreflang="en">
-                           Stipe Miocic
-                          </a>
-                         </div>
-                        </div>
-                       </div>
-                      </td>
-                      <td class="views-field views-field-weight-class-rank-change">
-                      </td>
-                     </tr>
-                     <tr>
-                      <td class="views-field views-field-weight-class-rank">
-                       12
-                      </td>
-                      <td class="views-field views-field-title">
-                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-f03c067e8e1bb570487f36e0eb23bbfb3e4d8d1d336e82fbda11fceb4073e9ac">
+                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-459276c286883c1b0c051e716352a5b8569a137cb72c6e0041151eb916035ffc">
                         <div class="view-content">
                          <div class="views-row">
                           <a href="/athlete/tony-ferguson" hreflang="en">
@@ -956,6 +959,32 @@ googletag.enableServices();
                        </div>
                       </td>
                       <td class="views-field views-field-weight-class-rank-change">
+                       <span class="athlete-rankings--rank-change athlete-rankings--rank-increase">
+                        Rank increased by
+                       </span>
+                       1
+                      </td>
+                     </tr>
+                     <tr>
+                      <td class="views-field views-field-weight-class-rank">
+                       11
+                      </td>
+                      <td class="views-field views-field-title">
+                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-710b4cf68b9fe719de69660dd8cd68ef6c1df5f321a8f8fb9f74815edae15cc0">
+                        <div class="view-content">
+                         <div class="views-row">
+                          <a href="/athlete/conor-mcgregor" hreflang="en">
+                           Conor McGregor
+                          </a>
+                         </div>
+                        </div>
+                       </div>
+                      </td>
+                      <td class="views-field views-field-weight-class-rank-change">
+                       <span class="athlete-rankings--rank-change athlete-rankings--rank-decrease">
+                        Rank decreased by
+                       </span>
+                       2
                       </td>
                      </tr>
                      <tr>
@@ -963,7 +992,7 @@ googletag.enableServices();
                        13
                       </td>
                       <td class="views-field views-field-title">
-                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-80f96e975edaacf037697b4703df2c95d5f8640e9a08a50a77c53a9bcdc63345">
+                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-8ffb6e95c57b8ec2ee316d08b9a08f6014f8c69d92b89163f38f9a8cc062d0d0">
                         <div class="view-content">
                          <div class="views-row">
                           <a href="/athlete/valentina-shevchenko" hreflang="en">
@@ -981,7 +1010,7 @@ googletag.enableServices();
                        14
                       </td>
                       <td class="views-field views-field-title">
-                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-a222199e794502396c603441e9578795b11e15d5cd432265d76f53caa0e44ac8">
+                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-24de8bf4dc087d16a9c2dcde7f1627a589f8c7e1e791d9038e52e828f73496fe">
                         <div class="view-content">
                          <div class="views-row">
                           <a href="/athlete/tyron-woodley" hreflang="en">
@@ -999,7 +1028,7 @@ googletag.enableServices();
                        15
                       </td>
                       <td class="views-field views-field-title">
-                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-883e7106e183f69bb62fa162cf9653a167b18d2ad898898e365f50e67f69790a">
+                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-df12f1ec75e56ea17f275c1cb677e9287b64cc283c6fdc5d070eb75f0138c23a">
                         <div class="view-content">
                          <div class="views-row">
                           <a href="/athlete/jessica-andrade" hreflang="en">
@@ -1029,7 +1058,7 @@ googletag.enableServices();
                         Flyweight
                        </h4>
                        <h5>
-                        <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-ccac4655d67e22c4ad3a67de6caa1ce479b906178d294882451349a45fc73c68">
+                        <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-5e584746ed7b4b291b22b948e94d5b49b75c7dd629ea8509df3adeee9ee46528">
                          <div class="view-content">
                           <div class="views-row">
                            <a href="/athlete/henry-cejudo" hreflang="en">
@@ -1058,7 +1087,7 @@ googletag.enableServices();
                        1
                       </td>
                       <td class="views-field views-field-title">
-                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-6ca69abae501c4d37fab2e681ebf47cc9f966c5621b6e0dea7bfc1562d545cd8">
+                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-d10673ff96f369f8dbd80526e54569db21bf0447ddcd1de4c60f1e6e2f3a0d91">
                         <div class="view-content">
                          <div class="views-row">
                           <a href="/athlete/joseph-benavidez" hreflang="en">
@@ -1076,7 +1105,7 @@ googletag.enableServices();
                        2
                       </td>
                       <td class="views-field views-field-title">
-                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-f1dec2383f9b78854485ee815cdd3035ac06059cc0cf92a21cbad11a5b7ef18c">
+                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-c7e8dc6e20ed995ee69e73ad9ff4bb22db774d5f2169f9c1ecad10ddbf10df59">
                         <div class="view-content">
                          <div class="views-row">
                           <a href="/athlete/jussier-formiga" hreflang="en">
@@ -1094,7 +1123,7 @@ googletag.enableServices();
                        3
                       </td>
                       <td class="views-field views-field-title">
-                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-aa4c1e60a9c3ee00702f4734314a203bfbbf694e6b9fe311d7edcb4c91efeade">
+                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-67882e7f8801b357c82c17a3b31aebcb73449c2cda682e7170afcdb4f5047a53">
                         <div class="view-content">
                          <div class="views-row">
                           <a href="/athlete/alexandre-pantoja" hreflang="en">
@@ -1112,7 +1141,7 @@ googletag.enableServices();
                        4
                       </td>
                       <td class="views-field views-field-title">
-                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-1ac6c1b124ac3fb30c344ced8480eb37750f6f5c2afb1a285a46a13404bf184b">
+                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-d642465b0dc1e262ae60eee6e6dc1e6ef72ab77997de674ca77abaddd4db5eea">
                         <div class="view-content">
                          <div class="views-row">
                           <a href="/athlete/deiveson-figueiredo" hreflang="en">
@@ -1130,25 +1159,7 @@ googletag.enableServices();
                        5
                       </td>
                       <td class="views-field views-field-title">
-                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-b60121ca4610a14c90c9007454ab08c4bcd88af3a0cf2b3dfb567db7c802f2d2">
-                        <div class="view-content">
-                         <div class="views-row">
-                          <a href="/athlete/tim-elliott" hreflang="en">
-                           Tim Elliott
-                          </a>
-                         </div>
-                        </div>
-                       </div>
-                      </td>
-                      <td class="views-field views-field-weight-class-rank-change">
-                      </td>
-                     </tr>
-                     <tr>
-                      <td class="views-field views-field-weight-class-rank">
-                       6
-                      </td>
-                      <td class="views-field views-field-title">
-                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-3f971fa74608c78613caff88bb8f16710236302237514dd17eaf286813e8e60b">
+                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-9bc0aebbc0ea0abb5c1ff58d417731f906bd00afc2349e1e380e44377e1d1398">
                         <div class="view-content">
                          <div class="views-row">
                           <a href="/athlete/sergio-pettis" hreflang="en">
@@ -1159,9 +1170,32 @@ googletag.enableServices();
                        </div>
                       </td>
                       <td class="views-field views-field-weight-class-rank-change">
-                       <span class="athlete-rankings--attribute athlete-rankings--not-ranked">
-                        NR
+                       <span class="athlete-rankings--rank-change athlete-rankings--rank-increase">
+                        Rank increased by
                        </span>
+                       1
+                      </td>
+                     </tr>
+                     <tr>
+                      <td class="views-field views-field-weight-class-rank">
+                       6
+                      </td>
+                      <td class="views-field views-field-title">
+                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-3a5f2aa3c8408b9849bea7f50a55d05a3c2b6651b9b51aee2b618c08b2f6f846">
+                        <div class="view-content">
+                         <div class="views-row">
+                          <a href="/athlete/tim-elliott" hreflang="en">
+                           Tim Elliott
+                          </a>
+                         </div>
+                        </div>
+                       </div>
+                      </td>
+                      <td class="views-field views-field-weight-class-rank-change">
+                       <span class="athlete-rankings--rank-change athlete-rankings--rank-decrease">
+                        Rank decreased by
+                       </span>
+                       1
                       </td>
                      </tr>
                      <tr>
@@ -1169,7 +1203,29 @@ googletag.enableServices();
                        7
                       </td>
                       <td class="views-field views-field-title">
-                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-806f7a300fdd43a848eec563a4060b4a888e5943b13a662a0a0ebb73ff05570a">
+                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-8ef03a7f69f501f9815567aacd3249fbf5c58235da7e13ad984c79627cfac1a1">
+                        <div class="view-content">
+                         <div class="views-row">
+                          <a href="/athlete/brandon-moreno" hreflang="en">
+                           Brandon Moreno
+                          </a>
+                         </div>
+                        </div>
+                       </div>
+                      </td>
+                      <td class="views-field views-field-weight-class-rank-change">
+                       <span class="athlete-rankings--rank-change athlete-rankings--rank-increase">
+                        Rank increased by
+                       </span>
+                       3
+                      </td>
+                     </tr>
+                     <tr>
+                      <td class="views-field views-field-weight-class-rank">
+                       8
+                      </td>
+                      <td class="views-field views-field-title">
+                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-1c236d57b6fe7c656d4a6a24c1fcd25a259c7f72ef71e3625dc16e1f9d1fdcf6">
                         <div class="view-content">
                          <div class="views-row">
                           <a href="/athlete/rogerio-bontorin" hreflang="en">
@@ -1188,32 +1244,14 @@ googletag.enableServices();
                      </tr>
                      <tr>
                       <td class="views-field views-field-weight-class-rank">
-                       8
+                       9
                       </td>
                       <td class="views-field views-field-title">
-                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-614c12008b243f2522f940cdbe205fdc0cd05cae8b342b0160c53d8a16a74a50">
+                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-85ec2b99f5a56dbe13fead7363755904b1ff4418deac7a77cd33c8b88d26263a">
                         <div class="view-content">
                          <div class="views-row">
                           <a href="/athlete/jordan-espinosa" hreflang="en">
                            Jordan Espinosa
-                          </a>
-                         </div>
-                        </div>
-                       </div>
-                      </td>
-                      <td class="views-field views-field-weight-class-rank-change">
-                      </td>
-                     </tr>
-                     <tr>
-                      <td class="views-field views-field-weight-class-rank">
-                       8
-                      </td>
-                      <td class="views-field views-field-title">
-                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-93ee90193b8c7abba29a9ce9cc2ce6d088905f78b8a820a106f1c37aafb4ba72">
-                        <div class="view-content">
-                         <div class="views-row">
-                          <a href="/athlete/ryan-benoit" hreflang="en">
-                           Ryan Benoit
                           </a>
                          </div>
                         </div>
@@ -1231,20 +1269,21 @@ googletag.enableServices();
                        10
                       </td>
                       <td class="views-field views-field-title">
-                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-a59c913374056889a14bb69fa8dbc47c614eaf6dfdb2639a58894b63a11b9abc">
+                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-1dbcac8836b29cc824673dcdfc0515ff0cfd2901aace9c728bb75331119b72fb">
                         <div class="view-content">
                          <div class="views-row">
-                          <a href="/athlete/brandon-moreno" hreflang="en">
-                           Brandon Moreno
+                          <a href="/athlete/ryan-benoit" hreflang="en">
+                           Ryan Benoit
                           </a>
                          </div>
                         </div>
                        </div>
                       </td>
                       <td class="views-field views-field-weight-class-rank-change">
-                       <span class="athlete-rankings--attribute athlete-rankings--not-ranked">
-                        NR
+                       <span class="athlete-rankings--rank-change athlete-rankings--rank-decrease">
+                        Rank decreased by
                        </span>
+                       2
                       </td>
                      </tr>
                      <tr>
@@ -1252,7 +1291,7 @@ googletag.enableServices();
                        11
                       </td>
                       <td class="views-field views-field-title">
-                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-077e1313c12fc6db749af5f6ff8561abafb9172c6014788cb7246f53ac762f02">
+                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-902fee0393ede27934e209f5cd62d964150a65a5b2eb90fbde46ca357ea3d3f2">
                         <div class="view-content">
                          <div class="views-row">
                           <a href="/athlete/kai-kara-france" hreflang="en">
@@ -1263,10 +1302,6 @@ googletag.enableServices();
                        </div>
                       </td>
                       <td class="views-field views-field-weight-class-rank-change">
-                       <span class="athlete-rankings--rank-change athlete-rankings--rank-decrease">
-                        Rank decreased by
-                       </span>
-                       2
                       </td>
                      </tr>
                      <tr>
@@ -1274,7 +1309,7 @@ googletag.enableServices();
                        12
                       </td>
                       <td class="views-field views-field-title">
-                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-5350dc081847e96ccd897f3122b3a84a511b37bf723327c3ecf39e4eeeb1b781">
+                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-ae37b80a3527cb0e9b78409f0d39dbd65a4765608606ef61a050b7e12fd571d9">
                         <div class="view-content">
                          <div class="views-row">
                           <a href="/athlete/alex-perez" hreflang="en">
@@ -1285,10 +1320,6 @@ googletag.enableServices();
                        </div>
                       </td>
                       <td class="views-field views-field-weight-class-rank-change">
-                       <span class="athlete-rankings--rank-change athlete-rankings--rank-decrease">
-                        Rank decreased by
-                       </span>
-                       2
                       </td>
                      </tr>
                      <tr>
@@ -1296,7 +1327,7 @@ googletag.enableServices();
                        13
                       </td>
                       <td class="views-field views-field-title">
-                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-7264f225a6338f7254c407c192a2822a100ddcaf6ce9cc279bfdda145c3b9f4a">
+                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-0b01943ab529d573dc4ae6e1455ac1f6c579a7019fbfff8f3de1833025c195c4">
                         <div class="view-content">
                          <div class="views-row">
                           <a href="/athlete/raulian-paiva" hreflang="en">
@@ -1307,10 +1338,6 @@ googletag.enableServices();
                        </div>
                       </td>
                       <td class="views-field views-field-weight-class-rank-change">
-                       <span class="athlete-rankings--rank-change athlete-rankings--rank-decrease">
-                        Rank decreased by
-                       </span>
-                       2
                       </td>
                      </tr>
                      <tr>
@@ -1318,7 +1345,7 @@ googletag.enableServices();
                        14
                       </td>
                       <td class="views-field views-field-title">
-                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-49c0f82a47a5958288828481dd7a4e8ffce3aeff52dad9fb91aed2cd50e4ff8a">
+                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-9f4358e939967d2111496f082c640bcca69dd0b17a26e0346dcba87dc700e87e">
                         <div class="view-content">
                          <div class="views-row">
                           <a href="/athlete/matt-schnell" hreflang="en">
@@ -1329,10 +1356,6 @@ googletag.enableServices();
                        </div>
                       </td>
                       <td class="views-field views-field-weight-class-rank-change">
-                       <span class="athlete-rankings--rank-change athlete-rankings--rank-decrease">
-                        Rank decreased by
-                       </span>
-                       2
                       </td>
                      </tr>
                      <tr>
@@ -1340,7 +1363,7 @@ googletag.enableServices();
                        15
                       </td>
                       <td class="views-field views-field-title">
-                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-3195e4530e0bd6bfc0dac64889919aa4148e19262347b6b66cf6058831be357a">
+                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-a39780df17ebd9cf0b127555f1c548b6193ccb77a7d7fceca85ac4a3ce5af328">
                         <div class="view-content">
                          <div class="views-row">
                           <a href="/athlete/mark-de-la-rosa" hreflang="en">
@@ -1351,9 +1374,6 @@ googletag.enableServices();
                        </div>
                       </td>
                       <td class="views-field views-field-weight-class-rank-change">
-                       <span class="athlete-rankings--attribute athlete-rankings--not-ranked">
-                        NR
-                       </span>
                       </td>
                      </tr>
                     </tbody>
@@ -1373,7 +1393,7 @@ googletag.enableServices();
                         Bantamweight
                        </h4>
                        <h5>
-                        <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-9b26fab7aabc95fc9d4f183ee9e3b8993622b15d6404ea76e3cc704ace54426e">
+                        <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-d805a26ebc2fb854b8ee80d30b1542706c0a8ced605aaccb74df6b9b310aacc3">
                          <div class="view-content">
                           <div class="views-row">
                            <a href="/athlete/henry-cejudo" hreflang="en">
@@ -1402,7 +1422,7 @@ googletag.enableServices();
                        1
                       </td>
                       <td class="views-field views-field-title">
-                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-20b15b6eb8c413a0a0f0a0a7091eb8e1a48b4546756d0091d37c8d5b0f8408fe">
+                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-610ad5d45b1a7817a8f065500b8268805e6436a23a08c35678dc5af38bd89fcb">
                         <div class="view-content">
                          <div class="views-row">
                           <a href="/athlete/marlon-moraes" hreflang="en">
@@ -1420,7 +1440,7 @@ googletag.enableServices();
                        2
                       </td>
                       <td class="views-field views-field-title">
-                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-a80622b175588091887098c903c873352720f7a73df08a3dd87375e9c4383749">
+                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-7de6037d9bc84575a2b9af035fe8f320eb24c657ae2faa88272807f9c019c52e">
                         <div class="view-content">
                          <div class="views-row">
                           <a href="/athlete/aljamain-sterling" hreflang="en">
@@ -1438,7 +1458,7 @@ googletag.enableServices();
                        3
                       </td>
                       <td class="views-field views-field-title">
-                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-737ed6a633a53d578a66c064b5a41d0101d8b09790894f57a6a2dc817d9f6ea4">
+                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-9a709db30e1bde9d33d8d9d72b80e6d0df7b30745c24146f112121e00b07bf0e">
                         <div class="view-content">
                          <div class="views-row">
                           <a href="/athlete/raphael-assuncao" hreflang="en">
@@ -1456,7 +1476,7 @@ googletag.enableServices();
                        4
                       </td>
                       <td class="views-field views-field-title">
-                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-8dafc5eb060ce9a7b4699fb3c2f1c9a7b2dbdea9a19e2aaf0566b0532b3d35dd">
+                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-45f8b6230d973885669838e820b49ae99d370507adc86f3326c897e5a24508b8">
                         <div class="view-content">
                          <div class="views-row">
                           <a href="/athlete/petr-yan" hreflang="en">
@@ -1474,7 +1494,7 @@ googletag.enableServices();
                        5
                       </td>
                       <td class="views-field views-field-title">
-                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-4bd563103d1cd4fec7fe5e6bbde150a297afa509513267a052b574c06034efe6">
+                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-3c49ca6806a0928b5ab4864e34cc133750c2872390237ed953112e8faa083ab6">
                         <div class="view-content">
                          <div class="views-row">
                           <a href="/athlete/pedro-munhoz" hreflang="en">
@@ -1492,7 +1512,7 @@ googletag.enableServices();
                        6
                       </td>
                       <td class="views-field views-field-title">
-                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-246416fa57afbaa527b6b82bdf7ca7556989a9f80874c5095287f8c27fac55a5">
+                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-cd62f4f107af8464cbe439881736b22de1b6d885b26961f8fb024b35b7147ea9">
                         <div class="view-content">
                          <div class="views-row">
                           <a href="/athlete/dominick-cruz" hreflang="en">
@@ -1510,7 +1530,7 @@ googletag.enableServices();
                        7
                       </td>
                       <td class="views-field views-field-title">
-                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-1da325325abc26752cb202d3f90580bd08617905aca4d57fe26fe8e982b0f5cf">
+                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-f4be2bb01aeafdf64a686889ba885c15ee5cd4c5558bde97f3e62a6d050746b4">
                         <div class="view-content">
                          <div class="views-row">
                           <a href="/athlete/cody-garbrandt" hreflang="en">
@@ -1528,7 +1548,7 @@ googletag.enableServices();
                        8
                       </td>
                       <td class="views-field views-field-title">
-                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-7b2915535fc46e6037340e4de4ab4aa42722945cc59b8bdae96480c5db46d0d9">
+                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-91a18adf43c3e6987652bb6460e19596600e0ea8cbd2e7b2b78e3f72534ec91a">
                         <div class="view-content">
                          <div class="views-row">
                           <a href="/athlete/jimmie-rivera" hreflang="en">
@@ -1546,7 +1566,7 @@ googletag.enableServices();
                        9
                       </td>
                       <td class="views-field views-field-title">
-                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-060fbabded1ec5d156e4eb4d21288096ade887e3f89a9ec6a1125db4f993ae9a">
+                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-551290ab2b7aabaf4cbd51a4cabccafaf46b82193d042b4f4032a7b8b79e0765">
                         <div class="view-content">
                          <div class="views-row">
                           <a href="/athlete/cory-sandhagen" hreflang="en">
@@ -1564,7 +1584,7 @@ googletag.enableServices();
                        10
                       </td>
                       <td class="views-field views-field-title">
-                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-0ab5ed8759381e15880e3640446f18c78eec0372a9424083059b8f4e292ec3af">
+                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-91ea99fca0fb62ac57cb5edbdc841f7ff24e656206d9439b251dd94fbafb4adc">
                         <div class="view-content">
                          <div class="views-row">
                           <a href="/athlete/cody-stamann" hreflang="en">
@@ -1582,7 +1602,7 @@ googletag.enableServices();
                        11
                       </td>
                       <td class="views-field views-field-title">
-                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-f21ee5c0bc7c1092238c429975cd6d3292169486c1abc1aa19dcf5c75be4eaee">
+                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-2e0f5a0f72148c3093eed0c81405a5f47c27ea1820adf4cdd80e9f47272a9ac4">
                         <div class="view-content">
                          <div class="views-row">
                           <a href="/athlete/rob-font" hreflang="en">
@@ -1600,7 +1620,7 @@ googletag.enableServices();
                        12
                       </td>
                       <td class="views-field views-field-title">
-                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-f155e42e69c0fa461659e081fe72a875ef04b5fea1073a0ab178419bb4b79c97">
+                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-bcd138b1895a96c118c57b8fcd5e88c3de9a5580cbcfb2a9d9fcf543456f69e2">
                         <div class="view-content">
                          <div class="views-row">
                           <a href="/athlete/john-dodson" hreflang="en">
@@ -1618,7 +1638,7 @@ googletag.enableServices();
                        13
                       </td>
                       <td class="views-field views-field-title">
-                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-11ec7cf669f3c3cd09addb4c50578552e0f4219ad12c791a2120aeb625f19a0e">
+                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-2702dfffd3a6cbe4ddad993448b9aa8d283842cffb10088eea86d4d8ff8f8665">
                         <div class="view-content">
                          <div class="views-row">
                           <a href="/athlete/song-yadong" hreflang="en">
@@ -1636,7 +1656,7 @@ googletag.enableServices();
                        14
                       </td>
                       <td class="views-field views-field-title">
-                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-f9eef379f1a6828ea63ad0b07fa5464a39f4c5a9007633f0a4f63a7e42856e3c">
+                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-80043ee1d4c06e482bcdf895b3a703f5051ef5c65f78d8053241ff81221d2fb7">
                         <div class="view-content">
                          <div class="views-row">
                           <a href="/athlete/urijah-faber" hreflang="en">
@@ -1647,9 +1667,6 @@ googletag.enableServices();
                        </div>
                       </td>
                       <td class="views-field views-field-weight-class-rank-change">
-                       <span class="athlete-rankings--attribute athlete-rankings--not-ranked">
-                        NR
-                       </span>
                       </td>
                      </tr>
                      <tr>
@@ -1657,7 +1674,7 @@ googletag.enableServices();
                        15
                       </td>
                       <td class="views-field views-field-title">
-                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-fbf50ab61b65d3c1b9bda8f754e57d6b11eca8fe5a3177e35bafdb872d4e6898">
+                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-7ac006ccadc67c62f014670d3bf1c9dbc753e6d93b635fcf06468add07329289">
                         <div class="view-content">
                          <div class="views-row">
                           <a href="/athlete/thomas-almeida" hreflang="en">
@@ -1668,10 +1685,6 @@ googletag.enableServices();
                        </div>
                       </td>
                       <td class="views-field views-field-weight-class-rank-change">
-                       <span class="athlete-rankings--rank-change athlete-rankings--rank-decrease">
-                        Rank decreased by
-                       </span>
-                       1
                       </td>
                      </tr>
                     </tbody>
@@ -1691,7 +1704,7 @@ googletag.enableServices();
                         Featherweight
                        </h4>
                        <h5>
-                        <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-58d6a9a5490300ffe9919fa40f25a1938490d3c777098069be4d0cf4fc3a5ae8">
+                        <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-69fd422d8c43c902f7e0807714a94234bef9f6863dc3562c43f4f9e00bf5ee3f">
                          <div class="view-content">
                           <div class="views-row">
                            <a href="/athlete/max-holloway" hreflang="en">
@@ -1720,7 +1733,7 @@ googletag.enableServices();
                        1
                       </td>
                       <td class="views-field views-field-title">
-                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-ef387300785cc810cc40dfec1e17266f83f85ad4bbcea3d72735ebb6172accb6">
+                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-92d848f854ea03f135608e5c2acb76c2801edfd8c6a5307cc8cca69924a86aa4">
                         <div class="view-content">
                          <div class="views-row">
                           <a href="/athlete/alexander-volkanovski" hreflang="en">
@@ -1738,7 +1751,7 @@ googletag.enableServices();
                        2
                       </td>
                       <td class="views-field views-field-title">
-                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-46ee25b0095129eb0a02cece336ced4e4c2b598689aca446cbcf3dcad0fcae06">
+                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-318f7155aa523c9ca98851d38492dd73fa24e536e28a037096b34f26deea3e33">
                         <div class="view-content">
                          <div class="views-row">
                           <a href="/athlete/brian-ortega" hreflang="en">
@@ -1756,7 +1769,7 @@ googletag.enableServices();
                        3
                       </td>
                       <td class="views-field views-field-title">
-                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-fbbce1a5286b910f1aba0a550ae31f9f18ed3336a20e01d110e912be219ef05a">
+                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-a3bfc9083239846d166950561d02f6c9d27e568225a5889425abbe59f0df9169">
                         <div class="view-content">
                          <div class="views-row">
                           <a href="/athlete/jose-aldo" hreflang="en">
@@ -1774,7 +1787,7 @@ googletag.enableServices();
                        4
                       </td>
                       <td class="views-field views-field-title">
-                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-d0bd633a7bad062407bb2ebd3df8be0f3c317bcdd9e4e825180ba71b1a5d3828">
+                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-f02dd0f35081a75204ea289bd1298b9fd7f00256fb013b897c0655413fa473c7">
                         <div class="view-content">
                          <div class="views-row">
                           <a href="/athlete/frankie-edgar" hreflang="en">
@@ -1792,7 +1805,7 @@ googletag.enableServices();
                        5
                       </td>
                       <td class="views-field views-field-title">
-                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-0faffccbc594c1f1993d8aa28c9e50d07976cf0f12f17f37e043095cf2604d9d">
+                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-121c9dd0c4e4263b697f998d3eab80b4c1a5c70cefe607c109dc3b04cd8b0e40">
                         <div class="view-content">
                          <div class="views-row">
                           <a href="/athlete/zabit-magomedsharipov" hreflang="en">
@@ -1810,7 +1823,7 @@ googletag.enableServices();
                        6
                       </td>
                       <td class="views-field views-field-title">
-                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-dd8afb58db2b160b733a1469336fe619d6fd6306918e0442286c61b647e2d346">
+                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-a188e4f160b83c49ba81f903e6518f8857de9a3dc769f5bb731ea72773763b44">
                         <div class="view-content">
                          <div class="views-row">
                           <a href="/athlete/chan-sung-jung" hreflang="en">
@@ -1828,7 +1841,7 @@ googletag.enableServices();
                        7
                       </td>
                       <td class="views-field views-field-title">
-                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-70346e95cc67d1b307d0e8415e7a8f568b999f1c5c33c4bd09ef92fd1b4d396b">
+                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-5254c663df1719fadbe57648ac3eebe375aa2f61d55afa1eb85a34d19d3d36d9">
                         <div class="view-content">
                          <div class="views-row">
                           <a href="/athlete/yair-rodriguez" hreflang="en">
@@ -1846,7 +1859,7 @@ googletag.enableServices();
                        8
                       </td>
                       <td class="views-field views-field-title">
-                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-575b7edcd7720f1585431e59379e159a634c5f3cfd591ba53ac843789e4f02df">
+                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-810fdc730c6d80beb62162911476b55251daf3b5edf731920b8dff96da911837">
                         <div class="view-content">
                          <div class="views-row">
                           <a href="/athlete/jeremy-stephens" hreflang="en">
@@ -1864,7 +1877,7 @@ googletag.enableServices();
                        9
                       </td>
                       <td class="views-field views-field-title">
-                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-1ba1eaf635280fdc8320594206a50656efc3fd36e61b6dfe86928a52d2fb576d">
+                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-c1a2ac2e46c6f6fa7e5a8c7c6a881d3bfc16e5c3991b1e5513a3106690c7472b">
                         <div class="view-content">
                          <div class="views-row">
                           <a href="/athlete/josh-emmett" hreflang="en">
@@ -1875,10 +1888,6 @@ googletag.enableServices();
                        </div>
                       </td>
                       <td class="views-field views-field-weight-class-rank-change">
-                       <span class="athlete-rankings--rank-change athlete-rankings--rank-increase">
-                        Rank increased by
-                       </span>
-                       1
                       </td>
                      </tr>
                      <tr>
@@ -1886,7 +1895,7 @@ googletag.enableServices();
                        10
                       </td>
                       <td class="views-field views-field-title">
-                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-b544f2d5ed3a78a1bbc5db3e0f103f55ce76335952494c60d4a1301dac2cffa5">
+                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-e716d508b852170dcd48264507e1f8eeebbd90a796d33b2ae0eb635bcb51dc3d">
                         <div class="view-content">
                          <div class="views-row">
                           <a href="/athlete/renato-moicano" hreflang="en">
@@ -1897,10 +1906,6 @@ googletag.enableServices();
                        </div>
                       </td>
                       <td class="views-field views-field-weight-class-rank-change">
-                       <span class="athlete-rankings--rank-change athlete-rankings--rank-decrease">
-                        Rank decreased by
-                       </span>
-                       1
                       </td>
                      </tr>
                      <tr>
@@ -1908,7 +1913,7 @@ googletag.enableServices();
                        11
                       </td>
                       <td class="views-field views-field-title">
-                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-a092074c4f8fb68c01dcf773603e3ecaf0fb8525ec6d901216e99ac945bc0c03">
+                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-d7ba506dc0fa1bb5f9151b0938d07f164fdd2aa813428623be1e058182a48e49">
                         <div class="view-content">
                          <div class="views-row">
                           <a href="/athlete/calvin-kattar" hreflang="en">
@@ -1926,7 +1931,7 @@ googletag.enableServices();
                        12
                       </td>
                       <td class="views-field views-field-title">
-                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-4610e552adb469dda55c813eb697edb6b52fb89e8bebefb66ed22ddcccde82da">
+                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-df7a0e61f8a36b34f488846ec54fc568f517286f5d2325f6bec8a686bd32c5d9">
                         <div class="view-content">
                          <div class="views-row">
                           <a href="/athlete/arnold-allen" hreflang="en">
@@ -1937,10 +1942,6 @@ googletag.enableServices();
                        </div>
                       </td>
                       <td class="views-field views-field-weight-class-rank-change">
-                       <span class="athlete-rankings--rank-change athlete-rankings--rank-increase">
-                        Rank increased by
-                       </span>
-                       1
                       </td>
                      </tr>
                      <tr>
@@ -1948,7 +1949,7 @@ googletag.enableServices();
                        13
                       </td>
                       <td class="views-field views-field-title">
-                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-5199f488a8f00e256b2e1da292f28ef717abe45effb0a8a110e6bf17e6c9db62">
+                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-39b2e8286e6c750304fc83f2bad7037eb821c66934b1dd8b29264cae6555c5ed">
                         <div class="view-content">
                          <div class="views-row">
                           <a href="/athlete/shane-burgos" hreflang="en">
@@ -1959,10 +1960,6 @@ googletag.enableServices();
                        </div>
                       </td>
                       <td class="views-field views-field-weight-class-rank-change">
-                       <span class="athlete-rankings--rank-change athlete-rankings--rank-increase">
-                        Rank increased by
-                       </span>
-                       1
                       </td>
                      </tr>
                      <tr>
@@ -1970,7 +1967,7 @@ googletag.enableServices();
                        14
                       </td>
                       <td class="views-field views-field-title">
-                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-815e7ea42ebc298780d5aa61bb4853f6092357a5c48dec3cc52b456ad1df57b4">
+                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-04606471afbe25cd8c1c784c52df5b6c13208c730e78084e6f9dd7da4d4a6f3f">
                         <div class="view-content">
                          <div class="views-row">
                           <a href="/athlete/ryan-hall" hreflang="en">
@@ -1981,9 +1978,6 @@ googletag.enableServices();
                        </div>
                       </td>
                       <td class="views-field views-field-weight-class-rank-change">
-                       <span class="athlete-rankings--attribute athlete-rankings--not-ranked">
-                        NR
-                       </span>
                       </td>
                      </tr>
                      <tr>
@@ -1991,7 +1985,7 @@ googletag.enableServices();
                        15
                       </td>
                       <td class="views-field views-field-title">
-                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-21230b24c7e9ffb86416aece68d2796c2d4e274aabee54c0a6ae799afe21f633">
+                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-cd3610c4b457d64bb43a2c5ae18ff6fc3eeac381e5a03357a98273fb756d225b">
                         <div class="view-content">
                          <div class="views-row">
                           <a href="/athlete/mirsad-bektic" hreflang="en">
@@ -2002,10 +1996,6 @@ googletag.enableServices();
                        </div>
                       </td>
                       <td class="views-field views-field-weight-class-rank-change">
-                       <span class="athlete-rankings--rank-change athlete-rankings--rank-decrease">
-                        Rank decreased by
-                       </span>
-                       3
                       </td>
                      </tr>
                     </tbody>
@@ -2025,7 +2015,7 @@ googletag.enableServices();
                         Lightweight
                        </h4>
                        <h5>
-                        <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-c0d6f02101d7dbd5d409aa332cfc07947e66791dc50ecc2437651dc683b8e265">
+                        <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-c94efe4199e8f425b7c115fccf555c532abb446c2d57f279b60a21a68cada242">
                          <div class="view-content">
                           <div class="views-row">
                            <a href="/athlete/khabib-nurmagomedov" hreflang="en">
@@ -2054,7 +2044,7 @@ googletag.enableServices();
                        1
                       </td>
                       <td class="views-field views-field-title">
-                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-e8ae959b3fd1de697860947151f946584abbb5258ec19332e6f4155e84fc5097">
+                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-0aca703b173e138bfffe37074ae9b338d873cfb68ed47847e6d773aad374980f">
                         <div class="view-content">
                          <div class="views-row">
                           <a href="/athlete/dustin-poirier" hreflang="en">
@@ -2075,7 +2065,7 @@ googletag.enableServices();
                        2
                       </td>
                       <td class="views-field views-field-title">
-                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-2582597ebffa13ef0a6fcf847d2726d28a64556b051859ffcfd23724a142c72a">
+                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-96d40cf70a668de66d960e98ffccb136d165594b7de1e2d126309b0092d1c489">
                         <div class="view-content">
                          <div class="views-row">
                           <a href="/athlete/tony-ferguson" hreflang="en">
@@ -2093,7 +2083,7 @@ googletag.enableServices();
                        3
                       </td>
                       <td class="views-field views-field-title">
-                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-9e20ea5b4f0061c7c5581a7b4ffd6e7fd8dd3ed1222fa8d8682e7d009133f43a">
+                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-151c3a2422d1b7df436111c4eae33aaaecce8c7b8af6758433e002138473c136">
                         <div class="view-content">
                          <div class="views-row">
                           <a href="/athlete/conor-mcgregor" hreflang="en">
@@ -2111,7 +2101,7 @@ googletag.enableServices();
                        4
                       </td>
                       <td class="views-field views-field-title">
-                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-a4c4628e0457f75ad2747c3d0a46dfc2b87f11fbe12891b920f4ee090a5b92ee">
+                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-5cb1537a5a1b7dec0bff0cd1a9acc0008fdcccecee7cf027bcc7281497af3e95">
                         <div class="view-content">
                          <div class="views-row">
                           <a href="/athlete/donald-cerrone" hreflang="en">
@@ -2129,7 +2119,7 @@ googletag.enableServices();
                        5
                       </td>
                       <td class="views-field views-field-title">
-                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-47344b032ca49564184f3c8faa119da4f74554bd469d98f21f0d4e2e81e976be">
+                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-0341de800492f249990141884a91d648bbcf7455754f8a8376f658a12f99e8cb">
                         <div class="view-content">
                          <div class="views-row">
                           <a href="/athlete/justin-gaethje" hreflang="en">
@@ -2147,7 +2137,7 @@ googletag.enableServices();
                        6
                       </td>
                       <td class="views-field views-field-title">
-                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-75d0591ca148e91fd7810b981b53e5a74f1c3f68de5aa12073741f7ec5f54bea">
+                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-b49e31e3f4d21f02acdd3a39252023dd5f481e5556914ed7b21c0f37ff3b395c">
                         <div class="view-content">
                          <div class="views-row">
                           <a href="/athlete/al-iaquinta" hreflang="en">
@@ -2165,7 +2155,7 @@ googletag.enableServices();
                        7
                       </td>
                       <td class="views-field views-field-title">
-                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-e9e223ef468af1cddea1c662dde60da01cf7299c1d23cc41737afb9408fc0d4e">
+                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-f66c094f679e0f03ed5f98fc850c4eb99ac968b51a94679047e8426378ffb213">
                         <div class="view-content">
                          <div class="views-row">
                           <a href="/athlete/edson-barboza" hreflang="en">
@@ -2183,7 +2173,7 @@ googletag.enableServices();
                        8
                       </td>
                       <td class="views-field views-field-title">
-                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-d282227bc9407d27c624ea4082b794898eeb84e0b8b1ebd932942cb165add83b">
+                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-fabd0bb0b1b0563096d364012e333b4a6754e7ac2f8b133d84b04cb386bb06cc">
                         <div class="view-content">
                          <div class="views-row">
                           <a href="/athlete/kevin-lee" hreflang="en">
@@ -2201,7 +2191,7 @@ googletag.enableServices();
                        9
                       </td>
                       <td class="views-field views-field-title">
-                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-7b51b063f84371c54e6092a617afe39a830897e76e1c11fcf572a2142cdf358a">
+                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-2e126e880f64f617cbe871d9b4501e8c46b2c81e02e53b8c54bb5ad014d1d944">
                         <div class="view-content">
                          <div class="views-row">
                           <a href="/athlete/anthony-pettis" hreflang="en">
@@ -2219,7 +2209,7 @@ googletag.enableServices();
                        10
                       </td>
                       <td class="views-field views-field-title">
-                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-fc3272f320eb05f2702ed0f4fd1073447651ee1ee5fb619f0fdcf40ed82c173b">
+                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-67e8a3883c8116bed2fe2217c36acbbda5412bc1b896bbd657b4bdc7a8657271">
                         <div class="view-content">
                          <div class="views-row">
                           <a href="/athlete/paul-felder" hreflang="en">
@@ -2237,7 +2227,7 @@ googletag.enableServices();
                        11
                       </td>
                       <td class="views-field views-field-title">
-                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-48a794cc66352c9eea456cc99023f128e2ccae5c006c05dd222c1099fc5d19ca">
+                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-0cb3a500f02d324cbc349b7f3e26b553c8bbcad0b1aab12ad2e8a15b721f0455">
                         <div class="view-content">
                          <div class="views-row">
                           <a href="/athlete/charles-oliveira" hreflang="en">
@@ -2255,7 +2245,7 @@ googletag.enableServices();
                        12
                       </td>
                       <td class="views-field views-field-title">
-                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-f949035ff7692e6aaf0b5de312c92e1c31b391bc08a5ba96863060b80b1a7eb9">
+                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-0ea98d28b348d194213a0b37be4a03d804750ba0312e00a3188524a92dfb2991">
                         <div class="view-content">
                          <div class="views-row">
                           <a href="/athlete/gregor-gillespie" hreflang="en">
@@ -2273,7 +2263,7 @@ googletag.enableServices();
                        13
                       </td>
                       <td class="views-field views-field-title">
-                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-cb18cf20272ff744e6b6b67395bf8f3dc01bf7822b0a30d2adc25817e057e80f">
+                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-63315eb46124c0c8f0d760daaedce140f0221c99aab2b9a7a668ae35ba1b369f">
                         <div class="view-content">
                          <div class="views-row">
                           <a href="/athlete/alexander-hernandez" hreflang="en">
@@ -2291,7 +2281,28 @@ googletag.enableServices();
                        14
                       </td>
                       <td class="views-field views-field-title">
-                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-c1a47d031aebbe3cff75e380e8fb4678baf60ec17724dbe5773191d601a7c66a">
+                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-4971bb1503991cc1325bb45745f829c024f4db9701415ce091dd3fae3f0b17e0">
+                        <div class="view-content">
+                         <div class="views-row">
+                          <a href="/athlete/dan-hooker" hreflang="en">
+                           Dan Hooker
+                          </a>
+                         </div>
+                        </div>
+                       </div>
+                      </td>
+                      <td class="views-field views-field-weight-class-rank-change">
+                       <span class="athlete-rankings--attribute athlete-rankings--not-ranked">
+                        NR
+                       </span>
+                      </td>
+                     </tr>
+                     <tr>
+                      <td class="views-field views-field-weight-class-rank">
+                       15
+                      </td>
+                      <td class="views-field views-field-title">
+                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-145d11d1696828041937c4ec8ba64ec4778c7355bff743218c93f56b3652d65f">
                         <div class="view-content">
                          <div class="views-row">
                           <a href="/athlete/islam-makhachev" hreflang="en">
@@ -2302,24 +2313,10 @@ googletag.enableServices();
                        </div>
                       </td>
                       <td class="views-field views-field-weight-class-rank-change">
-                      </td>
-                     </tr>
-                     <tr>
-                      <td class="views-field views-field-weight-class-rank">
-                       15
-                      </td>
-                      <td class="views-field views-field-title">
-                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-3f70ac98a3edc0d4c3b0578d533e022252bf48f83d8a041931f001a08487ba76">
-                        <div class="view-content">
-                         <div class="views-row">
-                          <a href="/athlete/james-vick" hreflang="en">
-                           James Vick
-                          </a>
-                         </div>
-                        </div>
-                       </div>
-                      </td>
-                      <td class="views-field views-field-weight-class-rank-change">
+                       <span class="athlete-rankings--rank-change athlete-rankings--rank-decrease">
+                        Rank decreased by
+                       </span>
+                       1
                       </td>
                      </tr>
                     </tbody>
@@ -2339,7 +2336,7 @@ googletag.enableServices();
                         Welterweight
                        </h4>
                        <h5>
-                        <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-88fc75ee4ab2a7ad06efa8602e9a66a062bec26e7166229613e1d50c418a5d37">
+                        <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-0fc96ebea7888d8a08fa6164f2bf5a1d93911dcb9e9e1a2808d96a911fcfdc6f">
                          <div class="view-content">
                           <div class="views-row">
                            <a href="/athlete/kamaru-usman" hreflang="en">
@@ -2368,7 +2365,7 @@ googletag.enableServices();
                        1
                       </td>
                       <td class="views-field views-field-title">
-                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-e57ce657a91d9f7e65a2e2c4dc650273cdf0988c2d54ddf1cf77df085f30cafe">
+                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-e7a548ea5f1f06a84c9d0809018f3d9b0b170dcae4e905bd19c2a27a74173582">
                         <div class="view-content">
                          <div class="views-row">
                           <a href="/athlete/tyron-woodley" hreflang="en">
@@ -2386,7 +2383,7 @@ googletag.enableServices();
                        2
                       </td>
                       <td class="views-field views-field-title">
-                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-4cd245515a2c789880c2cf63a2c4b67fb409627c3592a133565ee51fe4f6a4a1">
+                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-f5e5449ed3556c8aa9ac552dfc96b5c2a3ce88595ce67bdae621778a744b974b">
                         <div class="view-content">
                          <div class="views-row">
                           <a href="/athlete/colby-covington" hreflang="en">
@@ -2404,7 +2401,7 @@ googletag.enableServices();
                        3
                       </td>
                       <td class="views-field views-field-title">
-                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-8eca0f475e3b65d53ccfdd4879f4e0fd4e1b249c9c5201484a4982f1cb80161a">
+                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-50f44c2c0066b42043d945512e1f24aefc37bf26bff4bd3ce5709fa8e7a2c5c2">
                         <div class="view-content">
                          <div class="views-row">
                           <a href="/athlete/jorge-masvidal" hreflang="en">
@@ -2422,7 +2419,29 @@ googletag.enableServices();
                        4
                       </td>
                       <td class="views-field views-field-title">
-                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-21de636e8a9550e802ad762d59896fcc8906390776176ab1804f6aaee49b8f8d">
+                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-003ffd755709c993e2ed1679e2432b0ce474aecc8781777aea2eb6ddfdf0bece">
+                        <div class="view-content">
+                         <div class="views-row">
+                          <a href="/athlete/leon-edwards" hreflang="en">
+                           Leon Edwards
+                          </a>
+                         </div>
+                        </div>
+                       </div>
+                      </td>
+                      <td class="views-field views-field-weight-class-rank-change">
+                       <span class="athlete-rankings--rank-change athlete-rankings--rank-increase">
+                        Rank increased by
+                       </span>
+                       8
+                      </td>
+                     </tr>
+                     <tr>
+                      <td class="views-field views-field-weight-class-rank">
+                       5
+                      </td>
+                      <td class="views-field views-field-title">
+                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-4a6f9bce24a9712d5b6776983d9743cdcb7c7c041b6282aafc84f6bdc9664c91">
                         <div class="view-content">
                          <div class="views-row">
                           <a href="/athlete/rafael-dos-anjos" hreflang="en">
@@ -2433,14 +2452,18 @@ googletag.enableServices();
                        </div>
                       </td>
                       <td class="views-field views-field-weight-class-rank-change">
+                       <span class="athlete-rankings--rank-change athlete-rankings--rank-decrease">
+                        Rank decreased by
+                       </span>
+                       1
                       </td>
                      </tr>
                      <tr>
                       <td class="views-field views-field-weight-class-rank">
-                       5
+                       6
                       </td>
                       <td class="views-field views-field-title">
-                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-a1853da50d7a4e2ba62dc11d1ff07d7af4cce117ad2322b386b16c86bfd4a47f">
+                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-ffc5961f778ca22bf8ce27dbd9a7ed774392bc1ce7884c9898c3bfc51d6ff177">
                         <div class="view-content">
                          <div class="views-row">
                           <a href="/athlete/darren-till" hreflang="en">
@@ -2451,14 +2474,18 @@ googletag.enableServices();
                        </div>
                       </td>
                       <td class="views-field views-field-weight-class-rank-change">
+                       <span class="athlete-rankings--rank-change athlete-rankings--rank-decrease">
+                        Rank decreased by
+                       </span>
+                       1
                       </td>
                      </tr>
                      <tr>
                       <td class="views-field views-field-weight-class-rank">
-                       6
+                       7
                       </td>
                       <td class="views-field views-field-title">
-                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-79689cbb09f1336002233910a515ec295b25fa27baf053c786d374ff7f5020fe">
+                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-9a633918c6d5cdb8f0fd0c77de9bc304431bfe4a154cb0b9b37ab7bd55d70f1a">
                         <div class="view-content">
                          <div class="views-row">
                           <a href="/athlete/stephen-thompson" hreflang="en">
@@ -2469,14 +2496,18 @@ googletag.enableServices();
                        </div>
                       </td>
                       <td class="views-field views-field-weight-class-rank-change">
+                       <span class="athlete-rankings--rank-change athlete-rankings--rank-decrease">
+                        Rank decreased by
+                       </span>
+                       1
                       </td>
                      </tr>
                      <tr>
                       <td class="views-field views-field-weight-class-rank">
-                       7
+                       8
                       </td>
                       <td class="views-field views-field-title">
-                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-8f28e85c90ecd9b5bd8d37585a023473e147d0412edb16974aba0086f93f727c">
+                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-4322a650ac72443f68fd6d6e3857bc67204e274b0b78671023fdbcfcdd90e986">
                         <div class="view-content">
                          <div class="views-row">
                           <a href="/athlete/anthony-pettis" hreflang="en">
@@ -2487,14 +2518,18 @@ googletag.enableServices();
                        </div>
                       </td>
                       <td class="views-field views-field-weight-class-rank-change">
+                       <span class="athlete-rankings--rank-change athlete-rankings--rank-decrease">
+                        Rank decreased by
+                       </span>
+                       1
                       </td>
                      </tr>
                      <tr>
                       <td class="views-field views-field-weight-class-rank">
-                       8
+                       9
                       </td>
                       <td class="views-field views-field-title">
-                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-09b5bd2abaa3423614acd66341fa5fc5e6aa3cb7722dcfce6d3e4aa0f21649c1">
+                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-e552d2ef008b1f6134cb00d5e082007aec2eee8dd2b814d773793a18d0ec437a">
                         <div class="view-content">
                          <div class="views-row">
                           <a href="/athlete/santiago-ponzinibbio" hreflang="en">
@@ -2505,14 +2540,18 @@ googletag.enableServices();
                        </div>
                       </td>
                       <td class="views-field views-field-weight-class-rank-change">
+                       <span class="athlete-rankings--rank-change athlete-rankings--rank-decrease">
+                        Rank decreased by
+                       </span>
+                       1
                       </td>
                      </tr>
                      <tr>
                       <td class="views-field views-field-weight-class-rank">
-                       9
+                       10
                       </td>
                       <td class="views-field views-field-title">
-                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-065287644efb54d2c679c30a14e45f840fb3759e5ded6db310b5a2f1a1374ef3">
+                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-915d00045a78dc0baf8cc4d27258151716d67dcf6e3db6eb248e2a1d448c1ad0">
                         <div class="view-content">
                          <div class="views-row">
                           <a href="/athlete/ben-askren" hreflang="en">
@@ -2523,14 +2562,18 @@ googletag.enableServices();
                        </div>
                       </td>
                       <td class="views-field views-field-weight-class-rank-change">
+                       <span class="athlete-rankings--rank-change athlete-rankings--rank-decrease">
+                        Rank decreased by
+                       </span>
+                       1
                       </td>
                      </tr>
                      <tr>
                       <td class="views-field views-field-weight-class-rank">
-                       10
+                       11
                       </td>
                       <td class="views-field views-field-title">
-                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-1c358f6e430e3535e0857c6704f9fd39db1d401ee487f43c5e94e4c0faa68d5c">
+                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-e598561fb7245581c6a490252df56d32f2382c859fcae054617ff990fd6fdd4e">
                         <div class="view-content">
                          <div class="views-row">
                           <a href="/athlete/robbie-lawler" hreflang="en">
@@ -2541,24 +2584,10 @@ googletag.enableServices();
                        </div>
                       </td>
                       <td class="views-field views-field-weight-class-rank-change">
-                      </td>
-                     </tr>
-                     <tr>
-                      <td class="views-field views-field-weight-class-rank">
-                       11
-                      </td>
-                      <td class="views-field views-field-title">
-                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-ea400d5152504a1173e8d4970fcc6b16ab81e2fb0807d2b798ab499b7a6a613c">
-                        <div class="view-content">
-                         <div class="views-row">
-                          <a href="/athlete/demian-maia" hreflang="en">
-                           Demian Maia
-                          </a>
-                         </div>
-                        </div>
-                       </div>
-                      </td>
-                      <td class="views-field views-field-weight-class-rank-change">
+                       <span class="athlete-rankings--rank-change athlete-rankings--rank-decrease">
+                        Rank decreased by
+                       </span>
+                       1
                       </td>
                      </tr>
                      <tr>
@@ -2566,11 +2595,11 @@ googletag.enableServices();
                        12
                       </td>
                       <td class="views-field views-field-title">
-                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-e7c1b6f61f90b0159d75dc2c406f8178a671587d507b29ae306b59202a73b7da">
+                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-0835293fab05c78c529e19de97f713f2f1e2e599aa3e3def2cb9f207fb6cb40d">
                         <div class="view-content">
                          <div class="views-row">
-                          <a href="/athlete/leon-edwards" hreflang="en">
-                           Leon Edwards
+                          <a href="/athlete/demian-maia" hreflang="en">
+                           Demian Maia
                           </a>
                          </div>
                         </div>
@@ -2588,7 +2617,7 @@ googletag.enableServices();
                        13
                       </td>
                       <td class="views-field views-field-title">
-                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-4b0bc05c1a1102433476a0759fce86703e6ea6bf480d427d2e2c570306845c6e">
+                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-c7cb16259c39a067b1fdda436a7cd4d6e4298088788d4fcac4035487e22f6fa5">
                         <div class="view-content">
                          <div class="views-row">
                           <a href="/athlete/neil-magny" hreflang="en">
@@ -2606,7 +2635,7 @@ googletag.enableServices();
                        14
                       </td>
                       <td class="views-field views-field-title">
-                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-5e49e8ab8b5c4ab63ff1bf0012089ae43a1e175d0aa6ac488c6744f16f5cbf0f">
+                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-00a617f9b3253d5b2981fb6b5d14429e14c1b35c62f80601c7a7466bf8e0d7ae">
                         <div class="view-content">
                          <div class="views-row">
                           <a href="/athlete/elizeu-dos-santos" hreflang="en">
@@ -2624,7 +2653,7 @@ googletag.enableServices();
                        15
                       </td>
                       <td class="views-field views-field-title">
-                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-dae1b6821df9e49ce20844e1bbf91efa4ed743d9b0a311aa4a652f5b0b999bec">
+                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-6002b1ee9ced6bfc0b4e6aee1824173cfb04f533e34b757ffff7178d04a6b2de">
                         <div class="view-content">
                          <div class="views-row">
                           <a href="/athlete/vicente-luque" hreflang="en">
@@ -2654,7 +2683,7 @@ googletag.enableServices();
                         Middleweight
                        </h4>
                        <h5>
-                        <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-7f20e555a85e5b44ba90f1f7078ca5c6f88272b756d8428cddd89a43bf3944ee">
+                        <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-38fdcc5f87d4f992a19cf1b956d865c24d5ea89e8c171947d8d0dca972db205f">
                          <div class="view-content">
                           <div class="views-row">
                            <a href="/athlete/robert-whittaker" hreflang="en">
@@ -2683,7 +2712,7 @@ googletag.enableServices();
                        1
                       </td>
                       <td class="views-field views-field-title">
-                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-81d4d564b070f6c5e49efe542644b6cd10969a4a3fc5403d3b55fb706d1e5d63">
+                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-e7aefd22bc1ab654732570f0ba0a1b2c1315e294eec0648557fe952cdb2cd40f">
                         <div class="view-content">
                          <div class="views-row">
                           <a href="/athlete/israel-adesanya" hreflang="en">
@@ -2704,7 +2733,7 @@ googletag.enableServices();
                        2
                       </td>
                       <td class="views-field views-field-title">
-                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-cc66a4f19fe6ca8411e11b3de4ac2064da55f8042682f3e4e851d0741914f05e">
+                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-7b13f2fe0d2d44fd900f89d5e830967905a6462a0821265b7eaeca3a7e37cb21">
                         <div class="view-content">
                          <div class="views-row">
                           <a href="/athlete/yoel-romero" hreflang="en">
@@ -2722,7 +2751,7 @@ googletag.enableServices();
                        3
                       </td>
                       <td class="views-field views-field-title">
-                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-ec9fa3d969281575a882d60b3616b2f6a2948292679be90f59f312acebf8e441">
+                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-83508e2462c8a6d9a1f7ed9c8ff4a883485b6cc0abad1d7cbd8d898aca83b765">
                         <div class="view-content">
                          <div class="views-row">
                           <a href="/athlete/kelvin-gastelum" hreflang="en">
@@ -2740,7 +2769,7 @@ googletag.enableServices();
                        4
                       </td>
                       <td class="views-field views-field-title">
-                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-ab93bc5b09b50ebabbf02c84a154eb87f22be91fb7a818a731ce1889a8667f30">
+                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-f12530e962938ec357ab8d8332b8c4da8b7fbe1eb7f8642b65ddd6157a7fc98a">
                         <div class="view-content">
                          <div class="views-row">
                           <a href="/athlete/jack-hermansson" hreflang="en">
@@ -2758,7 +2787,7 @@ googletag.enableServices();
                        5
                       </td>
                       <td class="views-field views-field-title">
-                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-606e65589da2d681dd5bcf7f32778fb6128bd22d5ff5442ac77f513dbd7f90f8">
+                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-56b8d979eec008162aa60b8b1617e76c385ef95549c6c0634e91cd8159fd28cf">
                         <div class="view-content">
                          <div class="views-row">
                           <a href="/athlete/ronaldo-souza" hreflang="en">
@@ -2776,7 +2805,7 @@ googletag.enableServices();
                        6
                       </td>
                       <td class="views-field views-field-title">
-                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-49b7178c0032c2ba4d25838ef0a3b7da4ace26c8e0a2f2b6f90c3007f1256c5b">
+                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-78a93ef455e8a49b04b69753786d06bbbf133ae8325fd97803a3e8aaf7bd40b3">
                         <div class="view-content">
                          <div class="views-row">
                           <a href="/athlete/chris-weidman" hreflang="en">
@@ -2794,7 +2823,7 @@ googletag.enableServices();
                        7
                       </td>
                       <td class="views-field views-field-title">
-                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-ce4265d5f8cbe6a55635d7dc167b2b94d30eb2545b2ff6fbd65cb73d13ed6d9b">
+                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-3be2be5dd76ac26a36fcd4518985937cd01663324ac655ec2c3e251142e7eb2f">
                         <div class="view-content">
                          <div class="views-row">
                           <a href="/athlete/paulo-costa" hreflang="en">
@@ -2812,7 +2841,7 @@ googletag.enableServices();
                        8
                       </td>
                       <td class="views-field views-field-title">
-                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-9de563f436dadfcbd8a3a2d81bddb84199d9732e88d526cdaab0b8f16619a68e">
+                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-7786a153973c8e80246db0e4bd3471c2097e935f54f9a0ad79596c3adb1d0943">
                         <div class="view-content">
                          <div class="views-row">
                           <a href="/athlete/derek-brunson" hreflang="en">
@@ -2830,7 +2859,7 @@ googletag.enableServices();
                        9
                       </td>
                       <td class="views-field views-field-title">
-                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-3727f785bb819a45b4f3181924b42357b645273b23627a6a9820d374d8006ec5">
+                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-c6b68b316472f664ca23aebc9bc904b89b791a76cfcc5317aa8202658dd52f3c">
                         <div class="view-content">
                          <div class="views-row">
                           <a href="/athlete/jared-cannonier" hreflang="en">
@@ -2848,7 +2877,7 @@ googletag.enableServices();
                        10
                       </td>
                       <td class="views-field views-field-title">
-                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-90defbcbdefe52dc31a13cd9e4d68e12a61b8515b175f627f7421adf8274843b">
+                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-a77d8b90c2b6c4b0d497b71b5887c886c4b950f3e136c10deb0a344e99c628cc">
                         <div class="view-content">
                          <div class="views-row">
                           <a href="/athlete/ian-heinisch" hreflang="en">
@@ -2866,7 +2895,7 @@ googletag.enableServices();
                        11
                       </td>
                       <td class="views-field views-field-title">
-                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-5b926d097ab03f00e765d58b9b212b5360b343372b838a1d7a7844ee5e99b0ad">
+                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-e70d21d982f3e80b86b6ad7ea3410c17bfe010c66627fd2551b49c1797638363">
                         <div class="view-content">
                          <div class="views-row">
                           <a href="/athlete/uriah-hall" hreflang="en">
@@ -2877,10 +2906,6 @@ googletag.enableServices();
                        </div>
                       </td>
                       <td class="views-field views-field-weight-class-rank-change">
-                       <span class="athlete-rankings--rank-change athlete-rankings--rank-increase">
-                        Rank increased by
-                       </span>
-                       1
                       </td>
                      </tr>
                      <tr>
@@ -2888,7 +2913,7 @@ googletag.enableServices();
                        12
                       </td>
                       <td class="views-field views-field-title">
-                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-b836b98219ac9506f0547ed526ad99ee397d476f2c47db54ce4c338c89991389">
+                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-1e425a95471e537c2250564575cdef0231be3cf9802ca26f4fc1f7087515e4a8">
                         <div class="view-content">
                          <div class="views-row">
                           <a href="/athlete/brad-tavares" hreflang="en">
@@ -2899,10 +2924,6 @@ googletag.enableServices();
                        </div>
                       </td>
                       <td class="views-field views-field-weight-class-rank-change">
-                       <span class="athlete-rankings--rank-change athlete-rankings--rank-decrease">
-                        Rank decreased by
-                       </span>
-                       1
                       </td>
                      </tr>
                      <tr>
@@ -2910,7 +2931,7 @@ googletag.enableServices();
                        13
                       </td>
                       <td class="views-field views-field-title">
-                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-5ed70c8d634796947b00547e9293252ce3fbe43db0d26ca90788ba5673147f08">
+                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-3835123bb0a4db4120ecfe059d04b0413bef59d6efe19b1fadb0c6cabf01198b">
                         <div class="view-content">
                          <div class="views-row">
                           <a href="/athlete/antonio-carlos-junior" hreflang="en">
@@ -2928,7 +2949,7 @@ googletag.enableServices();
                        14
                       </td>
                       <td class="views-field views-field-title">
-                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-0e1a717d2d635c50c0abc3e252309822202a65ec687471e8f0f29a9420685e31">
+                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-6756a22a1e3646cdd53ce962612bc96b38d3ce84374ade57518d4190df51b8d9">
                         <div class="view-content">
                          <div class="views-row">
                           <a href="/athlete/david-branch" hreflang="en">
@@ -2946,7 +2967,7 @@ googletag.enableServices();
                        15
                       </td>
                       <td class="views-field views-field-title">
-                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-f263c09ab2a7a575c800ed9b4aaf00e2c53e775f1ab3674345cdd52af779b6d1">
+                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-e2810051c1eb075ff6f089eb4411b596c9544394abd1442b38339a6bff12ae38">
                         <div class="view-content">
                          <div class="views-row">
                           <a href="/athlete/anderson-silva" hreflang="en">
@@ -2976,7 +2997,7 @@ googletag.enableServices();
                         Light Heavyweight
                        </h4>
                        <h5>
-                        <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-47b645c7ad2dc7f9a5f74dfc1e69b0bca008426d5301324db7a4e88b62ce11cc">
+                        <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-9184a590f9ee9aecf3b7eadceb0654759ce7b7e5d9cc9e325cb6f7ecc3be8f46">
                          <div class="view-content">
                           <div class="views-row">
                            <a href="/athlete/jon-jones" hreflang="en">
@@ -3005,7 +3026,7 @@ googletag.enableServices();
                        1
                       </td>
                       <td class="views-field views-field-title">
-                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-e836ec22b3c8301dc541dae2874cd40fbad8b7f21942a499d4da60f22b3327c9">
+                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-f8b6920be8b8241010c85960f119e0a0f939dafc78305045c4b4bdec336b3f7c">
                         <div class="view-content">
                          <div class="views-row">
                           <a href="/athlete/daniel-cormier" hreflang="en">
@@ -3023,7 +3044,7 @@ googletag.enableServices();
                        2
                       </td>
                       <td class="views-field views-field-title">
-                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-b6a418d00c9ffa23d514d8e6e976e3c334f7236210ee1d2811760578c11d17fb">
+                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-d15c9fdc70d048d1b3962b68034d65ce5e59aed7ee86baa78c50c9d7a771f87b">
                         <div class="view-content">
                          <div class="views-row">
                           <a href="/athlete/thiago-santos" hreflang="en">
@@ -3041,7 +3062,7 @@ googletag.enableServices();
                        3
                       </td>
                       <td class="views-field views-field-title">
-                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-cb527abae7ec9cdc40c4a7b9adadcbbd3b3a1cd62213852db420fc5c73ffdd2f">
+                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-ce9bf1079f874a5fc30c88c3206ce3bbb7a8a3fe2c268ce0166eb37c01230203">
                         <div class="view-content">
                          <div class="views-row">
                           <a href="/athlete/anthony-smith" hreflang="en">
@@ -3059,7 +3080,7 @@ googletag.enableServices();
                        4
                       </td>
                       <td class="views-field views-field-title">
-                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-b5135e9ac3337725584fe58667df43a5b7a6baf7d7565f1109b031812f8c094f">
+                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-43731de3f31e2b6189711807334db68b76d82f36152aa89c62a7c8b6f826ef9b">
                         <div class="view-content">
                          <div class="views-row">
                           <a href="/athlete/dominick-reyes" hreflang="en">
@@ -3077,7 +3098,25 @@ googletag.enableServices();
                        5
                       </td>
                       <td class="views-field views-field-title">
-                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-c58d5917ca29e332d157fc8efc08105fdb905eaf8c483135bfbe9b8fefb83ee8">
+                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-4e518349b26abeffbbbcd0e01f8e136170b5cf9fceff15a149700200a7f128ee">
+                        <div class="view-content">
+                         <div class="views-row">
+                          <a href="/athlete/alexander-gustafsson" hreflang="en">
+                           Alexander Gustafsson
+                          </a>
+                         </div>
+                        </div>
+                       </div>
+                      </td>
+                      <td class="views-field views-field-weight-class-rank-change">
+                      </td>
+                     </tr>
+                     <tr>
+                      <td class="views-field views-field-weight-class-rank">
+                       5
+                      </td>
+                      <td class="views-field views-field-title">
+                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-397bff715623fdf181395861c8f47686f263e861fb590b3447ef8e20cc63cb54">
                         <div class="view-content">
                          <div class="views-row">
                           <a href="/athlete/jan-blachowicz" hreflang="en">
@@ -3092,32 +3131,10 @@ googletag.enableServices();
                      </tr>
                      <tr>
                       <td class="views-field views-field-weight-class-rank">
-                       5
-                      </td>
-                      <td class="views-field views-field-title">
-                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-084bf0a728f02aa0900e66bc1aeae3131d2799c395af9b3c10f7fed53ccfec88">
-                        <div class="view-content">
-                         <div class="views-row">
-                          <a href="/athlete/alexander-gustafsson" hreflang="en">
-                           Alexander Gustafsson
-                          </a>
-                         </div>
-                        </div>
-                       </div>
-                      </td>
-                      <td class="views-field views-field-weight-class-rank-change">
-                       <span class="athlete-rankings--rank-change athlete-rankings--rank-increase">
-                        Rank increased by
-                       </span>
-                       1
-                      </td>
-                     </tr>
-                     <tr>
-                      <td class="views-field views-field-weight-class-rank">
                        7
                       </td>
                       <td class="views-field views-field-title">
-                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-4b94b367fd92fe8f3fb792b3853655a19622c27afe0f2922c5866c32205fcd8f">
+                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-80b33baabb3c025ca5a420de7a557b511d01608edbe3cd2cdccf7e6ad63e7ab5">
                         <div class="view-content">
                          <div class="views-row">
                           <a href="/athlete/volkan-oezdemir" hreflang="en">
@@ -3135,7 +3152,7 @@ googletag.enableServices();
                        8
                       </td>
                       <td class="views-field views-field-title">
-                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-293e632ca96d35bf099db96ce2941884a2b835d785716a932e436720ef2702d1">
+                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-12b853ed4efcf1a28b880bdcbf8f99f471377fe7c70e1ef8768cc95692bc1e18">
                         <div class="view-content">
                          <div class="views-row">
                           <a href="/athlete/corey-anderson" hreflang="en">
@@ -3153,7 +3170,7 @@ googletag.enableServices();
                        9
                       </td>
                       <td class="views-field views-field-title">
-                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-4f99d8a942ed2db99703acc5804d82564b65ac68a16350cb354d64019f67804e">
+                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-f1b9a80d17d36eed8b082a60143831b612440db1631290df4fe916c93123d8c4">
                         <div class="view-content">
                          <div class="views-row">
                           <a href="/athlete/ilir-latifi" hreflang="en">
@@ -3171,7 +3188,7 @@ googletag.enableServices();
                        10
                       </td>
                       <td class="views-field views-field-title">
-                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-597d29852b37fe481d9c47c93538b6d83524e8e4663692b31f20015dcc0fd1fd">
+                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-4291b8149ef96946b89ec6d983902c54742e55273349456b2634bc8733260698">
                         <div class="view-content">
                          <div class="views-row">
                           <a href="/athlete/glover-teixeira" hreflang="en">
@@ -3189,7 +3206,7 @@ googletag.enableServices();
                        11
                       </td>
                       <td class="views-field views-field-title">
-                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-8355305246ca2c7cf2eaf4856be8fa18a835e6b0a0e7e11d15ac9ce9aa1683e9">
+                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-185992fbc7770d738035a27343c77ef753a9d1805e2841c667272e7f2d415d13">
                         <div class="view-content">
                          <div class="views-row">
                           <a href="/athlete/aleksandar-rakic" hreflang="en">
@@ -3207,7 +3224,7 @@ googletag.enableServices();
                        12
                       </td>
                       <td class="views-field views-field-title">
-                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-ca4cbbdc01ca50d12db686c22b63709eae2eaf06b12fb2e99fe33d82a874a6c0">
+                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-8faf9e32e08317cc2238e0c9298bb84b97e7b345e535e4d1ef92d71ccde75a9f">
                         <div class="view-content">
                          <div class="views-row">
                           <a href="/athlete/johnny-walker" hreflang="en">
@@ -3225,7 +3242,7 @@ googletag.enableServices();
                        13
                       </td>
                       <td class="views-field views-field-title">
-                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-0f411d8d710547d171590cbc22cd4003321bcd4069c3ef6183236825d339f6e1">
+                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-1b5d95d4a1791244456678259efb4ff8cbd4f96df9c0a5884a6d29f0374d6145">
                         <div class="view-content">
                          <div class="views-row">
                           <a href="/athlete/mauricio-rua" hreflang="en">
@@ -3243,7 +3260,7 @@ googletag.enableServices();
                        14
                       </td>
                       <td class="views-field views-field-title">
-                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-f9a6c92f69c5628b5089bf97939b02233753d76f9bcfa01d38b22edb927f0751">
+                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-caad53cee2f517d40f8b042ef9fcf69cfeb58733857d8e8f2fee0f85d1a9e9fb">
                         <div class="view-content">
                          <div class="views-row">
                           <a href="/athlete/nikita-krylov" hreflang="en">
@@ -3261,7 +3278,7 @@ googletag.enableServices();
                        15
                       </td>
                       <td class="views-field views-field-title">
-                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-1664a75ef6a8212462ee10a93a95cebc16c4cd9dff54e82f36efef195e90208d">
+                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-20bf4fac62b77864ac8d19f38c5b5356834c6a210ead540940268812f6c47e7a">
                         <div class="view-content">
                          <div class="views-row">
                           <a href="/athlete/misha-cirkunov" hreflang="en">
@@ -3291,7 +3308,7 @@ googletag.enableServices();
                         Heavyweight
                        </h4>
                        <h5>
-                        <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-da38c2e559ebd454251f5ed9ba2d8bd8ea8f89b646f7e152c49989b07f7c10f4">
+                        <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-58fd2cdcfdfba55815d2518910bb1cf8c84f6e92dcacb18b80134440dec7c938">
                          <div class="view-content">
                           <div class="views-row">
                            <a href="/athlete/daniel-cormier" hreflang="en">
@@ -3320,7 +3337,7 @@ googletag.enableServices();
                        1
                       </td>
                       <td class="views-field views-field-title">
-                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-cd76b81035e7b852cb03b6024685a8c1ee678f41c4cb006f37f3cf1df94e8c87">
+                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-b001f7077f13ff698ee0ce1bf556dc94643d1a9b5dbb92d77d391fa0e9d08e61">
                         <div class="view-content">
                          <div class="views-row">
                           <a href="/athlete/stipe-miocic" hreflang="en">
@@ -3338,7 +3355,7 @@ googletag.enableServices();
                        2
                       </td>
                       <td class="views-field views-field-title">
-                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-b4f6aa7d526afb7e63cf512a20e9c6e1d6e289e28152b8192a3b9d8fd7ff4136">
+                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-60362bc704da220d83c6d501304d9aa7014b46fbc3459ee2b14a32c221d52c6f">
                         <div class="view-content">
                          <div class="views-row">
                           <a href="/athlete/francis-ngannou" hreflang="en">
@@ -3356,7 +3373,7 @@ googletag.enableServices();
                        3
                       </td>
                       <td class="views-field views-field-title">
-                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-04cc79e3c9e0e50c0a90a8550e807fbc8abbc9038a8f40a466b2b221d3f408a2">
+                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-dfcc624a87976df97e1ac540b4c0db61d5e3efbb4a1b8ca709115b041224a8fa">
                         <div class="view-content">
                          <div class="views-row">
                           <a href="/athlete/junior-dos-santos" hreflang="en">
@@ -3374,7 +3391,7 @@ googletag.enableServices();
                        4
                       </td>
                       <td class="views-field views-field-title">
-                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-c9167c8b5463567b1acfba8312ac54c2fd6c3464a632f4b897f40a90fdcfa86d">
+                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-c79a6cb461665d838cf551dd11a115d0b688271331ac9cf9684b70282e52e692">
                         <div class="view-content">
                          <div class="views-row">
                           <a href="/athlete/curtis-blaydes" hreflang="en">
@@ -3392,7 +3409,7 @@ googletag.enableServices();
                        5
                       </td>
                       <td class="views-field views-field-title">
-                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-7d365632be373c67337e2fbb81d30087c5c1e732d0c75db8d1322baae4c75bd6">
+                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-172304ed8f6fd4700b3801d28445e928293326589ed9b04aa609d0380f458175">
                         <div class="view-content">
                          <div class="views-row">
                           <a href="/athlete/derrick-lewis" hreflang="en">
@@ -3410,7 +3427,7 @@ googletag.enableServices();
                        6
                       </td>
                       <td class="views-field views-field-title">
-                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-fc8ede3171e7977e8a6e5042ed51f53776984ad255eb3ccb87d9dbe82485a7db">
+                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-cda2353517a17447b2707f0b840bdb5d6c2647001245d32191758c79eaa0fb52">
                         <div class="view-content">
                          <div class="views-row">
                           <a href="/athlete/alexander-volkov" hreflang="en">
@@ -3428,7 +3445,7 @@ googletag.enableServices();
                        7
                       </td>
                       <td class="views-field views-field-title">
-                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-d0cea602f2133138676f3624a64b66cdaf6f490925dbbe834d055da34fc45e1c">
+                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-aa9705afcfc0e0f2ed1dd34b5f2465bae6d83549b0bb0cc58e4ad179b95521f7">
                         <div class="view-content">
                          <div class="views-row">
                           <a href="/athlete/alistair-overeem" hreflang="en">
@@ -3446,7 +3463,7 @@ googletag.enableServices();
                        8
                       </td>
                       <td class="views-field views-field-title">
-                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-3874cb07689c6e036e4277e3caa81050769af02d024bf07b18d6c83f287161ed">
+                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-0cfd9bf921acee3e98b485db14aea91b443865656181017b81f6bd556ef8233b">
                         <div class="view-content">
                          <div class="views-row">
                           <a href="/athlete/cain-velasquez" hreflang="en">
@@ -3464,25 +3481,7 @@ googletag.enableServices();
                        9
                       </td>
                       <td class="views-field views-field-title">
-                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-8a6c9619b38fe7f898afc891f514c30cac1d5be16b648393b225fdae222a3f05">
-                        <div class="view-content">
-                         <div class="views-row">
-                          <a href="/athlete/aleksei-oleinik" hreflang="en">
-                           Aleksei Oleinik
-                          </a>
-                         </div>
-                        </div>
-                       </div>
-                      </td>
-                      <td class="views-field views-field-weight-class-rank-change">
-                      </td>
-                     </tr>
-                     <tr>
-                      <td class="views-field views-field-weight-class-rank">
-                       10
-                      </td>
-                      <td class="views-field views-field-title">
-                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-d3c1aca7db109f510f7d1a4e46d25b573b4dde362e5df05b69e280c783f338e7">
+                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-0b8176b6e41f6c04adae5c44ae2e09bbc02963fb5bfbc4473bda2074e97fe0af">
                         <div class="view-content">
                          <div class="views-row">
                           <a href="/athlete/shamil-abdurakhimov" hreflang="en">
@@ -3493,14 +3492,18 @@ googletag.enableServices();
                        </div>
                       </td>
                       <td class="views-field views-field-weight-class-rank-change">
+                       <span class="athlete-rankings--rank-change athlete-rankings--rank-increase">
+                        Rank increased by
+                       </span>
+                       1
                       </td>
                      </tr>
                      <tr>
                       <td class="views-field views-field-weight-class-rank">
-                       11
+                       10
                       </td>
                       <td class="views-field views-field-title">
-                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-ac6437f18a15df95418f5b2b92055cee73854d5657d0f287218dff7c41049e6d">
+                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-df4a49148164ee4406c43523f1359246c9c2cd351c31a4e768f1d60bc204a172">
                         <div class="view-content">
                          <div class="views-row">
                           <a href="/athlete/blagoy-ivanov" hreflang="en">
@@ -3511,50 +3514,18 @@ googletag.enableServices();
                        </div>
                       </td>
                       <td class="views-field views-field-weight-class-rank-change">
+                       <span class="athlete-rankings--rank-change athlete-rankings--rank-increase">
+                        Rank increased by
+                       </span>
+                       1
                       </td>
                      </tr>
                      <tr>
                       <td class="views-field views-field-weight-class-rank">
-                       12
+                       11
                       </td>
                       <td class="views-field views-field-title">
-                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-e53f65e9f17ed5b93c96a21d318235671136e45fb1a5bce15573dbfeaa1ef913">
-                        <div class="view-content">
-                         <div class="views-row">
-                          <a href="/athlete/tai-tuivasa" hreflang="en">
-                           Tai Tuivasa
-                          </a>
-                         </div>
-                        </div>
-                       </div>
-                      </td>
-                      <td class="views-field views-field-weight-class-rank-change">
-                      </td>
-                     </tr>
-                     <tr>
-                      <td class="views-field views-field-weight-class-rank">
-                       13
-                      </td>
-                      <td class="views-field views-field-title">
-                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-041a67cbdcbccde66d4e64cf5c0f1b94e795e8a861a2884693dbb5f97fa82fc0">
-                        <div class="view-content">
-                         <div class="views-row">
-                          <a href="/athlete/marcin-tybura" hreflang="en">
-                           Marcin Tybura
-                          </a>
-                         </div>
-                        </div>
-                       </div>
-                      </td>
-                      <td class="views-field views-field-weight-class-rank-change">
-                      </td>
-                     </tr>
-                     <tr>
-                      <td class="views-field views-field-weight-class-rank">
-                       14
-                      </td>
-                      <td class="views-field views-field-title">
-                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-be84e0f8f7e810c7b42c7806d1d974c2874771588ae1a940bcb5eac3200f515d">
+                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-a48f6f421284b18872770d04e70c02b742d38af3e6445270e9db8cd0d0e44d2d">
                         <div class="view-content">
                          <div class="views-row">
                           <a href="/athlete/walt-harris" hreflang="en">
@@ -3565,6 +3536,76 @@ googletag.enableServices();
                        </div>
                       </td>
                       <td class="views-field views-field-weight-class-rank-change">
+                       <span class="athlete-rankings--rank-change athlete-rankings--rank-increase">
+                        Rank increased by
+                       </span>
+                       3
+                      </td>
+                     </tr>
+                     <tr>
+                      <td class="views-field views-field-weight-class-rank">
+                       12
+                      </td>
+                      <td class="views-field views-field-title">
+                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-a305d1639ab69917ba262eeb648299b6a8b70b553bdaadb4a57ad2fcfe02c952">
+                        <div class="view-content">
+                         <div class="views-row">
+                          <a href="/athlete/aleksei-oleinik" hreflang="en">
+                           Aleksei Oleinik
+                          </a>
+                         </div>
+                        </div>
+                       </div>
+                      </td>
+                      <td class="views-field views-field-weight-class-rank-change">
+                       <span class="athlete-rankings--rank-change athlete-rankings--rank-decrease">
+                        Rank decreased by
+                       </span>
+                       3
+                      </td>
+                     </tr>
+                     <tr>
+                      <td class="views-field views-field-weight-class-rank">
+                       13
+                      </td>
+                      <td class="views-field views-field-title">
+                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-08814b5278a5846ad262077b4bf85c6cded630af2e256e179cab19666ef9716c">
+                        <div class="view-content">
+                         <div class="views-row">
+                          <a href="/athlete/tai-tuivasa" hreflang="en">
+                           Tai Tuivasa
+                          </a>
+                         </div>
+                        </div>
+                       </div>
+                      </td>
+                      <td class="views-field views-field-weight-class-rank-change">
+                       <span class="athlete-rankings--rank-change athlete-rankings--rank-decrease">
+                        Rank decreased by
+                       </span>
+                       1
+                      </td>
+                     </tr>
+                     <tr>
+                      <td class="views-field views-field-weight-class-rank">
+                       14
+                      </td>
+                      <td class="views-field views-field-title">
+                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-2900018af33bcf0084d365f5f4957aa1420c92e26ea1e27631ea95d2d108dc7a">
+                        <div class="view-content">
+                         <div class="views-row">
+                          <a href="/athlete/marcin-tybura" hreflang="en">
+                           Marcin Tybura
+                          </a>
+                         </div>
+                        </div>
+                       </div>
+                      </td>
+                      <td class="views-field views-field-weight-class-rank-change">
+                       <span class="athlete-rankings--rank-change athlete-rankings--rank-decrease">
+                        Rank decreased by
+                       </span>
+                       1
                       </td>
                      </tr>
                      <tr>
@@ -3572,7 +3613,7 @@ googletag.enableServices();
                        15
                       </td>
                       <td class="views-field views-field-title">
-                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-4d3ce5b853cec6f02c0741a0d8794178f50627a84f15dea690bc4a3bc82048c4">
+                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-3a00959a88273c2d5da767f5f143f8c2a6445359597b8ed1ced515828c28bf1e">
                         <div class="view-content">
                          <div class="views-row">
                           <a href="/athlete/augusto-sakai" hreflang="en">
@@ -3602,7 +3643,7 @@ googletag.enableServices();
                         Women's Strawweight
                        </h4>
                        <h5>
-                        <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-23bd8756219638117426c5265d5e7a530b074de0d9e89e3b6d663ff24f2da500">
+                        <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-02e4ed36f8d02f3bc1b31f9395bf72b9d20d4f2d90861c7964d3d8f8c30e226e">
                          <div class="view-content">
                           <div class="views-row">
                            <a href="/athlete/jessica-andrade" hreflang="en">
@@ -3631,7 +3672,7 @@ googletag.enableServices();
                        1
                       </td>
                       <td class="views-field views-field-title">
-                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-9979cc5270b17cc70be96b890f63051354219fd9150b3263cbca3afa01ce5638">
+                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-514e0de3a04b51e0cb7eac185167c90522a30fd5a0bcb292099b6c22db79379a">
                         <div class="view-content">
                          <div class="views-row">
                           <a href="/athlete/rose-namajunas" hreflang="en">
@@ -3649,7 +3690,7 @@ googletag.enableServices();
                        2
                       </td>
                       <td class="views-field views-field-title">
-                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-a035ccf5bd67ea6efe49946630f95bbc72c520253dfe40eebd1442c3da3d80f5">
+                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-29ff1c8ceef224a225d6c6ca18163826ee060638180f5ddb7a80822d1fd424c6">
                         <div class="view-content">
                          <div class="views-row">
                           <a href="/athlete/tatiana-suarez" hreflang="en">
@@ -3667,7 +3708,7 @@ googletag.enableServices();
                        3
                       </td>
                       <td class="views-field views-field-title">
-                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-8937f2ac859fb3b84df1c211d49076bca6993c3ba9a9465f1c54e8c53e091b25">
+                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-b4cb56a80f7e6795abcf25835dd18bc6ff7fe339fa244390033119278c669494">
                         <div class="view-content">
                          <div class="views-row">
                           <a href="/athlete/nina-ansaroff" hreflang="en">
@@ -3685,7 +3726,7 @@ googletag.enableServices();
                        4
                       </td>
                       <td class="views-field views-field-title">
-                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-8c0fe23994e16276e6fe98ca13f9dc4e9c4d04a73f225e2b410055ebf756991d">
+                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-a9a69b88ab4d01a0e0b45a199fb42bdb0bdb3df6bde43ead37ff3990dcec9137">
                         <div class="view-content">
                          <div class="views-row">
                           <a href="/athlete/joanna-jedrzejczyk" hreflang="en">
@@ -3703,7 +3744,7 @@ googletag.enableServices();
                        5
                       </td>
                       <td class="views-field views-field-title">
-                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-6d77c23ef27cf2c305e9f6c756ba4cb5d74b221a7e4ddb36786cb76ab66e8a56">
+                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-c003b30229f8d64b116f8667a2ce13497908ead52905913d6ac03e8947581b28">
                         <div class="view-content">
                          <div class="views-row">
                           <a href="/athlete/claudia-gadelha" hreflang="en">
@@ -3721,7 +3762,7 @@ googletag.enableServices();
                        6
                       </td>
                       <td class="views-field views-field-title">
-                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-1835c8995954536e3192ad7c15151986b7aed6b72e5c7318a0d4b75a9bb177db">
+                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-1a3c6ce882d55718fe437172764023b624b2869e21afa4e8034402b0c18480dc">
                         <div class="view-content">
                          <div class="views-row">
                           <a href="/athlete/weili-zhang" hreflang="en">
@@ -3739,7 +3780,7 @@ googletag.enableServices();
                        7
                       </td>
                       <td class="views-field views-field-title">
-                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-f86ccc779289debc28b83cd6e05772f5cce80cb0ed4a5c0dbd7aeac357c22602">
+                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-7e93e8bee1ab0c171bb11e3fc0b4a95f665a1222f4806b01dee6f9d0b2f29ff8">
                         <div class="view-content">
                          <div class="views-row">
                           <a href="/athlete/michelle-waterson" hreflang="en">
@@ -3757,7 +3798,7 @@ googletag.enableServices();
                        8
                       </td>
                       <td class="views-field views-field-title">
-                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-e196a974f0e81791117d8350f5874942d6d3a22f0ed61b3d12330de6181fc838">
+                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-bda410e59b2dbd85ba0f3c54a7197c2e3cc70972f9b4b004bb83e1aad3140482">
                         <div class="view-content">
                          <div class="views-row">
                           <a href="/athlete/tecia-torres" hreflang="en">
@@ -3775,7 +3816,7 @@ googletag.enableServices();
                        9
                       </td>
                       <td class="views-field views-field-title">
-                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-ceda9422f0c5f2a90df44d72824e6c107cd5d5e7848f4ee55d71d7fdc8f4c47a">
+                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-091f883dbedb07553417542d5cac370e2bfd5dd3658f70894080d02ada91ba46">
                         <div class="view-content">
                          <div class="views-row">
                           <a href="/athlete/carla-esparza" hreflang="en">
@@ -3793,7 +3834,7 @@ googletag.enableServices();
                        10
                       </td>
                       <td class="views-field views-field-title">
-                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-62de9ff8b61eb847e69228985314d97b2fe31f37ca39e5a6295da571e9e4474e">
+                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-459ff65ad6d2f02ed5411b773d4aafa4cf738393a41f10d558ebca6448fece2d">
                         <div class="view-content">
                          <div class="views-row">
                           <a href="/athlete/alexa-grasso" hreflang="en">
@@ -3811,7 +3852,7 @@ googletag.enableServices();
                        11
                       </td>
                       <td class="views-field views-field-title">
-                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-f2739dd9c924cad09e6f6ff5ac9dc5914787c09b6d7051b0a3e3e0065858f2f4">
+                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-f318cca632b42617a6e69b0d8fc6514fb360e5daae085f21e5dd87c25cc74fba">
                         <div class="view-content">
                          <div class="views-row">
                           <a href="/athlete/cynthia-calvillo" hreflang="en">
@@ -3829,7 +3870,7 @@ googletag.enableServices();
                        12
                       </td>
                       <td class="views-field views-field-title">
-                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-48c47676af9b3e0e44aad0416699ffbdd5f36b4248a4f049a08da66a7fce5c2c">
+                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-39cf4d969696542fd4198bd66d10ec68a6f44f60f2097971e3ed322e0f0d3a2a">
                         <div class="view-content">
                          <div class="views-row">
                           <a href="/athlete/felice-herrig" hreflang="en">
@@ -3847,7 +3888,7 @@ googletag.enableServices();
                        13
                       </td>
                       <td class="views-field views-field-title">
-                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-e31ce9827d38cd5fc6c22f3a428b9f511e25014e5842b99d418708aead378ff0">
+                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-a7d34a415b2be72122f593039e04daccdef11b0e849dc5b50c166d3fb95040a9">
                         <div class="view-content">
                          <div class="views-row">
                           <a href="/athlete/karolina-kowalkiewicz" hreflang="en">
@@ -3865,7 +3906,7 @@ googletag.enableServices();
                        14
                       </td>
                       <td class="views-field views-field-title">
-                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-8a78bff4caab4c1d7ab1daea42e1613712b782e1654413ac26114b73a6700920">
+                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-59b801f71f90d0f9ad758c31fb09344c9533d3bb22de642b8bd32747a9b60c8e">
                         <div class="view-content">
                          <div class="views-row">
                           <a href="/athlete/cortney-casey" hreflang="en">
@@ -3883,7 +3924,7 @@ googletag.enableServices();
                        15
                       </td>
                       <td class="views-field views-field-title">
-                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-b341000d3c8356b2049514d8eb7059fbee0d90fc23fd60e8f0c0cea50ba96d53">
+                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-824f7e672c3ea6eb154a12a60a7761b59b24d49309a5203afa00da160aababe3">
                         <div class="view-content">
                          <div class="views-row">
                           <a href="/athlete/yan-xiaonan" hreflang="en">
@@ -3913,7 +3954,7 @@ googletag.enableServices();
                         Women's Flyweight
                        </h4>
                        <h5>
-                        <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-8c0f9ced46b66b3d4a53124710e0aa7a4540274bab7d46f69f68b1676159b43c">
+                        <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-bc903770532eef78f697e464fe85a6f23960b9f46ae9dd53b60e2a1e1acffdf1">
                          <div class="view-content">
                           <div class="views-row">
                            <a href="/athlete/valentina-shevchenko" hreflang="en">
@@ -3942,7 +3983,7 @@ googletag.enableServices();
                        1
                       </td>
                       <td class="views-field views-field-title">
-                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-57c8b825ac33ea2d2923f4569964408f44eed35ee94ee4a69298af7ac92b955e">
+                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-81fe999f59ef2b3a92414395e5a08b03e1210fd98955880b9399eacf74492482">
                         <div class="view-content">
                          <div class="views-row">
                           <a href="/athlete/jessica-eye" hreflang="en">
@@ -3960,7 +4001,7 @@ googletag.enableServices();
                        2
                       </td>
                       <td class="views-field views-field-title">
-                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-8b40a8be84200b765e25eaeb69a730be8d4d34dcb1cfe57fa50490a9228a2e7c">
+                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-4f31a5ba3bf7a2f8beabe188c794a1f1b95e2722ccf248604595c6255ebc2169">
                         <div class="view-content">
                          <div class="views-row">
                           <a href="/athlete/katlyn-chookagian" hreflang="en">
@@ -3978,7 +4019,7 @@ googletag.enableServices();
                        3
                       </td>
                       <td class="views-field views-field-title">
-                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-6028ad5a3f10abb4bfeba1bb49552adab784451bf4cec5dc39d633164e8cb811">
+                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-4c5cee3fac746342771cfb00ea4e2aded7bdc4d3e60ef7adfee22088e0865e7f">
                         <div class="view-content">
                          <div class="views-row">
                           <a href="/athlete/liz-carmouche" hreflang="en">
@@ -3996,135 +4037,11 @@ googletag.enableServices();
                        4
                       </td>
                       <td class="views-field views-field-title">
-                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-f3d1417a618fea7c6047cef6e33897e3989e4a7988ace1e525e2754e8713a576">
-                        <div class="view-content">
-                         <div class="views-row">
-                          <a href="/athlete/joanne-calderwood" hreflang="en">
-                           Joanne Calderwood
-                          </a>
-                         </div>
-                        </div>
-                       </div>
-                      </td>
-                      <td class="views-field views-field-weight-class-rank-change">
-                       <span class="athlete-rankings--rank-change athlete-rankings--rank-increase">
-                        Rank increased by
-                       </span>
-                       1
-                      </td>
-                     </tr>
-                     <tr>
-                      <td class="views-field views-field-weight-class-rank">
-                       5
-                      </td>
-                      <td class="views-field views-field-title">
-                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-4e219091a2260824cb2bcff765963622bb2e35770ce22d7f92ed17edc7935bce">
-                        <div class="view-content">
-                         <div class="views-row">
-                          <a href="/athlete/roxanne-modafferi" hreflang="en">
-                           Roxanne Modafferi
-                          </a>
-                         </div>
-                        </div>
-                       </div>
-                      </td>
-                      <td class="views-field views-field-weight-class-rank-change">
-                       <span class="athlete-rankings--rank-change athlete-rankings--rank-increase">
-                        Rank increased by
-                       </span>
-                       1
-                      </td>
-                     </tr>
-                     <tr>
-                      <td class="views-field views-field-weight-class-rank">
-                       6
-                      </td>
-                      <td class="views-field views-field-title">
-                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-52d015a479e2e29d8166cb5a0696f5a51f47ba9f977fcb25c09af6dcd90649d5">
+                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-7788f9fe433c1cdac88d77e49520616fc795e455bb0f5f452a3df67c86da1478">
                         <div class="view-content">
                          <div class="views-row">
                           <a href="/athlete/jennifer-maia" hreflang="en">
                            Jennifer Maia
-                          </a>
-                         </div>
-                        </div>
-                       </div>
-                      </td>
-                      <td class="views-field views-field-weight-class-rank-change">
-                       <span class="athlete-rankings--rank-change athlete-rankings--rank-increase">
-                        Rank increased by
-                       </span>
-                       3
-                      </td>
-                     </tr>
-                     <tr>
-                      <td class="views-field views-field-weight-class-rank">
-                       7
-                      </td>
-                      <td class="views-field views-field-title">
-                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-a80b413c3e808cd3adc6cae34017a15da0aa5c5e99d9ff9179203b5ff5354448">
-                        <div class="view-content">
-                         <div class="views-row">
-                          <a href="/athlete/andrea-lee" hreflang="en">
-                           Andrea Lee
-                          </a>
-                         </div>
-                        </div>
-                       </div>
-                      </td>
-                      <td class="views-field views-field-weight-class-rank-change">
-                      </td>
-                     </tr>
-                     <tr>
-                      <td class="views-field views-field-weight-class-rank">
-                       8
-                      </td>
-                      <td class="views-field views-field-title">
-                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-9c662183fca90a290e9bb656c17b96cf48981126aefa90b20e746d9ce65e5662">
-                        <div class="view-content">
-                         <div class="views-row">
-                          <a href="/athlete/alexis-davis" hreflang="en">
-                           Alexis Davis
-                          </a>
-                         </div>
-                        </div>
-                       </div>
-                      </td>
-                      <td class="views-field views-field-weight-class-rank-change">
-                      </td>
-                     </tr>
-                     <tr>
-                      <td class="views-field views-field-weight-class-rank">
-                       9
-                      </td>
-                      <td class="views-field views-field-title">
-                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-0940b187cfa8fd1da63cdf0af3a063ec8b8534261ae90205a647a0cc4460307d">
-                        <div class="view-content">
-                         <div class="views-row">
-                          <a href="/athlete/lauren-murphy" hreflang="en">
-                           Lauren Murphy
-                          </a>
-                         </div>
-                        </div>
-                       </div>
-                      </td>
-                      <td class="views-field views-field-weight-class-rank-change">
-                       <span class="athlete-rankings--rank-change athlete-rankings--rank-increase">
-                        Rank increased by
-                       </span>
-                       1
-                      </td>
-                     </tr>
-                     <tr>
-                      <td class="views-field views-field-weight-class-rank">
-                       10
-                      </td>
-                      <td class="views-field views-field-title">
-                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-b0c3d287b77e3d534dd07777da6d942e90c1e5da89de3a347071e566020ccf00">
-                        <div class="view-content">
-                         <div class="views-row">
-                          <a href="/athlete/mara-romero-borella" hreflang="en">
-                           Mara Romero Borella
                           </a>
                          </div>
                         </div>
@@ -4139,10 +4056,134 @@ googletag.enableServices();
                      </tr>
                      <tr>
                       <td class="views-field views-field-weight-class-rank">
+                       5
+                      </td>
+                      <td class="views-field views-field-title">
+                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-7bde4f16563091580cbb206147171e5b8792efdd9750fae2cc47a23b9ea02775">
+                        <div class="view-content">
+                         <div class="views-row">
+                          <a href="/athlete/joanne-calderwood" hreflang="en">
+                           Joanne Calderwood
+                          </a>
+                         </div>
+                        </div>
+                       </div>
+                      </td>
+                      <td class="views-field views-field-weight-class-rank-change">
+                       <span class="athlete-rankings--rank-change athlete-rankings--rank-decrease">
+                        Rank decreased by
+                       </span>
+                       1
+                      </td>
+                     </tr>
+                     <tr>
+                      <td class="views-field views-field-weight-class-rank">
+                       6
+                      </td>
+                      <td class="views-field views-field-title">
+                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-71d0b5b4d2495387a9a862c3cc35117a1d9048955c6a09bf22c37901727821ff">
+                        <div class="view-content">
+                         <div class="views-row">
+                          <a href="/athlete/andrea-lee" hreflang="en">
+                           Andrea Lee
+                          </a>
+                         </div>
+                        </div>
+                       </div>
+                      </td>
+                      <td class="views-field views-field-weight-class-rank-change">
+                       <span class="athlete-rankings--rank-change athlete-rankings--rank-increase">
+                        Rank increased by
+                       </span>
+                       1
+                      </td>
+                     </tr>
+                     <tr>
+                      <td class="views-field views-field-weight-class-rank">
+                       7
+                      </td>
+                      <td class="views-field views-field-title">
+                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-21fe559a4e29de8fade44e65b0e9bbf725b2b0858499101934d24aa81c271420">
+                        <div class="view-content">
+                         <div class="views-row">
+                          <a href="/athlete/alexis-davis" hreflang="en">
+                           Alexis Davis
+                          </a>
+                         </div>
+                        </div>
+                       </div>
+                      </td>
+                      <td class="views-field views-field-weight-class-rank-change">
+                       <span class="athlete-rankings--rank-change athlete-rankings--rank-increase">
+                        Rank increased by
+                       </span>
+                       1
+                      </td>
+                     </tr>
+                     <tr>
+                      <td class="views-field views-field-weight-class-rank">
+                       8
+                      </td>
+                      <td class="views-field views-field-title">
+                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-032083cd92bf4b1e557f2a9d5025d12f47b397593a150d88c960dd44b586d06e">
+                        <div class="view-content">
+                         <div class="views-row">
+                          <a href="/athlete/roxanne-modafferi" hreflang="en">
+                           Roxanne Modafferi
+                          </a>
+                         </div>
+                        </div>
+                       </div>
+                      </td>
+                      <td class="views-field views-field-weight-class-rank-change">
+                       <span class="athlete-rankings--rank-change athlete-rankings--rank-decrease">
+                        Rank decreased by
+                       </span>
+                       3
+                      </td>
+                     </tr>
+                     <tr>
+                      <td class="views-field views-field-weight-class-rank">
+                       9
+                      </td>
+                      <td class="views-field views-field-title">
+                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-a09f93eb331e3838b3507645d06726d00049a1492593b9280575873dc4c79957">
+                        <div class="view-content">
+                         <div class="views-row">
+                          <a href="/athlete/lauren-murphy" hreflang="en">
+                           Lauren Murphy
+                          </a>
+                         </div>
+                        </div>
+                       </div>
+                      </td>
+                      <td class="views-field views-field-weight-class-rank-change">
+                      </td>
+                     </tr>
+                     <tr>
+                      <td class="views-field views-field-weight-class-rank">
+                       10
+                      </td>
+                      <td class="views-field views-field-title">
+                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-7efa71d565b7197d9e99347847f49f691ad7a32af105c6cea35a1de4b90b51fc">
+                        <div class="view-content">
+                         <div class="views-row">
+                          <a href="/athlete/mara-romero-borella" hreflang="en">
+                           Mara Romero Borella
+                          </a>
+                         </div>
+                        </div>
+                       </div>
+                      </td>
+                      <td class="views-field views-field-weight-class-rank-change">
+                      </td>
+                     </tr>
+                     <tr>
+                      <td class="views-field views-field-weight-class-rank">
                        11
                       </td>
                       <td class="views-field views-field-title">
-                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-86263682a8c985f56c672a1afd5b59f1f08b57786c405666602c98218a034edd">
+                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-9d92ca0219ff08de5f645b3f97689c23b39e50badd43d217de869e41c6d00b2b">
                         <div class="view-content">
                          <div class="views-row">
                           <a href="/athlete/montana-de-la-rosa" hreflang="en">
@@ -4160,7 +4201,7 @@ googletag.enableServices();
                        12
                       </td>
                       <td class="views-field views-field-title">
-                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-8a4c105a340670686974f0ee42dd1ad4607ee0b2ad25875c7b160e8a04168a92">
+                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-0c8691efb5909a82e4ae3d31a15df4e323beddc07c931da29f458868588ecfdc">
                         <div class="view-content">
                          <div class="views-row">
                           <a href="/athlete/maycee-barber" hreflang="en">
@@ -4171,10 +4212,6 @@ googletag.enableServices();
                        </div>
                       </td>
                       <td class="views-field views-field-weight-class-rank-change">
-                       <span class="athlete-rankings--rank-change athlete-rankings--rank-increase">
-                        Rank increased by
-                       </span>
-                       1
                       </td>
                      </tr>
                      <tr>
@@ -4182,7 +4219,7 @@ googletag.enableServices();
                        13
                       </td>
                       <td class="views-field views-field-title">
-                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-964505cf309e725804dbcea735510e768702643e53d79b40dbcf3817b43d449f">
+                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-11fceb5ab5b5830486902a348b756378d72b8e180d1311ec25bc9409b1069f3d">
                         <div class="view-content">
                          <div class="views-row">
                           <a href="/athlete/paige-vanzant" hreflang="en">
@@ -4193,10 +4230,6 @@ googletag.enableServices();
                        </div>
                       </td>
                       <td class="views-field views-field-weight-class-rank-change">
-                       <span class="athlete-rankings--rank-change athlete-rankings--rank-increase">
-                        Rank increased by
-                       </span>
-                       1
                       </td>
                      </tr>
                      <tr>
@@ -4204,7 +4237,7 @@ googletag.enableServices();
                        14
                       </td>
                       <td class="views-field views-field-title">
-                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-7ea4a1b941433bcc3c8186f9afd64a2b93c5c537f3befcb510939ccc357a332e">
+                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-d6f11c8c9ce1e83f2785c42c8df8092587ef47e91a23730b2f6d352e0b3f4711">
                         <div class="view-content">
                          <div class="views-row">
                           <a href="/athlete/poliana-botelho" hreflang="en">
@@ -4215,10 +4248,6 @@ googletag.enableServices();
                        </div>
                       </td>
                       <td class="views-field views-field-weight-class-rank-change">
-                       <span class="athlete-rankings--rank-change athlete-rankings--rank-increase">
-                        Rank increased by
-                       </span>
-                       1
                       </td>
                      </tr>
                      <tr>
@@ -4226,7 +4255,7 @@ googletag.enableServices();
                        15
                       </td>
                       <td class="views-field views-field-title">
-                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-ca701e66af34ef80e4b40a2183c1f52d9cbd3d200167d5f2c312b1f2c34e6e52">
+                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-491c2ce266172cef2421aae3d7e31241123a4b5b6789d4fdf13b3a0db75fc5ce">
                         <div class="view-content">
                          <div class="views-row">
                           <a href="/athlete/antonina-shevchenko" hreflang="en">
@@ -4237,9 +4266,6 @@ googletag.enableServices();
                        </div>
                       </td>
                       <td class="views-field views-field-weight-class-rank-change">
-                       <span class="athlete-rankings--attribute athlete-rankings--not-ranked">
-                        NR
-                       </span>
                       </td>
                      </tr>
                     </tbody>
@@ -4259,7 +4285,7 @@ googletag.enableServices();
                         Women's Bantamweight
                        </h4>
                        <h5>
-                        <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-faaf3dee3ac8537f75b7432937b4f78607f4929dd65a89571876e0d9615a7970">
+                        <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-24269c8bee7a6815f6e5fec629deb2b99982e691d0d9d281bbc872313c9b1286">
                          <div class="view-content">
                           <div class="views-row">
                            <a href="/athlete/amanda-nunes" hreflang="en">
@@ -4288,7 +4314,7 @@ googletag.enableServices();
                        1
                       </td>
                       <td class="views-field views-field-title">
-                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-9c9a1b696aed0a8bde5359d2b4a00669538025ee508f40b715f85f597d470e16">
+                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-56a2c2e6aab2b0f48c524d1bd6fa2f411b716eb535845e60e01bc76289de27ee">
                         <div class="view-content">
                          <div class="views-row">
                           <a href="/athlete/germaine-de-randamie" hreflang="en">
@@ -4306,7 +4332,7 @@ googletag.enableServices();
                        2
                       </td>
                       <td class="views-field views-field-title">
-                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-26bf9f1bf33606c916844e9bb67abfd04537dd5b192563d67b7189fc331d78b4">
+                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-558d5aa8f2c71654b938a6338f0f2713d9f4c9a7907cd3bfb8c99ed3f0e8ec3d">
                         <div class="view-content">
                          <div class="views-row">
                           <a href="/athlete/ketlen-vieira" hreflang="en">
@@ -4324,7 +4350,7 @@ googletag.enableServices();
                        3
                       </td>
                       <td class="views-field views-field-title">
-                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-d0bdb7eeca9f7eff92df0cc157d7eb62fe887b007efe376122ef9c7bf12cf76f">
+                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-8e297e4e121406821a44a83d2cd3e4a98722f3c6998beb5b8fc625090e44a207">
                         <div class="view-content">
                          <div class="views-row">
                           <a href="/athlete/holly-holm" hreflang="en">
@@ -4342,7 +4368,7 @@ googletag.enableServices();
                        4
                       </td>
                       <td class="views-field views-field-title">
-                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-0cf63e14fada008dcda188093bab33aacf1fb456fb6115114950f331df0dea41">
+                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-680c1f3ef27341b18010b580d6c73e852977db2e16a186685e305738206ee3f9">
                         <div class="view-content">
                          <div class="views-row">
                           <a href="/athlete/julianna-pena" hreflang="en">
@@ -4353,9 +4379,6 @@ googletag.enableServices();
                        </div>
                       </td>
                       <td class="views-field views-field-weight-class-rank-change">
-                       <span class="athlete-rankings--attribute athlete-rankings--not-ranked">
-                        NR
-                       </span>
                       </td>
                      </tr>
                      <tr>
@@ -4363,7 +4386,7 @@ googletag.enableServices();
                        5
                       </td>
                       <td class="views-field views-field-title">
-                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-90c7dbdb3adaae3d0bb52f2846df34021fc9e2d0858f8ddd79682a9dd59baed2">
+                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-0023a8175e4fc1e12ea1e1fdd0f7dd70e305412356e0bd356441fdb27d1e627b">
                         <div class="view-content">
                          <div class="views-row">
                           <a href="/athlete/aspen-ladd" hreflang="en">
@@ -4374,10 +4397,6 @@ googletag.enableServices();
                        </div>
                       </td>
                       <td class="views-field views-field-weight-class-rank-change">
-                       <span class="athlete-rankings--rank-change athlete-rankings--rank-decrease">
-                        Rank decreased by
-                       </span>
-                       1
                       </td>
                      </tr>
                      <tr>
@@ -4385,7 +4404,7 @@ googletag.enableServices();
                        6
                       </td>
                       <td class="views-field views-field-title">
-                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-defab46626faf4a79d3dd4f5fd53fbc8800d64c7a779140c40cf7b7206701610">
+                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-8282415a726a6199a1c68e3d42259b563a8ed2436acea4a3a1e1be505991fabe">
                         <div class="view-content">
                          <div class="views-row">
                           <a href="/athlete/raquel-pennington" hreflang="en">
@@ -4396,10 +4415,6 @@ googletag.enableServices();
                        </div>
                       </td>
                       <td class="views-field views-field-weight-class-rank-change">
-                       <span class="athlete-rankings--rank-change athlete-rankings--rank-decrease">
-                        Rank decreased by
-                       </span>
-                       1
                       </td>
                      </tr>
                      <tr>
@@ -4407,7 +4422,7 @@ googletag.enableServices();
                        7
                       </td>
                       <td class="views-field views-field-title">
-                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-42b613647344fb509dc0ab3853d362c0df129d1f6152d340e0ac77fcdd7e44a9">
+                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-1e9f09f8d9b235b2d003e5990f1793df5e90391676b0fdff9d48ccba3dcc1eab">
                         <div class="view-content">
                          <div class="views-row">
                           <a href="/athlete/cat-zingano" hreflang="en">
@@ -4418,10 +4433,6 @@ googletag.enableServices();
                        </div>
                       </td>
                       <td class="views-field views-field-weight-class-rank-change">
-                       <span class="athlete-rankings--rank-change athlete-rankings--rank-decrease">
-                        Rank decreased by
-                       </span>
-                       1
                       </td>
                      </tr>
                      <tr>
@@ -4429,7 +4440,7 @@ googletag.enableServices();
                        8
                       </td>
                       <td class="views-field views-field-title">
-                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-14506e6068fb20a83d521a6f47d4aa2a4169acd5f438eba135898cc965ef028c">
+                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-76cad8d0cb9a1355082e8ac0a8495cf78edafcbf7fb68f280e1e8f1c3bab2b86">
                         <div class="view-content">
                          <div class="views-row">
                           <a href="/athlete/yana-kunitskaya" hreflang="en">
@@ -4440,10 +4451,6 @@ googletag.enableServices();
                        </div>
                       </td>
                       <td class="views-field views-field-weight-class-rank-change">
-                       <span class="athlete-rankings--rank-change athlete-rankings--rank-decrease">
-                        Rank decreased by
-                       </span>
-                       1
                       </td>
                      </tr>
                      <tr>
@@ -4451,7 +4458,7 @@ googletag.enableServices();
                        9
                       </td>
                       <td class="views-field views-field-title">
-                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-1676ce96a45ba14e48225a88383a78eb2828c414d78c7063ce5bd951aa45500e">
+                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-0a880eb5e9b3b2665410ce6dd4b1d318807e5627f775906aaab711ff472aa9cb">
                         <div class="view-content">
                          <div class="views-row">
                           <a href="/athlete/marion-reneau" hreflang="en">
@@ -4462,10 +4469,6 @@ googletag.enableServices();
                        </div>
                       </td>
                       <td class="views-field views-field-weight-class-rank-change">
-                       <span class="athlete-rankings--rank-change athlete-rankings--rank-decrease">
-                        Rank decreased by
-                       </span>
-                       1
                       </td>
                      </tr>
                      <tr>
@@ -4473,7 +4476,7 @@ googletag.enableServices();
                        10
                       </td>
                       <td class="views-field views-field-title">
-                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-3765d6eec732bbf8fefb7d8e1909756249ce1293a406c166c16af1c9c8087ba0">
+                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-2ad8ae01d8d87d6b251f81b7c080c8acdf85c5ef1d737d89dd56084919112b24">
                         <div class="view-content">
                          <div class="views-row">
                           <a href="/athlete/irene-aldana" hreflang="en">
@@ -4484,10 +4487,6 @@ googletag.enableServices();
                        </div>
                       </td>
                       <td class="views-field views-field-weight-class-rank-change">
-                       <span class="athlete-rankings--rank-change athlete-rankings--rank-decrease">
-                        Rank decreased by
-                       </span>
-                       1
                       </td>
                      </tr>
                      <tr>
@@ -4495,7 +4494,7 @@ googletag.enableServices();
                        11
                       </td>
                       <td class="views-field views-field-title">
-                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-3ff2b53eb2caaf89df2b02c825b46941f4665d3395ded2593ab6b4bd03c171b5">
+                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-8330c031b59c6cf0d22a239c8c773e8cb7daf1fdf48ac838a23adf9bff02d5ff">
                         <div class="view-content">
                          <div class="views-row">
                           <a href="/athlete/sara-mcmann" hreflang="en">
@@ -4506,10 +4505,6 @@ googletag.enableServices();
                        </div>
                       </td>
                       <td class="views-field views-field-weight-class-rank-change">
-                       <span class="athlete-rankings--rank-change athlete-rankings--rank-decrease">
-                        Rank decreased by
-                       </span>
-                       1
                       </td>
                      </tr>
                      <tr>
@@ -4517,7 +4512,7 @@ googletag.enableServices();
                        12
                       </td>
                       <td class="views-field views-field-title">
-                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-bf2f64a67fb33aff90af2a19818d7428a064abefc933b87093be730e9fa6f515">
+                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-f610a414683d7fdad94b70d7dcd18cf0a8e2c0b86fd808d516c40e3eb6d63c9b">
                         <div class="view-content">
                          <div class="views-row">
                           <a href="/athlete/macy-chiasson" hreflang="en">
@@ -4528,10 +4523,6 @@ googletag.enableServices();
                        </div>
                       </td>
                       <td class="views-field views-field-weight-class-rank-change">
-                       <span class="athlete-rankings--rank-change athlete-rankings--rank-decrease">
-                        Rank decreased by
-                       </span>
-                       1
                       </td>
                      </tr>
                      <tr>
@@ -4539,7 +4530,7 @@ googletag.enableServices();
                        13
                       </td>
                       <td class="views-field views-field-title">
-                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-04a325d159ab2fb0dd4533dbecdbdb3e6eb25f51c633c5fc3a4ad1923eae0c21">
+                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-7ba3495c18d179a6b59ccf8948f988b1206b7a1597c2d6da7fb072f5c6dcfb5c">
                         <div class="view-content">
                          <div class="views-row">
                           <a href="/athlete/lina-lansberg" hreflang="en">
@@ -4550,10 +4541,6 @@ googletag.enableServices();
                        </div>
                       </td>
                       <td class="views-field views-field-weight-class-rank-change">
-                       <span class="athlete-rankings--rank-change athlete-rankings--rank-decrease">
-                        Rank decreased by
-                       </span>
-                       1
                       </td>
                      </tr>
                      <tr>
@@ -4561,7 +4548,7 @@ googletag.enableServices();
                        14
                       </td>
                       <td class="views-field views-field-title">
-                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-49cb50909325d8e2551d6fcea18d9698c6e5316d899e7c4e49b821d3f6486b3f">
+                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-0dc254b8a02e51cc32b1ee7be624a89c771c22d25090a9eb5e31e42a9f3be180">
                         <div class="view-content">
                          <div class="views-row">
                           <a href="/athlete/sijara-eubanks" hreflang="en">
@@ -4579,7 +4566,7 @@ googletag.enableServices();
                        15
                       </td>
                       <td class="views-field views-field-title">
-                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-75c1afcd9cb44894f213ef653e03879bbeaae027de1859c32a21ea0a8cf65db0">
+                       <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-433bab1b42d0a99b41862e3f564979dbb23c7344ba754cfed785b2df822938bf">
                         <div class="view-content">
                          <div class="views-row">
                           <a href="/athlete/viviane-araujo" hreflang="en">
@@ -4590,9 +4577,6 @@ googletag.enableServices();
                        </div>
                       </td>
                       <td class="views-field views-field-weight-class-rank-change">
-                       <span class="athlete-rankings--attribute athlete-rankings--not-ranked">
-                        NR
-                       </span>
                       </td>
                      </tr>
                     </tbody>
@@ -4612,7 +4596,7 @@ googletag.enableServices();
                         Women's Featherweight
                        </h4>
                        <h5>
-                        <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-d6bd71a1baa78431a1005a617b5b7855744119a45166046cf7816ecf1646c731">
+                        <div class="view view-athletes view-id-athletes view-display-id-embed_1 js-view-dom-id-66ae3ec3697a0b3b85aaae020301f2ff6acc655f158284c61dfda612fa651217">
                          <div class="view-content">
                           <div class="views-row">
                            <a href="/athlete/amanda-nunes" hreflang="en">
@@ -4688,7 +4672,7 @@ googletag.enableServices();
             <div class="list-denotions">
              <p>
               Last
-                    updated: Monday, Jul. 15
+                    updated: Monday, Jul. 22
              </p>
              <p>
               NR - Not Previously Ranked
@@ -4857,7 +4841,7 @@ googletag.enableServices();
    </div>
   </div>
   <script data-drupal-selector="drupal-settings-json" type="application/json">
-   {"path":{"baseUrl":"\/","scriptPath":null,"pathPrefix":"","currentPath":"rankings","currentPathIsAdmin":false,"isFront":false,"currentLanguage":"en"},"pluralDelimiter":"\u0003","ajaxPageState":{"libraries":"addtoany\/addtoany,back_to_top\/back_to_top_js,back_to_top\/back_to_top_text,classy\/base,classy\/messages,core\/html5shiv,core\/normalize,dfp\/dfp,google_analytics\/google_analytics,layout_discovery\/onecol,poll\/drupal.poll-links,search_api_autocomplete\/search_api_autocomplete,system\/base,ufc\/accordion,ufc\/athlete_ranking,ufc\/global-css,ufc\/global-js,ufc_localization\/region,ufc_overlay\/ufc_overlay,views\/views.ajax,views\/views.module","theme":"ufc","theme_token":null},"ajaxTrustedUrl":{"\/rankings":true,"\/search":true},"back_to_top":{"back_to_top_button_trigger":"100","back_to_top_prevent_on_mobile":1,"back_to_top_prevent_in_admin":1,"back_to_top_button_type":"text","back_to_top_button_text":""},"google_analytics":{"trackOutbound":true,"trackMailto":true,"trackDownload":true,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip"},"views":{"ajax_path":"\/views\/ajax","ajaxViews":{"views_dom_id:2af03b9758e57e93735b5d9274adf65dc7bbc50a15ea363cfecc176dfa30d4c2":{"view_name":"athlete_rankings","view_display_id":"block_1","view_args":"","view_path":"\/rankings","view_base_path":null,"view_dom_id":"2af03b9758e57e93735b5d9274adf65dc7bbc50a15ea363cfecc176dfa30d4c2","pager_element":0}}},"search_api_autocomplete":{"search":{"auto_submit":true}},"user":{"uid":0,"permissionsHash":"20c1a33671c073513fee492e5c6e581591da044f9b3e8f22d5cd26a6f59a13bb"}}
+   {"path":{"baseUrl":"\/","scriptPath":null,"pathPrefix":"","currentPath":"rankings","currentPathIsAdmin":false,"isFront":false,"currentLanguage":"en"},"pluralDelimiter":"\u0003","ajaxPageState":{"libraries":"addtoany\/addtoany,back_to_top\/back_to_top_js,back_to_top\/back_to_top_text,classy\/base,classy\/messages,core\/html5shiv,core\/normalize,dfp\/dfp,google_analytics\/google_analytics,layout_discovery\/onecol,poll\/drupal.poll-links,search_api_autocomplete\/search_api_autocomplete,system\/base,ufc\/accordion,ufc\/athlete_ranking,ufc\/global-css,ufc\/global-js,ufc_localization\/region,ufc_overlay\/ufc_overlay,views\/views.ajax,views\/views.module","theme":"ufc","theme_token":null},"ajaxTrustedUrl":{"\/rankings":true,"\/search":true},"back_to_top":{"back_to_top_button_trigger":"100","back_to_top_prevent_on_mobile":1,"back_to_top_prevent_in_admin":1,"back_to_top_button_type":"text","back_to_top_button_text":""},"google_analytics":{"trackOutbound":true,"trackMailto":true,"trackDownload":true,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip"},"views":{"ajax_path":"\/views\/ajax","ajaxViews":{"views_dom_id:90e90e8450ae026b8ec84ff82b45447aa5f035ed620c1359faed298f6b273388":{"view_name":"athlete_rankings","view_display_id":"block_1","view_args":"","view_path":"\/rankings","view_base_path":null,"view_dom_id":"90e90e8450ae026b8ec84ff82b45447aa5f035ed620c1359faed298f6b273388","pager_element":0}}},"search_api_autocomplete":{"search":{"auto_submit":true}},"user":{"uid":0,"permissionsHash":"20c1a33671c073513fee492e5c6e581591da044f9b3e8f22d5cd26a6f59a13bb"}}
   </script>
   <script src="/sites/default/files/js/js_k9Jc44DZrG_oM8LBNh1z9q9ykBxbUVe1KIu85iKxeHI.js">
   </script>
@@ -4880,7 +4864,7 @@ googletag.enableServices();
   <script src="/sites/default/files/js/js_BkWQBLSaKI4r91cfohICZkx9n9r5ehBZY39ATLcxfPo.js">
   </script>
   <script type="text/javascript">
-   window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"3cad7d7fc7","applicationID":"190390077","transactionName":"NgZVbUYDCEdSVEdeWA9MdExHFglZHFtDDUUADVxQWgUV","queueTime":0,"applicationTime":694,"atts":"GkFCGw4ZGxgRVhENTBwe","errorBeacon":"bam.nr-data.net","agent":""}
+   window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"3cad7d7fc7","applicationID":"190390077","transactionName":"NgZVbUYDCEdSVEdeWA9MdExHFglZHFtDDUUADVxQWgUV","queueTime":0,"applicationTime":316,"atts":"GkFCGw4ZGxgRVhENTBwe","errorBeacon":"bam.nr-data.net","agent":""}
   </script>
  </body>
 </html>
