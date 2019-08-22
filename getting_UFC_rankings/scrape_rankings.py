@@ -26,7 +26,7 @@ for i in weightClassRankings:
 	nameOfChampion = weightClassInfo.find('div', class_="views-row").text
 
 	#add the champion to the rankings
-	rankingsOfWeightClass += [[0,nameOfChampion]]
+	rankingsOfWeightClass += [[nameOfWeightClass,nameOfChampion,0]]
 	
 	rows = i.find_all('tr')
 	
@@ -38,15 +38,15 @@ for i in weightClassRankings:
 
 		name = columns[1].a.text.strip()
 
-		rankingsOfWeightClass += [[rankingNumber, name]]
+		rankingsOfWeightClass += [[nameOfWeightClass, name, rankingNumber]]
 
 	#add rankings for this weight class to the list of all weight classes
 	everyWeightClass += [rankingsOfWeightClass]
 
-	print(rankingsOfWeightClass)
-	print()
+	#print(rankingsOfWeightClass)
+	#print()
 
-	with open("rankings/"+nameOfWeightClass+".csv", "w", newline="") as f:
+	with open("rankings/all.csv", "a+", newline="") as f:
 		writer = csv.writer(f)
 		writer.writerows(rankingsOfWeightClass)
 

@@ -1,0 +1,17 @@
+ps aux | grep httpd
+
+sudo /usr/sbin/apachectl stop
+sudo /usr/local/bin/apachectl stop
+
+sudo vim /usr/local/etc/httpd/httpd.conf
+sudo vim /etc/apache2/httpd.conf
+
+/usr/sbin/apachectl -> /etc/apache2/httpd.conf
+/usr/local/bin/apachectl -> /usr/local/etc/httpd/httpd.conf
+apachectl -> /usr/local/opt/httpd/bin/httpd
+
+whereis apachectl
+
+apachectl -t -D DUMP_INCLUDES
+
+tail -f /private/var/log/apache2/immafan.local-error_log

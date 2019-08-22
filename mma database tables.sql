@@ -52,3 +52,12 @@ CREATE TABLE IF NOT EXISTS `UFC_rankings` (
 	last_update TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
 	PRIMARY KEY (weight_class, fighter_name)
 );
+
+CREATE TABLE IF NOT EXISTS `ranking_archive` (
+	entry_id INT NOT NULL AUTO_INCREMENT,
+	weight_class varchar(50),
+	fighter_name varchar(50),
+	ranking int,
+	date TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+	PRIMARY KEY (entry_id)
+);
