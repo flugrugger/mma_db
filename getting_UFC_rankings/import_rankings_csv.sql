@@ -1,6 +1,3 @@
-LOAD DATA INFILE "/Users/ramtinhakimjavadi/Desktop/mma data/rankings/Flyweight.csv"
-INTO TABLE Flyweight
-COLUMNS TERMINATED BY ','
-OPTIONALLY ENCLOSED BY '"'
-ESCAPED BY '"'
-LINES TERMINATED BY '\n';
+LOAD DATA INFILE "/Users/ramtinhakimjavadi/Desktop/mma data/getting_UFC_rankings/rankings/all.csv" INTO TABLE UFC_rankings  COLUMNS TERMINATED BY ',' OPTIONALLY ENCLOSED BY '"' ESCAPED BY '"' LINES TERMINATED BY '\n' (weight_class, fighter_name, ranking);
+
+mysql -uroot -e"use mma; LOAD DATA INFILE '/Users/ramtinhakimjavadi/Desktop/mma data/getting_UFC_rankings/rankings/all.csv' INTO TABLE UFC_rankings  COLUMNS TERMINATED BY ',' OPTIONALLY ENCLOSED BY '\"' ESCAPED BY '\"' LINES TERMINATED BY '\n' (weight_class, fighter_name, ranking);"
